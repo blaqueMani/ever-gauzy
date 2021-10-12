@@ -23,7 +23,7 @@ import {
 	IUpworkApiConfig,
 	IUpworkClientSecretPair,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Expense, Income } from './../core/entities/internal';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';
 

@@ -23,7 +23,7 @@ import {
 	ITimesheet,
 	ITask,
 	ITimeSlot
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	IsDate,

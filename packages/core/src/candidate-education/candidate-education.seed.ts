@@ -1,4 +1,4 @@
-import { ICandidate, ICandidateEducation, ITenant } from '@gauzy/contracts';
+import { ICandidate, ICandidateEducation, ITenant } from '@leano/contracts';
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
 import { DEFAULT_CANDIDATE_EDUCATIONS } from './default-candidate-educations';

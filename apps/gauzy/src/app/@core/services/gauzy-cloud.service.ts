@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IOrganizationCreateInput, ITenantCreateInput, IUserRegistrationInput } from '@gauzy/contracts';
+import { IOrganizationCreateInput, ITenantCreateInput, IUserRegistrationInput } from '@leano/contracts';
 import { API_PREFIX } from '../constants';
 
 @Injectable({

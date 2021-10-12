@@ -2,7 +2,7 @@ import {
 	IOrganizationContact,
 	ContactOrganizationInviteStatus,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { User } from '../../../user/user.entity';
 import { UserService } from '../../../user/user.service';

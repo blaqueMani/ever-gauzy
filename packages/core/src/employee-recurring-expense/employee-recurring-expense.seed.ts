@@ -3,12 +3,12 @@ import {
 	IEmployee,
 	ITenant,
 	RecurringExpenseDefaultCategoriesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { EmployeeRecurringExpense } from './employee-recurring-expense.entity';
 import * as faker from 'faker';
 import * as moment from 'moment';
 import { Organization } from '../organization/organization.entity';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 
 export const createRandomEmployeeRecurringExpense = async (
 	connection: Connection,

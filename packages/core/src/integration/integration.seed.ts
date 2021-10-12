@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { IIntegration, DEFAULT_INTEGRATIONS, IIntegrationType } from '@gauzy/contracts';
+import { IIntegration, DEFAULT_INTEGRATIONS, IIntegrationType } from '@leano/contracts';
 import { Integration } from './integration.entity';
 
 export const createDefaultIntegrations = async (

@@ -1,4 +1,4 @@
-import { ICustomSmtp } from '@gauzy/contracts';
+import { ICustomSmtp } from '@leano/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { CustomSmtpService } from '../../custom-smtp.service';
 import { CustomSmtpUpdateCommand } from '../custom-smtp.update.command';

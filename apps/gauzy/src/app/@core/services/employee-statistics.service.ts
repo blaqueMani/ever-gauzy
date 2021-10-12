@@ -9,7 +9,7 @@ import {
 	IMonthAggregatedEmployeeStatistics,
 	IEmployeeStatisticsHistoryFindInput,
 	IEmployeeStatisticsHistory
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Subject } from 'rxjs';
 import { first } from 'rxjs/operators';
 import { API_PREFIX } from '../constants/app.constants';

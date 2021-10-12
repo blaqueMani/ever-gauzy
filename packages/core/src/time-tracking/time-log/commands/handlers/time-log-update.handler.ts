@@ -1,7 +1,7 @@
 import { ICommandHandler, CommandBus, CommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, In } from 'typeorm';
-import { ITimeLog, ITimesheet, TimeLogSourceEnum } from '@gauzy/contracts';
+import { ITimeLog, ITimesheet, TimeLogSourceEnum } from '@leano/contracts';
 import { TimeLog } from './../../time-log.entity';
 import { TimeLogUpdateCommand } from '../time-log-update.command';
 import {

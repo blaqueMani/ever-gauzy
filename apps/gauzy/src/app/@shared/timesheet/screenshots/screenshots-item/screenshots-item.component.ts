@@ -11,11 +11,11 @@ import {
 	ITimeSlot,
 	IScreenshot,
 	ITimeLog
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { TimesheetService } from '../../timesheet.service';
 import { GalleryItem } from '../../../gallery/gallery.directive';
-import { isEmpty, progressStatus, toLocal } from '@gauzy/common-angular';
+import { isEmpty, progressStatus, toLocal } from '@leano/common-angular';
 import { ViewScreenshotsModalComponent } from '../view-screenshots-modal/view-screenshots-modal.component';
 import * as _ from 'underscore';
 import { GalleryService } from '../../../gallery/gallery.service';

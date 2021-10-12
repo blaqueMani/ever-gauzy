@@ -1,7 +1,7 @@
 // tslint:disable: nx-enforce-module-boundaries
 import { Component, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { distinctUntilChange, toUTC } from '@gauzy/common-angular';
+import { distinctUntilChange, toUTC } from '@leano/common-angular';
 import {
 	NbDialogService,
 	NbMenuItem,
@@ -20,7 +20,7 @@ import {
 	PermissionsEnum,
 	ITimeLogFilters,
 	OrganizationPermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Store } from './../../../../../@core/services';
 import { TimesheetService, TimesheetFilterService } from './../../../../../@shared/timesheet';
 import { EditTimeLogModalComponent, ViewTimeLogModalComponent } from './../../../../../@shared/timesheet';

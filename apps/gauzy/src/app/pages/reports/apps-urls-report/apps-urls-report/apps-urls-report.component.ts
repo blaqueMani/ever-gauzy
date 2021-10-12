@@ -5,7 +5,7 @@ import {
 	OnDestroy,
 	OnInit
 } from '@angular/core';
-import { IGetActivitiesInput } from '@gauzy/contracts';
+import { IGetActivitiesInput } from '@leano/contracts';
 import * as moment from 'moment';
 
 @Component({

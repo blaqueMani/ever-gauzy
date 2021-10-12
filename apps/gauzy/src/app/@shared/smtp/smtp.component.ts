@@ -20,7 +20,7 @@ import {
 	IOrganization,
 	IUser,
 	SMTPSecureEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, pairwise, tap } from 'rxjs/operators';

@@ -1,4 +1,4 @@
-import { IAccountingTemplate } from '@gauzy/contracts';
+import { IAccountingTemplate } from '@leano/contracts';
 import { IQuery } from '@nestjs/cqrs';
 import { PaginationParams } from '../../core/crud/pagination-params';
 

@@ -10,7 +10,7 @@ import {
 	HttpCode
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IEmail, IEmailUpdateInput, IPagination } from '@gauzy/contracts';
+import { IEmail, IEmailUpdateInput, IPagination } from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { Email } from './email.entity';
 import { EmailService } from './email.service';

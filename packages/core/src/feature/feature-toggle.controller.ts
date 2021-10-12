@@ -10,7 +10,7 @@ import {
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { FeatureInterface } from 'unleash-client/lib/feature';
 import { getFeatureToggleDefinitions } from 'unleash-client';
-import { FeatureEnum, IFeatureOrganization, IFeatureOrganizationUpdateInput, IPagination } from '@gauzy/contracts';
+import { FeatureEnum, IFeatureOrganization, IFeatureOrganizationUpdateInput, IPagination } from '@leano/contracts';
 import { CommandBus } from '@nestjs/cqrs';
 import { Feature } from './feature.entity';
 import { FeatureService } from './feature.service';

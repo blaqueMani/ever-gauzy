@@ -23,8 +23,8 @@ import {
 	ParseJsonPipe,
 	TenantPermissionGuard,
 	UUIDValidationPipe
-} from '@gauzy/core';
-import { IHelpCenterAuthor, IPagination } from '@gauzy/contracts';
+} from '@leano/core';
+import { IHelpCenterAuthor, IPagination } from '@leano/contracts';
 
 @ApiTags('KnowledgeBaseAuthor')
 @UseGuards(AuthGuard('jwt'), TenantPermissionGuard)

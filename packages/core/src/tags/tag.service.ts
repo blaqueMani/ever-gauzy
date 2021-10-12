@@ -3,7 +3,7 @@ import { Tag } from './tag.entity';
 import { CrudService, RequestContext } from '../core';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { IPagination, ITag, ITagFindInput } from '@gauzy/contracts';
+import { IPagination, ITag, ITagFindInput } from '@leano/contracts';
 
 @Injectable()
 export class TagService extends CrudService<Tag> {

@@ -1,7 +1,7 @@
 import { Routes, RouterModule } from '@angular/router';
 import { PaymentsComponent } from './payments.component';
 import { NgModule } from '@angular/core';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@leano/contracts';
 import { NgxPermissionsGuard } from 'ngx-permissions';
 
 const routes: Routes = [

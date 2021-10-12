@@ -5,8 +5,8 @@ import {
 	IGetJobPresetInput,
 	IJobPreset,
 	IMatchingCriterions
-} from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { toParams } from '@leano/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

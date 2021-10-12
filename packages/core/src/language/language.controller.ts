@@ -1,6 +1,6 @@
 import { Controller, Get, Param, HttpStatus, Query } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { ILanguage, IPagination } from '@gauzy/contracts';
+import { ILanguage, IPagination } from '@leano/contracts';
 import { Language } from './language.entity';
 import { LanguageService } from './language.service';
 import { Public } from './../shared/decorators';

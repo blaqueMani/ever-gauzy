@@ -1,8 +1,8 @@
-import { FileStorageOption, UploadedFile } from '@gauzy/contracts';
+import { FileStorageOption, UploadedFile } from '@leano/contracts';
 import * as multer from 'multer';
 import * as fs from 'fs';
 import * as moment from 'moment';
-import { environment, getConfig } from '@gauzy/config';
+import { environment, getConfig } from '@leano/config';
 import { Provider } from './provider';
 import { basename, join, resolve } from 'path';
 import { RequestContext } from '../../context';

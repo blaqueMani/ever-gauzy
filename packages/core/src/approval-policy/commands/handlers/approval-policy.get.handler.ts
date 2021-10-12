@@ -1,4 +1,4 @@
-import { IApprovalPolicy, IPagination } from '@gauzy/contracts';
+import { IApprovalPolicy, IPagination } from '@leano/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { ApprovalPolicyService } from '../../approval-policy.service';
 import { ApprovalPolicyGetCommand } from '../approval-policy.get.command';

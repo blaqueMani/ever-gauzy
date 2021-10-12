@@ -1,3 +1,3 @@
-# `@gauzy/config`
+# `@leano/config`
 
 Gauzy Configuration Module

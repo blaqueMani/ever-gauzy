@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IOrganizationProjectsUpdateInput } from '@gauzy/contracts';
+import { IOrganizationProjectsUpdateInput } from '@leano/contracts';
 
 export class OrganizationProjectUpdateCommand implements ICommand {
 	static readonly type = '[OrganizationProject] Update Project';

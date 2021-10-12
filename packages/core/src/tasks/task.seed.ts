@@ -8,7 +8,7 @@ import {
 	ITask,
 	ITenant,
 	TaskStatusEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Organization,
 	OrganizationProject,

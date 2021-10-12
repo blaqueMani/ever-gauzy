@@ -1,5 +1,5 @@
 import { Entity, Column, ManyToOne, JoinColumn, RelationId, Index } from 'typeorm';
-import { IProductTypeTranslation, LanguagesEnum } from '@gauzy/contracts';
+import { IProductTypeTranslation, LanguagesEnum } from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsOptional, IsEnum } from 'class-validator';
 import { ProductType, TranslationBase } from '../core/entities/internal';

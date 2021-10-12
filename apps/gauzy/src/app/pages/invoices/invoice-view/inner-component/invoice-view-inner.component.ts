@@ -5,7 +5,7 @@ import {
 	DiscountTaxTypeEnum,
 	IInvoice,
 	InvoiceTypeEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { LocalDataSource } from 'ng2-smart-table';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Store } from 'apps/gauzy/src/app/@core/services/store.service';

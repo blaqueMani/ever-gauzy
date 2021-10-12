@@ -6,7 +6,7 @@ import {
 	ICandidate,
 	ICandidateUpdateInput,
 	CandidateStatus
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Observable } from 'rxjs';
 import { first } from 'rxjs/operators';
 import { API_PREFIX } from '../constants/app.constants';

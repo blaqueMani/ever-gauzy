@@ -10,10 +10,10 @@ import {
 	IEmployee,
 	IOrganizationContact,
 	ITag
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Subject } from 'rxjs/internal/Subject';
 import { combineLatest } from 'rxjs';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';

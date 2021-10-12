@@ -5,7 +5,7 @@ import {
 	IReportDayGroupByEmployee,
 	ITimeLog,
 	ITimeSlot
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { GetTimeLogGroupByEmployeeCommand } from '../get-time-log-group-by-employee.command';
 
 @CommandHandler(GetTimeLogGroupByEmployeeCommand)

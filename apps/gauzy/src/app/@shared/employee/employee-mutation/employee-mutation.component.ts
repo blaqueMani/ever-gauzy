@@ -8,7 +8,7 @@ import {
 	IRole,
 	IEmployeeCreateInput,
 	CrudActionEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { OrganizationsService } from '../../../@core/services/organizations.service';
 import { EmployeesService } from '../../../@core/services/employees.service';
 import { RoleService } from '../../../@core/services/role.service';

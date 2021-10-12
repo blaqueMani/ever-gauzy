@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Store } from '../../../@core/services/store.service';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
-import { IProposalViewModel } from '@gauzy/contracts';
+import { IProposalViewModel } from '@leano/contracts';
 import { ProposalsService } from '../../../@core/services/proposals.service';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

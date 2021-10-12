@@ -4,11 +4,11 @@ import {
 	DEFAULT_GRAPHQL_API_PATH,
 	DEFAULT_API_HOST,
 	DEFAULT_API_BASE_URL
-} from '@gauzy/common';
+} from '@leano/common';
 import { ConnectionOptions } from 'typeorm';
 import * as path from 'path';
-import { KnowledgeBasePlugin } from '@gauzy/knowledge-base';
-import { ChangelogPlugin } from '@gauzy/changelog';
+import { KnowledgeBasePlugin } from '@leano/knowledge-base';
+import { ChangelogPlugin } from '@leano/changelog';
 
 let assetPath;
 let assetPublicPath;

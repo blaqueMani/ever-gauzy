@@ -22,7 +22,7 @@ import {
 	TimeTrackerModule,
 	SetupModule,
 	SplashScreenModule
-} from '@gauzy/desktop-ui-lib';
+} from '@leano/desktop-ui-lib';
 import { NbCardModule, NbButtonModule } from '@nebular/theme';
 import { NgxAuthModule } from '../../../gauzy/src/app/auth/auth.module';
 import { NgSelectModule } from '@ng-select/ng-select';

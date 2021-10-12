@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IImageAsset } from '@gauzy/contracts';
+import { IImageAsset } from '@leano/contracts';
 import { first } from 'rxjs/operators';
 import { API_PREFIX } from '../constants/app.constants';
 

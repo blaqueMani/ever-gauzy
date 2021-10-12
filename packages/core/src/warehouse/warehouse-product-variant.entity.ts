@@ -1,7 +1,7 @@
 import { Entity, ManyToOne, JoinColumn, Column, RelationId, Index } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString } from 'class-validator';
-import { IProductVariant, IWarehouseProduct, IWarehouseProductVariant } from '@gauzy/contracts';
+import { IProductVariant, IWarehouseProduct, IWarehouseProductVariant } from '@leano/contracts';
 import { TenantBaseEntity, ProductVariant } from '../core/entities/internal';
 import { WarehouseProduct } from './warehouse-product.entity';
 

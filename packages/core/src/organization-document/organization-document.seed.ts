@@ -1,6 +1,6 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
-import { IOrganization, IOrganizationDocument, ITenant } from '@gauzy/contracts';
+import { IOrganization, IOrganizationDocument, ITenant } from '@leano/contracts';
 import { OrganizationDocument } from './organization-document.entity';
 
 export const createOrganizationDocuments = async (

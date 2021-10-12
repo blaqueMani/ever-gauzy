@@ -7,7 +7,7 @@ import {
 	IEmployeeRecurringExpense,
 	IEmployee,
 	ISelectedEmployee
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { first, debounceTime, filter, withLatestFrom } from 'rxjs/operators';

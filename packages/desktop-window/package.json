@@ -1,9 +1,9 @@
 {
-	"name": "@gauzy/desktop-window",
+	"name": "@leano/desktop-window",
 	"version": "0.1.0",
 	"description": "Ever Gauzy Platform desktop window module",
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},

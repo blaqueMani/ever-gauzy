@@ -1,4 +1,4 @@
-import { IHelpCenter, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { IHelpCenter, IPagination, PermissionsEnum } from '@leano/contracts';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import {
 	Controller,
@@ -20,7 +20,7 @@ import {
 	Permissions,
 	TenantPermissionGuard,
 	UUIDValidationPipe
-} from '@gauzy/core';
+} from '@leano/core';
 import { HelpCenterService } from './help-center.service';
 import { HelpCenter } from './help-center.entity';
 import {

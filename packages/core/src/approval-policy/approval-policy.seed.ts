@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@leano/contracts';
 import { ApprovalPolicy } from './approval-policy.entity';
 import { DEFAULT_APPROVAL_POLICIES } from './default-approval-policies';
 

@@ -1,6 +1,6 @@
-import { SeederModule } from '@gauzy/core';
-import { IOnPluginBootstrap, IOnPluginDestroy } from '@gauzy/common';
-import { ExtensionPlugin, OnBasicPluginSeed } from '@gauzy/plugin';
+import { SeederModule } from '@leano/core';
+import { IOnPluginBootstrap, IOnPluginDestroy } from '@leano/common';
+import { ExtensionPlugin, OnBasicPluginSeed } from '@leano/plugin';
 import { ChangelogModule } from './changelog.module';
 import { Changelog } from './changelog.entity';
 import { ChangelogSeederService } from './changelog-seeder.service';

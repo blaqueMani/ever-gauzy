@@ -3,7 +3,7 @@ import {
 	IWarehouse,
 	IProductTranslatable,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { FormGroup } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslationBaseComponent } from 'apps/gauzy/src/app/@shared/language-base/translation-base.component';

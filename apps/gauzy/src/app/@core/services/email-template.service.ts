@@ -6,7 +6,7 @@ import {
 	ICustomizeEmailTemplateFindInput,
 	ICustomizableEmailTemplate,
 	IEmailTemplateSaveInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { first } from 'rxjs/operators';
 import { API_PREFIX } from '../constants/app.constants';
 

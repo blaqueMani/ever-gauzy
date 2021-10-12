@@ -6,7 +6,7 @@ import {
 	OnInit
 } from '@angular/core';
 import { UntilDestroy } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import { Subject } from 'rxjs/internal/Subject';
 import { debounceTime, tap } from 'rxjs/operators';
 

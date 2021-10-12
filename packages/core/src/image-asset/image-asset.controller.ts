@@ -13,7 +13,7 @@ import {
 	UsePipes
 } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { IImageAsset, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { IImageAsset, IPagination, PermissionsEnum } from '@leano/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';
 import { Permissions } from './../shared/decorators';

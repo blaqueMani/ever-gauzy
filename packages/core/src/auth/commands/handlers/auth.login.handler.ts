@@ -1,7 +1,7 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { AuthLoginCommand } from '../auth.login.command';
 import { AuthService } from '../../auth.service';
-import { IAuthLoginInput, IAuthResponse } from '@gauzy/contracts';
+import { IAuthLoginInput, IAuthResponse } from '@leano/contracts';
 
 @CommandHandler(AuthLoginCommand)
 export class AuthLoginHandler implements ICommandHandler<AuthLoginCommand> {

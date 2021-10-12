@@ -1,6 +1,6 @@
 import { Column, Entity } from 'typeorm';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
-import { IOrganizationDocument } from '@gauzy/contracts';
+import { IOrganizationDocument } from '@leano/contracts';
 import { TenantOrganizationBaseEntity } from '../core/entities/internal';
 
 @Entity('organization_document')

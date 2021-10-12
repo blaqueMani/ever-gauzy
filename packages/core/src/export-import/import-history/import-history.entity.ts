@@ -1,7 +1,7 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Entity, Column } from 'typeorm';
 import { IsDate } from 'class-validator';
-import { IImportHistory } from '@gauzy/contracts';
+import { IImportHistory } from '@leano/contracts';
 import { TenantBaseEntity } from '../../core/entities/internal';
 
 @Entity('import-history')

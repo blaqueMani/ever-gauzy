@@ -1,10 +1,10 @@
 import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { IEmployeeProposalTemplate, IOrganization, ISelectedEmployee } from '@gauzy/contracts';
+import { IEmployeeProposalTemplate, IOrganization, ISelectedEmployee } from '@leano/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import { combineLatest, Subject } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { AvatarComponent } from './../../../../@shared/components/avatar/avatar.component';

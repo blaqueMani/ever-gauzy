@@ -18,8 +18,8 @@ import {
 	IOrganization,
 	ITenant,
 	DEFAULT_DATE_FORMATS
-} from '@gauzy/contracts';
-import { environment as env } from '@gauzy/config';
+} from '@leano/contracts';
+import { environment as env } from '@leano/config';
 
 export const getDefaultOrganization = async (
 	connection: Connection,

@@ -5,7 +5,7 @@ import {
 	ITask,
 	IOrganizationSprint,
 	IGetSprintsOptions
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { tap, catchError, first } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslationBaseComponent } from '../../@shared/language-base/translation-base.component';

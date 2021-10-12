@@ -7,7 +7,7 @@ import {
 	IRequestApprovalCreateInput,
 	RequestApprovalStatusTypesEnum,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Query,
 	HttpStatus,

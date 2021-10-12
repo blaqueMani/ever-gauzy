@@ -5,7 +5,7 @@ import { API_PREFIX } from '../constants/app.constants';
 import {
 	IAccountingTemplateFindInput,
 	IAccountingTemplate
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @Injectable({
 	providedIn: 'root'

@@ -15,7 +15,7 @@ import {
 	IContact,
 	ITag,
 	IUser
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsDate, IsOptional, IsEnum, IsString } from 'class-validator';
 import {

@@ -1,5 +1,5 @@
-import { gauzyToggleFeatures } from '@gauzy/config';
-import { IFeatureCreateInput } from '@gauzy/contracts';
+import { gauzyToggleFeatures } from '@leano/config';
+import { IFeatureCreateInput } from '@leano/contracts';
 
 const features = gauzyToggleFeatures;
 

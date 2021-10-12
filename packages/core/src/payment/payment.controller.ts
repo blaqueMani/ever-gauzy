@@ -26,7 +26,7 @@ import {
 	LanguagesEnum,
 	PermissionsEnum,
 	ReportGroupFilterEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';
 import { Permissions } from './../shared/decorators';

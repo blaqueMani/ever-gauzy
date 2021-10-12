@@ -3,7 +3,7 @@ import {
 	IEmployeeStatisticSum,
 	IMonthAggregatedSplitExpense,
 	IStatisticSum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
 import { startOfMonth, subMonths } from 'date-fns';
 import { EmployeeService } from '../../../employee/employee.service';

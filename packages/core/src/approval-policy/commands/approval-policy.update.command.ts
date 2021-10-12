@@ -1,4 +1,4 @@
-import { IApprovalPolicyUpdateInput } from '@gauzy/contracts';
+import { IApprovalPolicyUpdateInput } from '@leano/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class ApprovalPolicyUpdateCommand implements ICommand {

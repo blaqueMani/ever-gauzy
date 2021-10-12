@@ -1,8 +1,8 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
-import { InviteStatusEnum, IOrganization, ITenant, IUser, RolesEnum } from '@gauzy/contracts';
+import { InviteStatusEnum, IOrganization, ITenant, IUser, RolesEnum } from '@leano/contracts';
 import { sign } from 'jsonwebtoken';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import * as moment from 'moment';
 import { Invite, Role } from './../core/entities/internal';
 

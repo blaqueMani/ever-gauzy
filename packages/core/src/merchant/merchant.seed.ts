@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
 import { Merchant, Contact, ImageAsset, Country } from './../core/entities/internal';
 import * as faker from 'faker';
-import { ICountry, IMerchant, IOrganization, ITenant } from '@gauzy/contracts';
+import { ICountry, IMerchant, IOrganization, ITenant } from '@leano/contracts';
 
 export const createRandomMerchants = async (
     connection: Connection,

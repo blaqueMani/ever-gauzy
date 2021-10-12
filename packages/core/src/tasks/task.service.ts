@@ -10,8 +10,8 @@ import { TenantAwareCrudService } from './../core/crud';
 import { EmployeeService } from '../employee/employee.service';
 import { RoleService } from '../role/role.service';
 import { RequestContext } from '../core/context';
-import { IEmployee, IGetTaskByEmployeeOptions, RolesEnum } from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
+import { IEmployee, IGetTaskByEmployeeOptions, RolesEnum } from '@leano/contracts';
+import { isNotEmpty } from '@leano/common';
 
 @Injectable()
 export class TaskService extends TenantAwareCrudService<Task> {

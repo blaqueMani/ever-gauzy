@@ -12,7 +12,7 @@ import {
 	BadRequestException
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IGoalGeneralSetting, IPagination } from '@gauzy/contracts';
+import { IGoalGeneralSetting, IPagination } from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { GoalGeneralSetting } from './goal-general-setting.entity';
 import { GoalGeneralSettingService } from './goal-general-setting.service';

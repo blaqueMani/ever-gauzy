@@ -16,7 +16,7 @@ import {
 	IOrganizationTeam,
 	IEmployee,
 	IRequestApprovalTeam
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { RequestContext } from '../core/context';
 import {
 	Employee,
@@ -26,7 +26,7 @@ import {
 } from './../core/entities/internal';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestApproval } from './request-approval.entity';
-import { getConfig } from '@gauzy/config';
+import { getConfig } from '@leano/config';
 const config = getConfig();
 
 @Injectable()

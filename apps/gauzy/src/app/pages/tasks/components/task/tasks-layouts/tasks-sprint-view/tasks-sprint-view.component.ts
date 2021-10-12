@@ -12,7 +12,7 @@ import {
 	IOrganizationSprint,
 	IOrganizationProject,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Observable } from 'rxjs';
 import { map, tap, filter, take } from 'rxjs/operators';
 import {

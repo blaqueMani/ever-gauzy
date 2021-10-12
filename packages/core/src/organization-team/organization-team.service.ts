@@ -12,7 +12,7 @@ import {
 	IOrganizationTeam,
 	RolesEnum,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Employee } from '../employee/employee.entity';
 import { OrganizationTeam } from './organization-team.entity';
 import { OrganizationTeamEmployee } from '../organization-team-employee/organization-team-employee.entity';

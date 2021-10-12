@@ -17,7 +17,7 @@ import {
 	IProductTranslatable,
 	ITag,
 	IWarehouse
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	ImageAsset,
 	InvoiceItem,

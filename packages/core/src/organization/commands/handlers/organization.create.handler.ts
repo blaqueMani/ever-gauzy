@@ -1,4 +1,4 @@
-import { IOrganization, RolesEnum } from '@gauzy/contracts';
+import { IOrganization, RolesEnum } from '@leano/contracts';
 import { CommandBus, CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import * as faker from 'faker';
 import { getManager } from 'typeorm';

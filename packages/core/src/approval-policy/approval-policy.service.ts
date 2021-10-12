@@ -10,7 +10,7 @@ import {
 	IListQueryInput,
 	IRequestApprovalFindInput,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { RequestContext } from '../core/context';
 
 @Injectable()

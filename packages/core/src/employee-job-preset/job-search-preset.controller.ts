@@ -14,8 +14,8 @@ import {
 	IGetJobPresetInput,
 	IJobPreset,
 	IMatchingCriterions
-} from '@gauzy/contracts';
-import { GauzyAIService } from '@gauzy/integration-ai';
+} from '@leano/contracts';
+import { GauzyAIService } from '@leano/integration-ai';
 import { JobPresetService } from './job-preset.service';
 import { JobPreset } from './job-preset.entity';
 import { JobPresetUpworkJobSearchCriterion } from './job-preset-upwork-job-search-criterion.entity';

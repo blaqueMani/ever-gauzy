@@ -32,7 +32,7 @@ import {
 	PermissionsEnum,
 	IUserCreateInput,
 	IUserUpdateInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { TransformInterceptor } from './../core/interceptors';
 import { RequestContext } from '../core/context';

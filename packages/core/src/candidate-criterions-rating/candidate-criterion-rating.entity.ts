@@ -1,7 +1,7 @@
 import { Column, Entity, Index, ManyToOne, RelationId } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString } from 'class-validator';
-import { ICandidateCriterionsRating, ICandidateFeedback, ICandidatePersonalQualities, ICandidateTechnologies } from '@gauzy/contracts';
+import { ICandidateCriterionsRating, ICandidateFeedback, ICandidatePersonalQualities, ICandidateTechnologies } from '@leano/contracts';
 import {
 	CandidateFeedback,
 	CandidatePersonalQualities,

@@ -1,6 +1,6 @@
 import { forwardRef, Inject } from '@nestjs/common';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IImportRecord, IImportRecordFind } from '@gauzy/contracts';
+import { IImportRecord, IImportRecordFind } from '@leano/contracts';
 import { ImportRecordUpdateOrCreateCommand } from '../import-record-update-or-create.command';
 import { ImportRecordService } from '../../import-record.service';
 import { RequestContext } from '../../../../core';

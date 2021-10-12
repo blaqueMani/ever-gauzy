@@ -6,7 +6,7 @@ import {
 	IHubstaffProject,
 	IIntegrationMap,
 	IIntegrationSetting
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiTags } from '@nestjs/swagger';
 import { UUIDValidationPipe } from './../shared/pipes';
 

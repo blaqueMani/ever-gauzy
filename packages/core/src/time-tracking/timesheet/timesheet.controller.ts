@@ -15,7 +15,7 @@ import {
 	ISubmitTimesheetInput,
 	ITimesheet,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TimeSheetService } from './timesheet.service';
 import { PermissionGuard, TenantPermissionGuard } from './../../shared/guards';
 import { UUIDValidationPipe } from './../../shared/pipes';

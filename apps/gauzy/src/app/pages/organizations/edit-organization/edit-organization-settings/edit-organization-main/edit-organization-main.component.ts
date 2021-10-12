@@ -11,7 +11,7 @@ import {
 	IOrganization,
 	ITag,
 	CrudActionEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { OrganizationEditStore } from '../../../../../@core/services/organization-edit-store.service';
 import { filter, first, tap } from 'rxjs/operators';
 import { EmployeesService } from '../../../../../@core/services';

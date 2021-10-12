@@ -34,7 +34,7 @@ import {
 	JobPostStatusEnum,
 	JobPostTypeEnum,
 	IEmployeeJobsStatistics
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @Injectable()
 export class GauzyAIService {

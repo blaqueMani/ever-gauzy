@@ -9,7 +9,7 @@ import {
 	IOrganizationContact,
 	IOrganization,
 	ITag
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	IsString,

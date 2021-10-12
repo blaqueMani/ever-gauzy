@@ -5,11 +5,11 @@ import {
 	ITask,
 	IGetTaskOptions,
 	IGetTaskByEmployeeOptions
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { tap, catchError, first } from 'rxjs/operators';
 import { TranslationBaseComponent } from '../../@shared/language-base/translation-base.component';
 import { TranslateService } from '@ngx-translate/core';
-import { toParams } from '@gauzy/common-angular';
+import { toParams } from '@leano/common-angular';
 import { ToastrService } from './toastr.service';
 import { API_PREFIX } from '../constants/app.constants';
 

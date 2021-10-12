@@ -30,11 +30,11 @@ import {
 	IUser,
 	CurrenciesEnum,
 	DEFAULT_DATE_FORMATS
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { LatLng } from 'leaflet';
 import { filter, tap } from 'rxjs/operators';
-import { retrieveNameFromEmail } from '@gauzy/common-angular';
+import { retrieveNameFromEmail } from '@leano/common-angular';
 import { LocationFormComponent } from '../../forms/location';
 import { LeafletMapComponent } from '../../forms/maps';
 import { environment as ENV } from './../../../../environments/environment';

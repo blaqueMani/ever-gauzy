@@ -1,7 +1,7 @@
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
-import { RolesEnum } from '@gauzy/contracts';
-import { environment as env } from '@gauzy/config';
+import { RolesEnum } from '@leano/contracts';
+import { environment as env } from '@leano/config';
 import { RequestContext } from './../../core/context';
 import { TenantService } from './../../tenant/tenant.service';
 import { TenantBaseGuard } from './tenant-base.guard';

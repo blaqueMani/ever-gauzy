@@ -1,11 +1,11 @@
 import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { IPipeline, ComponentLayoutStyleEnum, IOrganization } from '@gauzy/contracts';
+import { IPipeline, ComponentLayoutStyleEnum, IOrganization } from '@leano/contracts';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';
 import { TranslateService } from '@ngx-translate/core';
 import { NbDialogService } from '@nebular/theme';
 import { debounceTime, distinctUntilChanged, filter, first, tap } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import { PipelineFormComponent } from './pipeline-form/pipeline-form.component';
 import { DeleteConfirmationComponent } from '../../@shared/user/forms/delete-confirmation/delete-confirmation.component';
 import { API_PREFIX, ComponentEnum } from '../../@core/constants';

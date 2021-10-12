@@ -4,7 +4,7 @@ import {
 	IPagination,
 	PermissionsEnum,
 	TaskListTypeEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	BadRequestException,
 	Body,

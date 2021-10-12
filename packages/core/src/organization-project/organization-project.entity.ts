@@ -32,7 +32,7 @@ import {
 	OrganizationProjectBudgetTypeEnum,
 	IExpense,
 	IActivity
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Activity,
 	Employee,

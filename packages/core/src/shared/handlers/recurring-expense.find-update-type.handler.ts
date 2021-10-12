@@ -3,7 +3,7 @@ import {
 	IStartUpdateTypeInfo,
 	IRecurringExpenseModel,
 	StartDateUpdateTypeEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Between, Not } from 'typeorm';
 import { CrudService, getLastDayOfMonth } from '../../core';
 

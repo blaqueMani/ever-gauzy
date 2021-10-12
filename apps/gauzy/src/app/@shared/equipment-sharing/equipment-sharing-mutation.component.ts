@@ -15,7 +15,7 @@ import {
 	IEquipmentSharingPolicy,
 	IOrganization,
 	IEquipmentSharingRequest
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslationBaseComponent } from '../language-base/translation-base.component';

@@ -18,13 +18,13 @@ import {
 	IEmployee,
 	IOrganization,
 	ISelectedEmployee
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ActivatedRoute } from '@angular/router';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { EmployeeStore } from './../../../../../@core/services/employee-store.service';
 import { combineLatest, Subject } from 'rxjs';
 import { ALL_EMPLOYEES_SELECTED } from './default-employee';
-import { isNotEmpty } from '@gauzy/common-angular';
+import { isNotEmpty } from '@leano/common-angular';
 
 @UntilDestroy({ checkProperties: true })
 @Component({

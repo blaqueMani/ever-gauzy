@@ -6,7 +6,7 @@ import {
 	IPipeline,
 	IPipelineCreateInput,
 	IPipelineFindInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Injectable } from '@angular/core';
 import { API_PREFIX } from '../constants/app.constants';
 

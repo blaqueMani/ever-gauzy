@@ -16,7 +16,7 @@ import {
 	ICandidatePersonalQualities,
 	IPagination,
 	ICandidatePersonalQualitiesCreateInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { RoleGuard, TenantPermissionGuard } from './../shared/guards';
 import { Roles } from './../shared/decorators';

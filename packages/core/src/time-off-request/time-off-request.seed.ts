@@ -3,7 +3,7 @@ import * as faker from 'faker';
 import { TimeOffRequest } from './time-off-request.entity';
 import { TimeOffPolicy } from '../time-off-policy/time-off-policy.entity';
 import { addDays } from 'date-fns';
-import { IEmployee, IOrganization, ITenant, StatusTypesEnum } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ITenant, StatusTypesEnum } from '@leano/contracts';
 import * as _ from 'underscore';
 
 const status = Object.values(StatusTypesEnum);

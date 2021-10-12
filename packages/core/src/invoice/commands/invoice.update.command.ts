@@ -1,4 +1,4 @@
-import { IInvoiceUpdateInput } from '@gauzy/contracts';
+import { IInvoiceUpdateInput } from '@leano/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class InvoiceUpdateCommand implements ICommand {

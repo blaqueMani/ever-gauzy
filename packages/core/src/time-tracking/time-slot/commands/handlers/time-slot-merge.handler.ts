@@ -3,8 +3,8 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, In, SelectQueryBuilder } from 'typeorm';
 import * as moment from 'moment';
 import * as _ from 'underscore';
-import { IActivity, IScreenshot, ITimeLog } from '@gauzy/contracts';
-import { ConfigService } from '@gauzy/config';
+import { IActivity, IScreenshot, ITimeLog } from '@leano/contracts';
+import { ConfigService } from '@leano/config';
 import { TimeSlotMergeCommand } from '../time-slot-merge.command';
 import { Activity, Screenshot, TimeSlot } from './../../../../core/entities/internal';
 

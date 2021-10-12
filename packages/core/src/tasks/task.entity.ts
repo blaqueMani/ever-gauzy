@@ -23,7 +23,7 @@ import {
 	ITimeLog,
 	IUser,
 	TaskStatusEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Activity,
 	Employee,

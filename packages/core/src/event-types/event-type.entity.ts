@@ -16,7 +16,7 @@ import {
 	IsOptional,
 	IsBoolean
 } from 'class-validator';
-import { IEventType } from '@gauzy/contracts';
+import { IEventType } from '@leano/contracts';
 import {
 	Employee,
 	Tag,

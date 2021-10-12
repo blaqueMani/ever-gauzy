@@ -18,11 +18,11 @@ import {
 	IGetManualTimesStatistics,
 	IManualTimesStatistics,
 	IUser
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { combineLatest, Subject, Subscription, timer } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import _ from 'underscore';
-import { distinctUntilChange, progressStatus, toUTC } from '@gauzy/common-angular';
+import { distinctUntilChange, progressStatus, toUTC } from '@leano/common-angular';
 import * as moment from 'moment';
 import { NgxPermissionsService } from 'ngx-permissions';
 import { TranslateService } from '@ngx-translate/core';

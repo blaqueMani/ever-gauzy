@@ -10,8 +10,8 @@ import {
 	IProductCategoryTranslated,
 	IOrganization,
 	ComponentLayoutStyleEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { distinctUntilChange } from '@leano/common-angular';
 import { ImageRowComponent } from './../table-components';
 import { ProductCategoryMutationComponent } from '../../../../@shared/product-mutation';
 import { DeleteConfirmationComponent } from '../../../../@shared/user/forms';

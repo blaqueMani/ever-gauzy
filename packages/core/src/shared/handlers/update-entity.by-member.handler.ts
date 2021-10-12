@@ -1,4 +1,4 @@
-import { IEditEntityByMemberInput } from '@gauzy/contracts';
+import { IEditEntityByMemberInput } from '@leano/contracts';
 import { In } from 'typeorm';
 import { CrudService } from '../../core/crud';
 

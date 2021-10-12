@@ -8,7 +8,7 @@ import {
 	IJobSearchCategory,
 	IJobSearchOccupation,
 	JobPostTypeEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Employee,
 	JobPreset,

@@ -7,13 +7,13 @@ import {
 	ITimeOff,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { debounceTime, filter, first, tap, finalize } from 'rxjs/operators';
 import { combineLatest, Subject } from 'rxjs';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import { ComponentEnum } from '../../@core/constants';
 import { Store, TimeOffService, ToastrService } from '../../@core/services';
 import { TimeOffRequestMutationComponent } from '../../@shared/time-off';

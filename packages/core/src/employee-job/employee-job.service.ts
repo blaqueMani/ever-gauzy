@@ -1,7 +1,7 @@
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import { Injectable } from '@nestjs/common';
 import { getRandomEmployeeJobPosts } from './employee-job.seed';
-import { GauzyAIService } from '@gauzy/integration-ai';
+import { GauzyAIService } from '@leano/integration-ai';
 import {
 	IApplyJobPostInput,
 	IEmployeeJobPost,
@@ -9,7 +9,7 @@ import {
 	IPagination,
 	IUpdateEmployeeJobPostAppliedResult,
 	IVisibilityJobPostInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { EmployeeService } from '../employee/employee.service';
 
 @Injectable()

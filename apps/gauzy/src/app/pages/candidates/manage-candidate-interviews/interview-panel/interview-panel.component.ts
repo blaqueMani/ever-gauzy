@@ -11,7 +11,7 @@ import {
 	ICandidateInterviewers,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { takeUntil, first } from 'rxjs/operators';
 import { Router } from '@angular/router';
 import { NbDialogService } from '@nebular/theme';

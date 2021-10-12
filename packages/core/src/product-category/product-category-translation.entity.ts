@@ -2,7 +2,7 @@ import { Entity, Column, ManyToOne, JoinColumn, RelationId, Index } from 'typeor
 import {
 	IProductTypeTranslation as IProductCategoryTranslation,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsOptional, IsEnum } from 'class-validator';
 import { ProductCategory, TranslationBase } from '../core/entities/internal';

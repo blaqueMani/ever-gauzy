@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { IOrganization, IProductVariantSetting, ITenant } from '@gauzy/contracts';
+import { IOrganization, IProductVariantSetting, ITenant } from '@leano/contracts';
 import { ProductVariantSetting } from './product-setting.entity';
 import * as faker from 'faker';
 import { ProductCategory } from '../product-category/product-category.entity';

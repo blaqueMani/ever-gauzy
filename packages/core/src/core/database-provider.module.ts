@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule, TypeOrmModuleAsyncOptions } from '@nestjs/typeorm';
-import { ConfigModule, ConfigService } from '@gauzy/config';
-import { DEFAULT_DB_CONNECTION } from '@gauzy/common';
+import { ConfigModule, ConfigService } from '@leano/config';
+import { DEFAULT_DB_CONNECTION } from '@leano/common';
 
 /**
  * Import and provide base typeorm related classes.

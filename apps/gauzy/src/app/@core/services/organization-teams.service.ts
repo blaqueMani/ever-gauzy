@@ -4,7 +4,7 @@ import {
 	IOrganizationTeam,
 	IOrganizationTeamFindInput,
 	IOrganizationTeamCreateInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { first } from 'rxjs/operators';
 import { API_PREFIX } from '../constants/app.constants';
 

@@ -1,4 +1,4 @@
-import { average } from "@gauzy/common";
+import { average } from "@leano/common";
 import { EntitySubscriberInterface, EventSubscriber, InsertEvent } from "typeorm";
 import { getUserDummyImage } from "./../core/utils";
 import { Candidate } from "./../core/entities/internal";

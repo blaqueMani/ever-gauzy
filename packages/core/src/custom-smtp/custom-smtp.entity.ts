@@ -1,6 +1,6 @@
 import { Entity, Column } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
-import { ICustomSmtp } from '@gauzy/contracts';
+import { ICustomSmtp } from '@leano/contracts';
 import { TenantOrganizationBaseEntity } from '../core/entities/internal';
 
 @Entity('custom_smtp')

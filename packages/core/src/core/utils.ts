@@ -1,11 +1,11 @@
 import { sample } from 'underscore';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@leano/contracts';
 import * as moment from 'moment';
 import * as path from 'path';
 import * as fs from 'fs';
 import * as os from 'os';
 import slugify from 'slugify';
-import { getConfig } from '@gauzy/config';
+import { getConfig } from '@leano/config';
 
 namespace Utils {
 	export function generatedLogoColor() {

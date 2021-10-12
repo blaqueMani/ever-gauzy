@@ -1,6 +1,6 @@
 
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
-import { IAccountingTemplate, IListQueryInput } from '@gauzy/contracts';
+import { IAccountingTemplate, IListQueryInput } from '@leano/contracts';
 import { AccountingTemplateService } from '../../accounting-template.service';
 import { AccountingTemplateQuery } from '../accounting-template.query';
 

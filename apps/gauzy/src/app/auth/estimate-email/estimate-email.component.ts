@@ -5,7 +5,7 @@ import {
 	IEstimateEmail,
 	EstimateStatusTypesEnum,
 	InvoiceStatusTypesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { EstimateEmailService } from '../../@core/services/estimate-email.service';
 import { TranslationBaseComponent } from '../../@shared/language-base/translation-base.component';
 import { TranslateService } from '@ngx-translate/core';

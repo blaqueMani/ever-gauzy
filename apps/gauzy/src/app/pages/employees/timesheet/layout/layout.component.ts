@@ -3,7 +3,7 @@ import { NgxPermissionsService } from 'ngx-permissions';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { tap } from 'rxjs/operators';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@leano/contracts';
 import { TranslationBaseComponent } from './../../../../@shared/language-base';
 
 @UntilDestroy({ checkProperties: true })

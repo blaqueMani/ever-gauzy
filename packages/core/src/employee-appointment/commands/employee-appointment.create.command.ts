@@ -2,7 +2,7 @@ import { ICommand } from '@nestjs/cqrs';
 import {
 	LanguagesEnum,
 	IEmployeeAppointmentCreateInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 export class EmployeeAppointmentCreateCommand implements ICommand {
 	static readonly type = '[EmployeeAppointment] Register';

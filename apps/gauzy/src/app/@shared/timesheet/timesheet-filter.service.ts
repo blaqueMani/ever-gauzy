@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Query, Store, StoreConfig } from '@datorama/akita';
-import { ITimeLogFilters } from '@gauzy/contracts';
+import { ITimeLogFilters } from '@leano/contracts';
 import * as moment from 'moment';
 
 export const ActivityLevel = {

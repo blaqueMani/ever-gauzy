@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { isNotEmpty } from '@gauzy/common';
+import { isNotEmpty } from '@leano/common';
 import { KnowledgeBaseBulkDeleteCommand } from '../help-center-base.bulk.command';
 import { HelpCenterService } from '../../help-center.service';
 

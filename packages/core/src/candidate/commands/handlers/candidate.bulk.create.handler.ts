@@ -3,7 +3,7 @@ import {
 	ICandidate,
 	ICandidateCreateInput,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { AuthService } from '../../../auth/auth.service';
 import { EmailService } from '../../../email';
 import { CandidateBulkCreateCommand } from '../candidate.bulk.create.command';

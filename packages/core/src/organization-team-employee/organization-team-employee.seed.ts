@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
 import { OrganizationTeamEmployee } from './organization-team-employee.entity';
-import { IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ITenant } from '@leano/contracts';
 import { OrganizationTeam, Role } from './../core/entities/internal';
 
 export const createRandomOrganizationTeamEmployee = async (

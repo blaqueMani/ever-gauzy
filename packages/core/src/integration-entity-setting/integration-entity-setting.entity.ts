@@ -13,7 +13,7 @@ import {
 	IIntegrationEntitySetting,
 	IIntegrationEntitySettingTied,
 	IIntegrationTenant
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	IntegrationEntitySettingTied,
 	IntegrationTenant,

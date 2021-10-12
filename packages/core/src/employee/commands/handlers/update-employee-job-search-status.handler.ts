@@ -1,7 +1,7 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { EmployeeService } from '../../employee.service';
 import { UpdateEmployeeJobSearchStatusCommand } from '../update-employee-job-search-status.command';
-import { GauzyAIService } from '@gauzy/integration-ai';
+import { GauzyAIService } from '@leano/integration-ai';
 
 @CommandHandler(UpdateEmployeeJobSearchStatusCommand)
 export class UpdateEmployeeJobSearchStatusHandler

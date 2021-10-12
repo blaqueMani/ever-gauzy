@@ -9,9 +9,9 @@ import {
 	ActivityType,
 	IDailyActivity,
 	IActivity
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { debounceTime, filter, tap } from 'rxjs/operators';
-import { toUTC, toLocal } from '@gauzy/common-angular';
+import { toUTC, toLocal } from '@leano/common-angular';
 import { ActivatedRoute } from '@angular/router';
 import * as _ from 'underscore';
 import * as moment from 'moment';

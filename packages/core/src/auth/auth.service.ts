@@ -1,12 +1,12 @@
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import {
 	IUserRegistrationInput,
 	LanguagesEnum,
 	IRolePermission,
 	IAuthResponse
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CommandBus } from '@nestjs/cqrs';
-import { SocialAuthService } from '@gauzy/auth';
+import { SocialAuthService } from '@leano/auth';
 import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import * as bcrypt from 'bcrypt';
 import { JsonWebTokenError, sign, verify } from 'jsonwebtoken';

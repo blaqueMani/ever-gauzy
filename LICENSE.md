@@ -1,12 +1,12 @@
 # License
 
-Copyright © 2019-present, Ever Co. LTD. All rights reserved.
+Copyright © 2019-present, Leano Industry Solutions Pty Ltd. All rights reserved.
 
 This software is available under an Open Source Licenses ("Community Edition"). It is suitable if your business can comply with the requirements of corresponding open-source licenses, see more information below (e.g. requirements to release your modifications under the same open-source licenses for the benefits of our community).
 
-Alternatively, commercial versions of the software must be used in accordance with the terms and conditions of separate written license agreement between you and Ever Co. LTD. With commercial license, your source code (including your changes) is kept proprietary. You can purchase a commercial licenses at <https://gauzy.co/pricing>.
+Alternatively, commercial versions of the software must be used in accordance with the terms and conditions of separate written license agreement between you and Leano Industry Solutions Pty Ltd. With commercial license, your source code (including your changes) is kept proprietary. You can purchase a commercial licenses at <https://gauzy.co/pricing>.
 
-In addition, Ever Co. LTD holds copyright and/or sufficient licenses to all components of the Gauzy Platform, and therefore can grant, at its sole discretion, the ability for companies, individuals, or organizations to create proprietary modules which may be dynamically linked at runtime with the portions of Gauzy Platform which fall under our copyright/license umbrella.
+In addition, Leano Industry Solutions Pty Ltd holds copyright and/or sufficient licenses to all components of the Gauzy Platform, and therefore can grant, at its sole discretion, the ability for companies, individuals, or organizations to create proprietary modules which may be dynamically linked at runtime with the portions of Gauzy Platform which fall under our copyright/license umbrella.
 
 We support the open-source community. If you're building awesome non-profit/open-source projects, we're happy to help and will provide (subject to [acceptance criteria](https://github.com/ever-co/ever-gauzy/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects)) Ever Gauzy Enterprise edition license and free hosting option! Feel free to contact us at <mailto:ever@ever.co> to make a request. More details explained in our [Wiki](https://github.com/ever-co/ever-gauzy/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects).
 
@@ -50,9 +50,9 @@ Please see [CREDITS.md](CREDITS.md) files for a list of libraries and software i
 
 ## Trademarks
 
-**Gauzy**™ is a trademark of [Ever Co. LTD](https://ever.co).
+**Gauzy**™ is a trademark of [Leano Industry Solutions Pty Ltd](https://ever.co).
 
-The trademarks and logos may only be used with the written permission of Ever Co. LTD. and may not be used to promote or otherwise market competitive products or services. If you wish to use these trademarks and logos you should contact our licensing department at <mailto:legal@ever.co> to determine the necessary steps you must take.
+The trademarks and logos may only be used with the written permission of Leano Industry Solutions Pty Ltd. and may not be used to promote or otherwise market competitive products or services. If you wish to use these trademarks and logos you should contact our licensing department at <mailto:legal@ever.co> to determine the necessary steps you must take.
 
 All other brand and product names are trademarks, registered trademarks or service marks of their respective holders.
 

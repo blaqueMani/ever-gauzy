@@ -10,7 +10,7 @@ import {
 	ValidationPipe
 } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
-import { IExpenseCategory, IPagination } from '@gauzy/contracts';
+import { IExpenseCategory, IPagination } from '@leano/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { ExpenseCategoriesService } from './expense-categories.service';
 import { ExpenseCategory } from './expense-category.entity';

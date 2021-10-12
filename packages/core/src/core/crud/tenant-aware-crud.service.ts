@@ -8,7 +8,7 @@ import {
 	ObjectLiteral,
 	Repository
 } from 'typeorm';
-import { IPagination } from '@gauzy/contracts';
+import { IPagination } from '@leano/contracts';
 import { User } from '../../user/user.entity';
 import { RequestContext } from '../context';
 import { TenantBaseEntity } from '../entities/internal';

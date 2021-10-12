@@ -15,7 +15,7 @@ import {
 	PersistStore,
 	Store
 } from 'apps/gauzy/src/app/@core/services/store.service';
-import { IOrganization } from '@gauzy/contracts';
+import { IOrganization } from '@leano/contracts';
 
 @Component({
 	selector: 'ngx-upwork-authorize',

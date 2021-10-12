@@ -3,7 +3,7 @@ import { ViewCell } from 'ng2-smart-table';
 import {
 	RequestApprovalStatusTypesEnum,
 	ComponentLayoutStyleEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @Component({
 	selector: 'ngx-request-approval-action',

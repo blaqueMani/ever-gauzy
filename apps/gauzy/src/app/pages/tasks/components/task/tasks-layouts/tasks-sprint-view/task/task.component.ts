@@ -6,7 +6,7 @@ import {
 	OnInit,
 	OnDestroy
 } from '@angular/core';
-import { ITask, IEmployee, TaskStatusEnum } from '@gauzy/contracts';
+import { ITask, IEmployee, TaskStatusEnum } from '@leano/contracts';
 import { NbMenuService } from '@nebular/theme';
 import { tap, filter, map, takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';

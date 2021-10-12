@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IFeatureOrganizationUpdateInput } from '@gauzy/contracts';
+import { IFeatureOrganizationUpdateInput } from '@leano/contracts';
 
 export class FeatureToggleUpdateCommand implements ICommand {
 	static readonly type = '[Feature] Toggle Update';

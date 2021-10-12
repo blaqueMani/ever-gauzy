@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IJobSearchCategory, IPagination } from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+import { IJobSearchCategory, IPagination } from '@leano/contracts';
+import { toParams } from '@leano/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

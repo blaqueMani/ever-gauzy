@@ -5,12 +5,12 @@ import {
 	IGetTimeSlotInput,
 	IScreenshotMap,
 	IScreenshot
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TimesheetService } from './../../../../../@shared/timesheet/timesheet.service';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { Store } from './../../../../../@core/services/store.service';
 import { combineLatest, Subject } from 'rxjs';
-import { toUTC, toLocal } from '@gauzy/common-angular';
+import { toUTC, toLocal } from '@leano/common-angular';
 import * as _ from 'underscore';
 import * as moment from 'moment';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

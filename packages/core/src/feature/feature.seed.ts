@@ -3,17 +3,17 @@ import * as path from 'path';
 import { copyFileSync, mkdirSync } from 'fs';
 import * as chalk from 'chalk';
 import * as rimraf from 'rimraf';
-import { ConfigService, environment as env } from '@gauzy/config';
+import { ConfigService, environment as env } from '@leano/config';
 import {
 	IFeature,
 	IFeatureCreateInput,
 	IFeatureOrganization,
 	ITenant
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { DEFAULT_FEATURES } from './default-features';
 import { Feature } from './feature.entity';
 import { FeatureOrganization } from './feature-organization.entity';
-import { IPluginConfig } from '@gauzy/common';
+import { IPluginConfig } from '@leano/common';
 
 export const createDefaultFeatureToggle = async (
 	connection: Connection,

@@ -1,4 +1,4 @@
-import { ICandidateDocument } from '@gauzy/contracts';
+import { ICandidateDocument } from '@leano/contracts';
 
 export const DEFAULT_CANDIDATE_DOCUMENTS: ICandidateDocument[] = [
 	{

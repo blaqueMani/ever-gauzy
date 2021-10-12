@@ -2,9 +2,9 @@ import { readdir, mkdirSync, copyFileSync } from 'fs';
 import * as path from 'path';
 import * as faker from 'faker';
 import * as moment from 'moment';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import { Screenshot } from '../../core/entities/internal';
-import { IPluginConfig } from '@gauzy/common';
+import { IPluginConfig } from '@leano/common';
 import { randomSeedConfig } from './../../core/seeds/random-seed-config';
 
 let fileList: string[] = [];

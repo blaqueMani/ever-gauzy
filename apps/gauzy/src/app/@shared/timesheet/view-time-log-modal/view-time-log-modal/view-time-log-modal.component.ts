@@ -5,7 +5,7 @@ import {
 	ITimeLog,
 	PermissionsEnum,
 	OrganizationPermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { EditTimeLogModalComponent } from './../../edit-time-log-modal';
 import { TimesheetService } from '../../timesheet.service';
 import { TimeTrackerService } from './../../../time-tracker/time-tracker.service';

@@ -13,12 +13,12 @@ import {
 	IOrganizationProject,
 	CrudActionEnum,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { Subject } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { isNotEmpty } from '@gauzy/common-angular';
+import { isNotEmpty } from '@leano/common-angular';
 import { ALL_PROJECT_SELECTED } from './default-project';
 import { OrganizationProjectsService, OrganizationProjectStore, Store, ToastrService } from '../../../@core/services';
 

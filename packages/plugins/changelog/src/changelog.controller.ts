@@ -17,12 +17,12 @@ import {
 	IChangelogCreateInput,
 	IChangelogUpdateInput,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	CrudController,
 	TenantPermissionGuard,
 	UUIDValidationPipe
-} from '@gauzy/core';
+} from '@leano/core';
 import { Changelog } from './changelog.entity';
 import { ChangelogService } from './changelog.service';
 import { ChangelogCreateCommand, ChangelogUpdateCommand } from './commands';

@@ -6,9 +6,9 @@ import {
 	IDateRange,
 	OrganizationPermissionsEnum,
 	TimeLogType
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import * as moment from 'moment';
-import { toUTC } from '@gauzy/common-angular';
+import { toUTC } from '@leano/common-angular';
 import { NgForm } from '@angular/forms';
 import { TimesheetService } from '../../timesheet/timesheet.service';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

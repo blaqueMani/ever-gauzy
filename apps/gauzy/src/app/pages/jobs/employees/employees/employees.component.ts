@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import {
 	IEmployeeJobsStatisticsResponse,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { Store } from './../../../../@core/services/store.service';

@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { ICandidate } from '@gauzy/contracts';
+import { ICandidate } from '@leano/contracts';
 import { CandidateService } from '../../candidate.service';
 import { CandidateUpdateCommand } from '../candidate.update.command';
 

@@ -15,7 +15,7 @@ import {
 	IGetEmployeeJobPostInput,
 	IPagination,
 	IVisibilityJobPostInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @ApiTags('EmployeeJobPost')
 @Controller()

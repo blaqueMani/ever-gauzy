@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { ICandidateTechnologies } from '@gauzy/contracts';
+import { ICandidateTechnologies } from '@leano/contracts';
 
 export class CandidateTechnologiesBulkDeleteCommand implements ICommand {
 	static readonly type = '[CandidateTechnologies] Delete';

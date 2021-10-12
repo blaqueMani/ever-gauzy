@@ -13,7 +13,7 @@ import {
 	Post
 } from '@nestjs/common';
 import { EquipmentService } from './equipment.service';
-import { IEquipment, IPagination } from '@gauzy/contracts';
+import { IEquipment, IPagination } from '@leano/contracts';
 import { TenantPermissionGuard } from './../shared/guards';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';
 

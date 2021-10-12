@@ -5,7 +5,7 @@ import {
 	IOrganization,
 	IOrganizationTeam,
 	ITimeOffPolicyVM
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { EmployeesService } from '../../../@core/services';
 import { first, takeUntil } from 'rxjs/operators';
 import { Store } from '../../../@core/services/store.service';

@@ -1,6 +1,6 @@
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
-import { RolesEnum } from '@gauzy/contracts';
+import { RolesEnum } from '@leano/contracts';
 import { RequestContext } from './../../core/context';
 
 @Injectable()

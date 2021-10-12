@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@leano/contracts';
 import { EquipmentSharingPolicy } from './equipment-sharing-policy.entity';
 
 export const createDefaultEquipmentSharingPolicyForOrg = async (

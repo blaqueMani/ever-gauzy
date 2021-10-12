@@ -11,7 +11,7 @@ import {
 	ComponentLayoutStyleEnum,
 	IApprovalPolicyFindInput,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TranslationBaseComponent } from '../../@shared/language-base';
 import { ApprovalPolicyMutationComponent } from '../../@shared/approval-policy';
 import { DeleteConfirmationComponent } from '../../@shared/user/forms';

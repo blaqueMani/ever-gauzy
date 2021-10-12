@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute } from '@angular/router';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { IInvoice, IUser } from '@gauzy/contracts';
+import { IInvoice, IUser } from '@leano/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { TranslationBaseComponent } from '../../../@shared/language-base/translation-base.component';
 import { saveAs } from 'file-saver';

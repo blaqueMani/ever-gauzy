@@ -1,4 +1,4 @@
-import { IGoalKPITemplate } from '@gauzy/contracts';
+import { IGoalKPITemplate } from '@leano/contracts';
 
 export const DEFAULT_GOAL_KPI_TEMPLATES: IGoalKPITemplate[] = [
 	{

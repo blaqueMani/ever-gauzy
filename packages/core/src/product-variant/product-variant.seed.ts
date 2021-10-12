@@ -1,5 +1,5 @@
 import { Connection, In } from 'typeorm';
-import { BillingInvoicingPolicyEnum, IOrganization, ITenant } from '@gauzy/contracts';
+import { BillingInvoicingPolicyEnum, IOrganization, ITenant } from '@leano/contracts';
 import * as faker from 'faker';
 import * as _ from 'underscore';
 import { ProductVariant } from './product-variant.entity';

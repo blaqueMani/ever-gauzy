@@ -50,7 +50,7 @@ import {
 	LocalStore,
 	DataModel,
 	AppMenu
-} from '@gauzy/desktop-libs';
+} from '@leano/desktop-libs';
 import {
 	createGauzyWindow,
 	gauzyPage,
@@ -59,7 +59,7 @@ import {
 	createSettingsWindow,
 	createUpdaterWindow,
 	createImageViewerWindow
-} from '@gauzy/desktop-window';
+} from '@leano/desktop-window';
 import { fork } from 'child_process';
 import { autoUpdater} from 'electron-updater';
 import { CancellationToken } from "builder-util-runtime";

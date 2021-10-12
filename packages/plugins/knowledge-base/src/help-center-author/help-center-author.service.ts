@@ -1,9 +1,9 @@
-import { IHelpCenterAuthor } from '@gauzy/contracts';
+import { IHelpCenterAuthor } from '@leano/contracts';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { TenantAwareCrudService } from '@gauzy/core';
-import { isNotEmpty } from '@gauzy/common';
+import { TenantAwareCrudService } from '@leano/core';
+import { isNotEmpty } from '@leano/common';
 import { HelpCenterAuthor } from './help-center-author.entity';
 
 @Injectable()

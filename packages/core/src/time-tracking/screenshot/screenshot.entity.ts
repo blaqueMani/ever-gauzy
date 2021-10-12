@@ -6,7 +6,7 @@ import {
 	AfterLoad,
 	Index
 } from 'typeorm';
-import { IScreenshot, ITimeSlot } from '@gauzy/contracts';
+import { IScreenshot, ITimeSlot } from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsOptional, IsNumber, IsDateString } from 'class-validator';
 import { FileStorage } from './../../core/file-storage';

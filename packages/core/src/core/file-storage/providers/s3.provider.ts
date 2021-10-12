@@ -1,8 +1,8 @@
-import { FileStorageOption, UploadedFile } from '@gauzy/contracts';
+import { FileStorageOption, UploadedFile } from '@leano/contracts';
 import * as multerS3 from 'multer-s3';
 import { basename, join } from 'path';
 import * as moment from 'moment';
-import { environment } from '@gauzy/config';
+import { environment } from '@leano/config';
 import * as AWS from 'aws-sdk';
 import { StorageEngine } from 'multer';
 import { Provider } from './provider';

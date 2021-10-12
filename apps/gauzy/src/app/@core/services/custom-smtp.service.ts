@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ICustomSmtp, ICustomSmtpFindInput } from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+import { ICustomSmtp, ICustomSmtpFindInput } from '@leano/contracts';
+import { toParams } from '@leano/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

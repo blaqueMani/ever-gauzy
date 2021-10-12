@@ -1,4 +1,4 @@
-import { IOrganizationRecurringExpenseByMonthFindInput } from '@gauzy/contracts';
+import { IOrganizationRecurringExpenseByMonthFindInput } from '@leano/contracts';
 import { IQuery } from '@nestjs/cqrs';
 
 export class OrganizationRecurringExpenseByMonthQuery implements IQuery {

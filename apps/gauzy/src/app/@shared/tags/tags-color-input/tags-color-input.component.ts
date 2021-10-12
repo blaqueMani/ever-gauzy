@@ -6,8 +6,8 @@ import {
 	EventEmitter,
 	OnDestroy
 } from '@angular/core';
-import { ITag, IOrganization } from '@gauzy/contracts';
-import { getContrastColor } from '@gauzy/common-angular';
+import { ITag, IOrganization } from '@leano/contracts';
+import { getContrastColor } from '@leano/common-angular';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { filter, tap } from 'rxjs/operators';
 import { Store, TagsService } from '../../../@core/services';

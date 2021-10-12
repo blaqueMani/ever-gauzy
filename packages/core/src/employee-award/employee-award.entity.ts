@@ -1,7 +1,7 @@
 import { Column, Entity, Index, ManyToOne, RelationId } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsString } from 'class-validator';
-import { IEmployee, IEmployeeAward } from '@gauzy/contracts';
+import { IEmployee, IEmployeeAward } from '@leano/contracts';
 import {
 	Employee,
 	TenantOrganizationBaseEntity

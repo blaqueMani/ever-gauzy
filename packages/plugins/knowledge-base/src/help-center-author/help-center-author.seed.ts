@@ -1,6 +1,6 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
-import { IEmployee, IHelpCenterAuthor, ITenant } from '@gauzy/contracts';
+import { IEmployee, IHelpCenterAuthor, ITenant } from '@leano/contracts';
 import { HelpCenterAuthor } from './help-center-author.entity';
 import { HelpCenterArticle } from '../help-center-article/help-center-article.entity';
 

@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IImageAsset } from '@gauzy/contracts';
+import { IImageAsset } from '@leano/contracts';
 
 @Component({
 	selector: 'ngx-img-preview',

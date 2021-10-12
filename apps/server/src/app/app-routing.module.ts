@@ -5,7 +5,7 @@ import {
 	SetupComponent,
 	UpdaterComponent,
 	ServerDashboardComponent
-} from '@gauzy/desktop-ui-lib';
+} from '@leano/desktop-ui-lib';
 
 const routes: Routes = [
 	{

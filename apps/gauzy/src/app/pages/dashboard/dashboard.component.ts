@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { ISelectedEmployee } from '@gauzy/contracts';
+import { ISelectedEmployee } from '@leano/contracts';
 import { Store } from '../../@core/services/store.service';
 import { TranslationBaseComponent } from '../../@shared/language-base/translation-base.component';
 

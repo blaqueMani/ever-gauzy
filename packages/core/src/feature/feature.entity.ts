@@ -11,7 +11,7 @@ import { ApiProperty } from '@nestjs/swagger';
 import {
 	IFeature,
 	IFeatureOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { IsNotEmpty, IsOptional, IsString } from 'class-validator';
 import { BaseEntity, FeatureOrganization } from '../core/entities/internal';
 

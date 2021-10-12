@@ -9,7 +9,7 @@ import {
 	IGetMatchingCriterions,
 	IJobPreset,
 	IMatchingCriterions
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { JobPresetUpworkJobSearchCriterion } from './job-preset-upwork-job-search-criterion.entity';
 import { EmployeeUpworkJobsSearchCriterion } from './employee-upwork-jobs-search-criterion.entity';

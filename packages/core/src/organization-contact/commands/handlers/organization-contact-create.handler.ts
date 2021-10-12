@@ -1,4 +1,4 @@
-import { IOrganizationContact } from '@gauzy/contracts';
+import { IOrganizationContact } from '@leano/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { OrganizationContactCreateCommand } from '../organization-contact-create.command';
 import { OrganizationContactService } from '../../organization-contact.service';

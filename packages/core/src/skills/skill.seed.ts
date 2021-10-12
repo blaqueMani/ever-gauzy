@@ -1,4 +1,4 @@
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@leano/contracts';
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
 import { DEFAULT_SKILLS } from './default-skills';

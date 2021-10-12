@@ -16,7 +16,7 @@ import {
 	LanguagesEnum,
 	IPagination,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ProductTypeService } from './product-type.service';
 import { ProductType } from './product-type.entity';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';

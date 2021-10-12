@@ -1,5 +1,5 @@
-import { GauzyAIService } from '@gauzy/integration-ai';
-import { IMatchingCriterions } from '@gauzy/contracts';
+import { GauzyAIService } from '@leano/integration-ai';
+import { IMatchingCriterions } from '@leano/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';

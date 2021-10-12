@@ -2,6 +2,6 @@
 
 const common = require('..');
 
-describe('@gauzy/common', () => {
+describe('@leano/common', () => {
 	it('needs tests');
 });

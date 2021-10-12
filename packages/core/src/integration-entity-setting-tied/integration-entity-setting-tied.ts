@@ -4,7 +4,7 @@ import { IsOptional, IsString } from 'class-validator';
 import {
 	IIntegrationEntitySetting,
 	IIntegrationEntitySettingTied
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	IntegrationEntitySetting,
 	TenantOrganizationBaseEntity

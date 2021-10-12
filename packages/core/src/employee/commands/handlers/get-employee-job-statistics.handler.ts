@@ -1,6 +1,6 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { EmployeeService } from '../../employee.service';
-import { GauzyAIService } from '@gauzy/integration-ai';
+import { GauzyAIService } from '@leano/integration-ai';
 import { GetEmployeeJobStatisticsCommand } from '../get-employee-job-statistics.command';
 import { indexBy } from 'underscore';
 

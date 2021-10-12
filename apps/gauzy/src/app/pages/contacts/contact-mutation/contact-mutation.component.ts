@@ -14,7 +14,7 @@ import {
 	ContactType,
 	IOrganization,
 	OrganizationContactBudgetTypeEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbStepperComponent } from '@nebular/theme';
 import { debounceTime, filter, first, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';

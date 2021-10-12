@@ -1,7 +1,7 @@
 import { Menu, shell } from 'electron';
 import { LocalStore } from './desktop-store';
 import { TimerData } from './desktop-timer-activity';
-import { createSettingsWindow } from '@gauzy/desktop-window';
+import { createSettingsWindow } from '@leano/desktop-window';
 export class AppMenu {
 	constructor(
 		timeTrackerWindow,

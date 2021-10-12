@@ -10,7 +10,7 @@ import { Observable } from 'rxjs/Observable';
 import { HubstaffService } from './../services/hubstaff.service';
 import { catchError, filter, take, switchMap, finalize } from 'rxjs/operators';
 import { BehaviorSubject, throwError } from 'rxjs';
-import { HttpStatus } from '@gauzy/contracts';
+import { HttpStatus } from '@leano/contracts';
 
 @Injectable()
 export class HubstaffTokenInterceptor implements HttpInterceptor {

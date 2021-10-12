@@ -3,7 +3,7 @@ import {
 	IOrganization,
 	IOrganizationContact,
 	IInvoice
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 export async function generateInvoicePaymentPdfDefinition(
 	invoice: IInvoice,

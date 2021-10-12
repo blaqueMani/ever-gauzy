@@ -15,7 +15,7 @@ import {
 	StatusTypesMapRequestApprovalEnum,
 	ApprovalPolicyTypesStringEnum,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { RequestApproval } from '../request-approval/request-approval.entity';
 import { RequestContext } from '../core/context';
 import * as moment from 'moment';

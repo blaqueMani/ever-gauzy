@@ -5,10 +5,10 @@ import {
 	IInvoiceCreateInput,
 	IInvoiceFindInput,
 	IInvoiceUpdateInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { first } from 'rxjs/operators';
 import { BehaviorSubject } from 'rxjs';
-import { toParams } from '@gauzy/common-angular';
+import { toParams } from '@leano/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

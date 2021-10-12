@@ -18,10 +18,10 @@ import {
 	IGetManualTimesStatistics,
 	IManualTimesStatistics,
 	TimeLogType
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { RequestContext } from '../../core/context';
-import { average, ArraySum, isNotEmpty } from '@gauzy/common';
-import { ConfigService } from '@gauzy/config';
+import { average, ArraySum, isNotEmpty } from '@leano/common';
+import { ConfigService } from '@leano/config';
 import {
 	Activity,
 	Employee,

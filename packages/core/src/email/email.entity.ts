@@ -1,7 +1,7 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsBoolean, IsNotEmpty, IsOptional, IsString } from 'class-validator';
 import { Column, Entity, Index, JoinColumn, ManyToOne, RelationId } from 'typeorm';
-import { IEmail, IEmailTemplate, IUser } from '@gauzy/contracts';
+import { IEmail, IEmailTemplate, IUser } from '@leano/contracts';
 import {
 	EmailTemplate,
 	TenantOrganizationBaseEntity,

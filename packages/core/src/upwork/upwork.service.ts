@@ -3,7 +3,7 @@ import { In, Between } from 'typeorm';
 import { CommandBus } from '@nestjs/cqrs';
 import * as UpworkApi from 'upwork-api';
 import * as _ from 'underscore';
-import { environment } from '@gauzy/config';
+import { environment } from '@leano/config';
 import {
 	IAccessTokenSecretPair,
 	IAccessToken,
@@ -28,7 +28,7 @@ import {
 	TimeLogSourceEnum,
 	IUpworkClientSecretPair,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	IntegrationTenantCreateCommand,
 	IntegrationTenantGetCommand
@@ -70,7 +70,7 @@ import {
 	UpworkJobService,
 	UpworkOffersService,
 	UpworkReportService
-} from '@gauzy/integration-upwork';
+} from '@leano/integration-upwork';
 import { TimeLogCreateCommand } from '../time-tracking/time-log/commands';
 import { OrganizationContact } from '../organization-contact/organization-contact.entity';
 import { ProposalCreateCommand } from '../proposal/commands/proposal-create.command';
@@ -79,7 +79,7 @@ import {
 	TimeSlotCreateCommand
 } from './../time-tracking/time-slot/commands';
 import { RequestContext } from '../core/context';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import { ScreenshotCreateCommand } from './../time-tracking/screenshot/commands';
 
 @Injectable()

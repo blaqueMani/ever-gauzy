@@ -4,7 +4,7 @@ import {
 	IEmployee,
 	IEmployeeUpdateInput,
 	IUserUpdateInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

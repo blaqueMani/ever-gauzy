@@ -23,7 +23,7 @@ import {
 	IGetTimeLimitReportInput,
 	IProjectBudgetLimitReportInput,
 	IClientBudgetLimitReportInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TimeLogService } from './time-log.service';
 import { Permissions } from './../../shared/decorators';
 import { OrganizationPermissionGuard, TenantBaseGuard } from './../../shared/guards';

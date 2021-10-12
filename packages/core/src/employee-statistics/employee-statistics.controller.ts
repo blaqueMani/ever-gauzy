@@ -3,7 +3,7 @@ import {
 	IEmployeeStatistics,
 	IMonthAggregatedEmployeeStatistics,
 	IEmployeeStatisticsHistory
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Controller,
 	Get,

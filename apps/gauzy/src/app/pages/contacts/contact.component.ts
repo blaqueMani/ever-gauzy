@@ -17,7 +17,7 @@ import {
 	IContact,
 	ICountry,
 	ContactType
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { combineLatest, Subject } from 'rxjs';
@@ -29,7 +29,7 @@ import {
 } from 'rxjs/operators';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import { InviteContactComponent } from './invite-contact/invite-contact.component';
 import { TranslationBaseComponent } from '../../@shared/language-base';
 import {

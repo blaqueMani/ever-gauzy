@@ -3,7 +3,7 @@ import {
 	IOrganizationProject,
 	TaskListTypeEnum,
 	ITaskResponse
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Observable } from 'rxjs';
 import { map, tap, switchMap, take } from 'rxjs/operators';
 import { TasksStoreService } from '../../../../../@core/services/tasks-store.service';

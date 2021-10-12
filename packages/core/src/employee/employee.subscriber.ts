@@ -1,5 +1,5 @@
 import { EntitySubscriberInterface, EventSubscriber, InsertEvent } from "typeorm";
-import { retrieveNameFromEmail } from "@gauzy/common";
+import { retrieveNameFromEmail } from "@leano/common";
 import { Employee } from "./employee.entity";
 import { generateSlug, getUserDummyImage } from "./../core/utils";
 

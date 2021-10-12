@@ -1,9 +1,9 @@
 {
-	"name": "@gauzy/changelog",
+	"name": "@leano/changelog",
 	"version": "0.1.0",
 	"description": "Ever Gauzy Platform ChangeLog plugin",
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},
@@ -28,10 +28,10 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@gauzy/common": "^0.1.0",
-		"@gauzy/contracts": "^0.1.0",
-		"@gauzy/core": "^0.1.0",
-		"@gauzy/plugin": "^0.1.0",
+		"@leano/common": "^0.1.0",
+		"@leano/contracts": "^0.1.0",
+		"@leano/core": "^0.1.0",
+		"@leano/plugin": "^0.1.0",
 		"@nestjs/common": "^7.6.5",
 		"@nestjs/cqrs": "^7.0.1",
 		"@nestjs/passport": "^7.1.0",

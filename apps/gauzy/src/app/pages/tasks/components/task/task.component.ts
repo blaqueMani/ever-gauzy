@@ -16,9 +16,9 @@ import {
 	TaskListTypeEnum,
 	IOrganization,
 	ISelectedEmployee
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import { DeleteConfirmationComponent } from '../../../../@shared/user/forms/delete-confirmation/delete-confirmation.component';
 import { MyTaskDialogComponent } from './../my-task-dialog/my-task-dialog.component';
 import { TeamTaskDialogComponent } from '../team-task-dialog/team-task-dialog.component';

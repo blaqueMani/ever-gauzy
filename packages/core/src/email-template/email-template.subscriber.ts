@@ -1,5 +1,5 @@
 import { EntitySubscriberInterface, EventSubscriber } from "typeorm";
-import { IEmailTemplate } from "@gauzy/contracts";
+import { IEmailTemplate } from "@leano/contracts";
 import { EmailTemplate } from "./email-template.entity";
 
 @EventSubscriber()

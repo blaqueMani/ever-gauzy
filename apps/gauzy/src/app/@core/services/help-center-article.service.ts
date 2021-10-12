@@ -1,4 +1,4 @@
-import { IHelpCenterArticle } from '@gauzy/contracts';
+import { IHelpCenterArticle } from '@leano/contracts';
 import { HttpClient } from '@angular/common/http';
 import { first } from 'rxjs/operators';
 import { Injectable } from '@angular/core';

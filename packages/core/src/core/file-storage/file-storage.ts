@@ -1,6 +1,6 @@
-import { FileStorageOption, FileStorageProviderEnum } from '@gauzy/contracts';
+import { FileStorageOption, FileStorageProviderEnum } from '@leano/contracts';
 import * as Providers from './providers';
-import { environment } from '@gauzy/config';
+import { environment } from '@leano/config';
 import { Provider } from './providers/provider';
 
 export class FileStorage {

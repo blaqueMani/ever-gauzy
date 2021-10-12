@@ -1,7 +1,7 @@
 import { Connection, ILike, Not } from 'typeorm';
 import { Email } from './email.entity';
 import * as faker from 'faker';
-import { IEmail, IEmailTemplate, IOrganization, ITenant, IUser } from '@gauzy/contracts';
+import { IEmail, IEmailTemplate, IOrganization, ITenant, IUser } from '@leano/contracts';
 import { EmailTemplate, User } from './../core/entities/internal';
 
 export const createDefaultEmailSent = async (

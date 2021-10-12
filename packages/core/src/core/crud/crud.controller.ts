@@ -13,7 +13,7 @@ import {
 	HttpCode
 } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiBearerAuth } from '@nestjs/swagger';
-import { IPagination } from '@gauzy/contracts';
+import { IPagination } from '@leano/contracts';
 import { DeepPartial } from 'typeorm';
 import { QueryDeepPartialEntity } from 'typeorm/query-builder/QueryPartialEntity';
 import { BaseEntity } from '../entities/internal';

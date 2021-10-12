@@ -1,4 +1,4 @@
-import { bootstrap } from '@gauzy/core';
+import { bootstrap } from '@leano/core';
 import { pluginConfig } from './plugin-config';
 
 bootstrap(pluginConfig).catch((error) => {

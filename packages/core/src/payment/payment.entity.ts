@@ -18,7 +18,7 @@ import {
 	IOrganizationContact,
 	IOrganizationProject,
 	IUser
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	IsEnum,

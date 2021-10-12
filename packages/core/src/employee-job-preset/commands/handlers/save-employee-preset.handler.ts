@@ -1,4 +1,4 @@
-import { GauzyAIService } from '@gauzy/integration-ai';
+import { GauzyAIService } from '@leano/integration-ai';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { In, Repository } from 'typeorm';

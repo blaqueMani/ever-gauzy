@@ -11,14 +11,14 @@ import {
 	IFeatureToggle,
 	IFeatureOrganization,
 	FeatureEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Injectable } from '@angular/core';
 import { StoreConfig, Store as AkitaStore, Query } from '@datorama/akita';
 import {
 	ComponentEnum,
 	SYSTEM_DEFAULT_LAYOUT
 } from '../constants/layout.constants';
-import { ComponentLayoutStyleEnum } from '@gauzy/contracts';
+import { ComponentLayoutStyleEnum } from '@leano/contracts';
 import { map } from 'rxjs/operators';
 import { merge, Subject } from 'rxjs';
 import * as _ from 'underscore';

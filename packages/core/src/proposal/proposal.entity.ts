@@ -14,7 +14,7 @@ import {
 	IEmployee,
 	ITag,
 	IOrganizationContact
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Employee,
 	OrganizationContact,

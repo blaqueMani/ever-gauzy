@@ -9,7 +9,7 @@ import {
 	TimesheetStatus,
 	OrganizationPermissionsEnum,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import * as _ from 'underscore';
 import * as moment from 'moment';
 import { Subject } from 'rxjs';

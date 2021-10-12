@@ -1,6 +1,6 @@
 import { EntitySubscriberInterface, EventSubscriber, RemoveEvent } from "typeorm";
 import * as moment from 'moment';
-import { IScreenshot } from "@gauzy/contracts";
+import { IScreenshot } from "@leano/contracts";
 import { TimeSlot } from "./time-slot.entity";
 import { FileStorage } from "./../../core/file-storage";
 

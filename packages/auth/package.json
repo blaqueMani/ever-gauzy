@@ -1,9 +1,9 @@
 {
-	"name": "@gauzy/auth",
+	"name": "@leano/auth",
 	"version": "0.1.0",
 	"description": "Ever Gauzy Platform Auth module",
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},
@@ -26,8 +26,8 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@gauzy/common": "^0.1.0",
-		"@gauzy/config": "^0.1.0",
+		"@leano/common": "^0.1.0",
+		"@leano/config": "^0.1.0",
 		"@nestjs/passport": "^7.1.5",
 		"bcrypt": "^5.0.0",
 		"passport": "^0.4.1",

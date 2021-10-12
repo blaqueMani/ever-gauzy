@@ -9,8 +9,8 @@ import {
 	JobPostSourceEnum,
 	JobPostStatusEnum,
 	JobPostTypeEnum
-} from '@gauzy/contracts';
-import { DEFAULT_DB_CONNECTION } from '@gauzy/common';
+} from '@leano/contracts';
+import { DEFAULT_DB_CONNECTION } from '@leano/common';
 import { getConnection } from 'typeorm';
 import { Country } from '../country';
 

@@ -6,8 +6,8 @@ import {
 } from '@nestjs/common';
 import { ModuleRef } from '@nestjs/core';
 import * as chalk from 'chalk';
-import { ConfigService } from '@gauzy/config';
-import { IPluginConfig } from '@gauzy/common';
+import { ConfigService } from '@leano/config';
+import { IPluginConfig } from '@leano/common';
 import { PluginLifecycleMethods } from './extension-plugin';
 import { getPluginModules, hasLifecycleMethod } from './plugin-helper';
 

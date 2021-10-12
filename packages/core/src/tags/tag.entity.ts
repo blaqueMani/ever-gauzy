@@ -28,7 +28,7 @@ import {
 	ITask,
 	IUser,
 	IWarehouse
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Candidate,
 	Employee,

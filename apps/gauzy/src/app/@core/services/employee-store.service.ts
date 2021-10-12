@@ -3,7 +3,7 @@ import {
 	IEmployeeUpdateInput,
 	IUserFindInput,
 	IEmployeeStoreState
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { BehaviorSubject } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { Query, Store as AkitaStore, StoreConfig } from '@datorama/akita';

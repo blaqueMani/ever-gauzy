@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { first } from 'rxjs/operators';
-import { IEquipmentSharing, IEquipmentSharingRequest } from '@gauzy/contracts';
+import { IEquipmentSharing, IEquipmentSharingRequest } from '@leano/contracts';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

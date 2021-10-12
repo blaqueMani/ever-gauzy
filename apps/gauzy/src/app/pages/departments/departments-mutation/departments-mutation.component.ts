@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { IEmployee, ITag } from '@gauzy/contracts';
+import { IEmployee, ITag } from '@leano/contracts';
 
 @Component({
 	selector: 'ga-departments-mutation',

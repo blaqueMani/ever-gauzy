@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { progressStatus } from '@gauzy/common-angular';
+import { progressStatus } from '@leano/common-angular';
 
 @Component({
 	selector: 'ngx-progress-status',

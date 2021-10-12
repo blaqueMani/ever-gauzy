@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
 import { addDays } from 'date-fns';
-import { IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ITenant } from '@leano/contracts';
 import { EquipmentSharing } from './equipment-sharing.entity';
 import { Equipment } from './../core/entities/internal';
 

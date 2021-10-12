@@ -9,10 +9,10 @@ import {
 	PermissionsEnum,
 	LanguagesEnum,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ExtractJwt } from 'passport-jwt';
 import { JsonWebTokenError, verify } from 'jsonwebtoken';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 
 export class RequestContext {
 	readonly id: number;

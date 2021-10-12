@@ -4,7 +4,7 @@ import {
 	IOrganization,
 	IEmployee,
 	ITenant
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TimeOffPolicy } from './time-off-policy.entity';
 import * as faker from 'faker';
 import { DEFAULT_TIMEOFF_POLICIES } from './default-time-off-policies';

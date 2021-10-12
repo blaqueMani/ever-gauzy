@@ -1,7 +1,7 @@
 import * as faker from 'faker';
 import * as _ from 'underscore';
 import * as moment from 'moment';
-import { ActivityType, ITenant, ITimeSlot } from '@gauzy/contracts';
+import { ActivityType, ITenant, ITimeSlot } from '@leano/contracts';
 import { Activity } from './activity.entity';
 import { OrganizationProject } from '../../organization-project/organization-project.entity';
 import { Connection } from 'typeorm';

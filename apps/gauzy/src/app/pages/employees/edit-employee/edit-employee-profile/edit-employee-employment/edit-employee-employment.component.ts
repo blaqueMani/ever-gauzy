@@ -9,9 +9,9 @@ import {
 	ITag,
 	ISkill,
 	IEmployeeLevel
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import { combineLatest } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import {

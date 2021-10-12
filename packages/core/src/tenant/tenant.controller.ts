@@ -1,4 +1,4 @@
-import { IPagination, ITenant, ITenantCreateInput, RolesEnum } from '@gauzy/contracts';
+import { IPagination, ITenant, ITenantCreateInput, RolesEnum } from '@leano/contracts';
 import {
 	BadRequestException,
 	Body,

@@ -10,7 +10,7 @@ import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { FileInterceptor } from '@nestjs/platform-express';
 import * as path from 'path';
 import { CommandBus } from '@nestjs/cqrs';
-import { IImportHistory, ImportHistoryStatusEnum, IPagination, UploadedFile } from '@gauzy/contracts';
+import { IImportHistory, ImportHistoryStatusEnum, IPagination, UploadedFile } from '@leano/contracts';
 import { ImportAllService } from './import-all.service';
 import { RequestContext } from './../../core/context/request-context';
 import { FileStorage, UploadedFileStorage } from '../../core/file-storage';

@@ -16,7 +16,7 @@ import { CrudController } from './../core/crud';
 import { KeyResultService } from './keyresult.service';
 import { TenantPermissionGuard } from './../shared/guards';
 import { UUIDValidationPipe } from './../shared/pipes';
-import { IKeyResult } from '@gauzy/contracts';
+import { IKeyResult } from '@leano/contracts';
 
 @ApiTags('KeyResults')
 @UseGuards(TenantPermissionGuard)

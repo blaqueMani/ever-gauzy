@@ -4,7 +4,7 @@ import * as mjml2html from 'mjml';
 import { EmailTemplateService } from '../../email-template.service';
 import { EmailTemplateGeneratePreviewQuery } from '../email-template.generate-preview.query';
 import { moment } from '../../../core/moment-extend';
-import { ConfigService } from '@gauzy/config';
+import { ConfigService } from '@leano/config';
 
 @QueryHandler(EmailTemplateGeneratePreviewQuery)
 export class EmailTemplateGeneratePreviewHandler

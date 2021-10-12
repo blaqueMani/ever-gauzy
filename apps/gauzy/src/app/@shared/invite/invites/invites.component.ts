@@ -5,7 +5,7 @@ import {
 	ComponentLayoutStyleEnum,
 	IOrganization,
 	IInviteViewModel
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';

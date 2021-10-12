@@ -20,7 +20,7 @@ import {
 	PermissionsEnum,
 	ComponentLayoutStyleEnum,
 	CrudActionEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TranslationBaseComponent } from '../../@shared/language-base';
 import {
 	EmployeesService,

@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { IOrganization, IOrganizationPosition, ITenant } from '@gauzy/contracts';
+import { IOrganization, IOrganizationPosition, ITenant } from '@leano/contracts';
 import { OrganizationPosition } from './organization-position.entity';
 import { DEFAULT_ORGANIZATION_POSITIONS } from './default-organization-positions';
 

@@ -8,7 +8,7 @@ import {
 } from '@nestjs/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { CommandBus } from '@nestjs/cqrs';
-import { IIntegrationEntitySettingTied } from '@gauzy/contracts';
+import { IIntegrationEntitySettingTied } from '@leano/contracts';
 import { IntegrationEntitySettingTied } from './integration-entity-setting-tied';
 import { TenantPermissionGuard } from './../shared/guards';
 import { UUIDValidationPipe } from './../shared/pipes';

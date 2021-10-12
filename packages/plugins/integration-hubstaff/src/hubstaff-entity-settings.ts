@@ -1,4 +1,4 @@
-import { IntegrationEntity } from '@gauzy/contracts';
+import { IntegrationEntity } from '@leano/contracts';
 
 export const DEFAULT_ENTITY_SETTINGS = [
 	{

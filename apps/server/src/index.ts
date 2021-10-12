@@ -16,12 +16,12 @@ import {
 	LocalStore,
 	apiServer,
 	AppMenu
-} from '@gauzy/desktop-libs';
+} from '@leano/desktop-libs';
 import {
 	createSetupWindow,
 	createServerWindow,
 	createSettingsWindow
-} from '@gauzy/desktop-window';
+} from '@leano/desktop-window';
 // import { initSentry } from './sentry';
 import os from 'os';
 import { readFileSync, writeFileSync, accessSync, constants } from 'fs';

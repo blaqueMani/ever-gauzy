@@ -11,7 +11,7 @@ import {
 	IOrganization,
 	IUser,
 	InvitationExpirationEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { filter, first, tap } from 'rxjs/operators';
 import { NbTagComponent, NbTagInputAddEvent, NbTagInputDirective } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

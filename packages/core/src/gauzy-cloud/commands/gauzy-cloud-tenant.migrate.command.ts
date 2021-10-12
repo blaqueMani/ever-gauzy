@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { ITenantCreateInput } from '@gauzy/contracts';
+import { ITenantCreateInput } from '@leano/contracts';
 
 export class GauzyCloudTenantMigrateCommand implements ICommand {
 	static readonly type = '[Gauzy Cloud] Tenant Migrate';

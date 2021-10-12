@@ -1,7 +1,7 @@
 import { Column, Entity, Index, JoinColumn, ManyToOne, RelationId } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsOptional, IsString } from 'class-validator';
-import { IOrganizationLanguage } from '@gauzy/contracts';
+import { IOrganizationLanguage } from '@leano/contracts';
 import {
 	Language,
 	TenantOrganizationBaseEntity

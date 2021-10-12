@@ -4,7 +4,7 @@ import {
 	IEmployee,
 	IEmployeeCreateInput,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { EmployeeBulkCreateCommand } from '../employee.bulk.create.command';
 import { AuthService } from '../../../auth/auth.service';
 import { EmailService } from '../../../email';

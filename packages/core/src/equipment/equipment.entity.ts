@@ -4,7 +4,7 @@ import {
 	IEquipmentSharing,
 	ITag,
 	IImageAsset
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Entity,
 	Column,

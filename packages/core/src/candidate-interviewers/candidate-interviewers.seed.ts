@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { ICandidate, IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { ICandidate, IEmployee, IOrganization, ITenant } from '@leano/contracts';
 import * as faker from 'faker';
 import { CandidateInterview, CandidateInterviewers } from './../core/entities/internal';
 

@@ -4,7 +4,7 @@
 
 import { Connection } from 'typeorm';
 import * as bcrypt from 'bcrypt';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import * as faker from 'faker';
 import {
 	IDefaultUser,
@@ -15,7 +15,7 @@ import {
 	ITenant,
 	IUser,
 	ComponentLayoutStyleEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { User } from './user.entity';
 import { getUserDummyImage, Role } from '../core';
 import { DEFAULT_EMPLOYEES, DEFAULT_EVER_EMPLOYEES } from '../employee/default-employees';

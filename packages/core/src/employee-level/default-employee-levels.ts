@@ -1,4 +1,4 @@
-import { IEmployeeLevelInput } from '@gauzy/contracts';
+import { IEmployeeLevelInput } from '@leano/contracts';
 
 export const DEFAULT_EMPLOYEE_LEVELS: IEmployeeLevelInput[] = [
 	{

@@ -6,7 +6,7 @@ import { SettingsComponent } from './settings.component';
 import { EmailHistoryComponent } from './email-history/email-history.component';
 import { FileStorageComponent } from './file-storage/file-storage.component';
 import { NgxPermissionsGuard } from 'ngx-permissions';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@leano/contracts';
 import { SmsGatewayComponent } from './sms-gateway/sms-gateway.component';
 
 const routes: Routes = [

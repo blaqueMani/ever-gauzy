@@ -7,7 +7,7 @@ import { Entity, Index, Column } from 'typeorm';
 import {
 	IApprovalPolicy,
 	ApprovalPolicyTypesStringEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsNotEmpty, IsEnum } from 'class-validator';
 import { TenantOrganizationBaseEntity } from '../core/entities/internal';

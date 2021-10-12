@@ -4,7 +4,7 @@ import { Repository, SelectQueryBuilder } from 'typeorm';
 import { TimeSlot } from './../../time-slot.entity';
 import { TimeSlotRangeDeleteCommand } from '../time-slot-range-delete.command';
 import * as moment from 'moment';
-import { ConfigService } from '@gauzy/config';
+import { ConfigService } from '@leano/config';
 
 @CommandHandler(TimeSlotRangeDeleteCommand)
 export class TimeSlotRangeDeleteHandler

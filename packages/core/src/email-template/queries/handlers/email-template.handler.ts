@@ -1,6 +1,6 @@
 
 import { IQueryHandler, QueryHandler } from '@nestjs/cqrs';
-import { IEmailTemplate, IListQueryInput } from '@gauzy/contracts';
+import { IEmailTemplate, IListQueryInput } from '@leano/contracts';
 import { EmailTemplateService } from './../../email-template.service';
 import { EmailTemplateQuery } from '../email-template.query';
 

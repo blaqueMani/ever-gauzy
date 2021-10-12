@@ -1,7 +1,7 @@
 import { DynamicModule, Module } from '@nestjs/common';
 import { GraphQLModule, GraphQLTypesLoader } from '@nestjs/graphql';
-import { IGraphQLApiOptions } from '@gauzy/common';
-import { ConfigService } from '@gauzy/config';
+import { IGraphQLApiOptions } from '@leano/common';
+import { ConfigService } from '@leano/config';
 import { createGraphqlModuleOptions } from './graphql-helper';
 
 @Module({})

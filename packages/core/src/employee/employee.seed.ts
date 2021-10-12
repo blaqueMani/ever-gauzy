@@ -7,9 +7,9 @@ import {
 	ITenant,
 	IUser,
 	PayPeriodEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import * as faker from 'faker';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import * as moment from 'moment';
 import { Employee, Organization } from './../core/entities/internal';
 import { getDefaultOrganization } from './../organization/organization.seed';

@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 import { TimeSlot } from './../../time-slot.entity';
 import { DeleteTimeSpanCommand } from '../../../time-log/commands/delete-time-span.command';
 import { DeleteTimeSlotCommand } from '../delete-time-slot.command';
-import { ITimeSlot, PermissionsEnum } from '@gauzy/contracts';
+import { ITimeSlot, PermissionsEnum } from '@leano/contracts';
 import { RequestContext } from './../../../../core/context/request-context';
 
 @CommandHandler(DeleteTimeSlotCommand)

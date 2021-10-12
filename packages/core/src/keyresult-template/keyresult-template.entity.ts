@@ -5,7 +5,7 @@ import {
 	KeyResultDeadlineEnum,
 	IGoalTemplate,
 	IGoalKPITemplate
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsOptional, IsEnum, IsString } from 'class-validator';
 import {

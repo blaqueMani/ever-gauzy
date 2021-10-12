@@ -11,7 +11,7 @@ import {
 	LanguagesEnum,
 	IEmployeeAward,
 	IEmployeeLevel
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	switchMap,
 	map,

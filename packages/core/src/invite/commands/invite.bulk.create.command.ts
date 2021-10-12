@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { ICreateEmailInvitesInput, LanguagesEnum } from '@gauzy/contracts';
+import { ICreateEmailInvitesInput, LanguagesEnum } from '@leano/contracts';
 import { Request } from 'express';
 
 export class InviteBulkCreateCommand implements ICommand {

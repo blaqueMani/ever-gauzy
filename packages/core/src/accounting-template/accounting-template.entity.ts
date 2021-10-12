@@ -4,7 +4,7 @@ import { IsNotEmpty, IsString, IsEnum } from 'class-validator';
 import {
 	AccountingTemplateTypeEnum,
 	IAccountingTemplate
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TenantOrganizationBaseEntity } from '../core/entities/internal';
 
 @Entity('accounting_template')

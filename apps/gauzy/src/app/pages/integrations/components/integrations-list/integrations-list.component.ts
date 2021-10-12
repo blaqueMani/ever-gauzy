@@ -8,7 +8,7 @@ import {
 import {
 	IIntegrationViewModel,
 	DEFAULT_INTEGRATION_PAID_FILTERS
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	InitialFilter,
 	IntegrationsStoreService

@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { ITimesheet } from '@gauzy/contracts';
+import { ITimesheet } from '@leano/contracts';
 import { TimeSheetService } from './../../../timesheet/timesheet.service';
 import { TimesheetGetCommand } from './../timesheet-get.command';
 

@@ -9,7 +9,7 @@ import {
 	IGetTimeLogReportInput,
 	IClientBudgetLimitReport,
 	OrganizationContactBudgetTypeEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { debounceTime, tap } from 'rxjs/operators';
 import { pick } from 'underscore';

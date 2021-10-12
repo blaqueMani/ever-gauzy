@@ -1,4 +1,4 @@
-import { IEmployee, IOrganizationTeam, IOrganizationTeamEmployee } from '@gauzy/contracts';
+import { IEmployee, IOrganizationTeam, IOrganizationTeamEmployee } from '@leano/contracts';
 import { Entity, Column, ManyToOne, RelationId, Index } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsNotEmpty } from 'class-validator';

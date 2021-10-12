@@ -2,7 +2,7 @@ import {
 	PermissionsEnum,
 	IRolePermission,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsEnum, IsNotEmpty, IsString } from 'class-validator';
 import { Column, Entity, Index, ManyToOne, RelationId } from 'typeorm';

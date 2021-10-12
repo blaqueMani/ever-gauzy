@@ -2,13 +2,13 @@ import { Module } from '@nestjs/common';
 import { CqrsModule } from '@nestjs/cqrs';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { RouterModule } from 'nest-router';
-import { getEntitiesFromPlugins } from '@gauzy/plugin';
-import { getConfig } from '@gauzy/config';
+import { getEntitiesFromPlugins } from '@leano/plugin';
+import { getConfig } from '@leano/config';
 import {
 	UpworkReportService,
 	UpworkJobService,
 	UpworkOffersService
-} from '@gauzy/integration-upwork';
+} from '@leano/integration-upwork';
 import { coreEntities } from './../../core/entities';
 import { ExportAllController } from './export-all.controller';
 import { ExportAllService } from './export-all.service';

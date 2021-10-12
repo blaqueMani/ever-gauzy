@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@leano/contracts';
 import { ProductOption } from './product-option.entity';
 import * as faker from 'faker';
 import { ProductCategory } from '../product-category/product-category.entity';

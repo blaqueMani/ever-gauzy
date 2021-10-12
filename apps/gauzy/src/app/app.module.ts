@@ -64,7 +64,7 @@ import { GoogleMapsLoaderService } from './@core/services/google-maps-loader.ser
 import { Router } from '@angular/router';
 import { FeatureToggleModule } from 'ngx-feature-toggle';
 import { FeatureService } from './@core/services/feature/feature.service';
-import { IFeatureToggle, LanguagesEnum } from '@gauzy/contracts';
+import { IFeatureToggle, LanguagesEnum } from '@leano/contracts';
 import { HttpLoaderFactory } from './@shared/translate/translate.module';
 import { AppInitService } from './@core/services/app-init-service';
 

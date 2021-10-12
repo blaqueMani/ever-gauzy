@@ -1,4 +1,4 @@
-import { IHelpCenter } from '@gauzy/contracts';
+import { IHelpCenter } from '@leano/contracts';
 
 export const DEFAULT_HELP_CENTER_MENUS: IHelpCenter[] = [
 	{

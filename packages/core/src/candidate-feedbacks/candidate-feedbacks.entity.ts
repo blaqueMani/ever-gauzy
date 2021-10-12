@@ -16,7 +16,7 @@ import {
 	ICandidateCriterionsRating,
 	ICandidate,
 	ICandidateInterview
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { IsEnum, IsOptional, IsString } from 'class-validator';
 import {
 	Candidate,

@@ -9,13 +9,13 @@ import {
 	IEmployee,
 	IOrganizationVendor,
 	IExpenseCategory
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { NbDialogService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Subject } from 'rxjs/internal/Subject';
 import { combineLatest } from 'rxjs';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@leano/common-angular';
 import * as moment from 'moment';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';
 import { TranslateService } from '@ngx-translate/core';

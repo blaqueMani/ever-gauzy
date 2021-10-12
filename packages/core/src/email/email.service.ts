@@ -6,15 +6,15 @@ import {
 	IOrganizationContact,
 	LanguagesEnum,
 	IJoinEmployeeModel
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as Email from 'email-templates';
 import * as Handlebars from 'handlebars';
 import * as nodemailer from 'nodemailer';
 import { Repository, IsNull } from 'typeorm';
-import { environment as env } from '@gauzy/config';
-import { ISMTPConfig } from '@gauzy/common';
+import { environment as env } from '@leano/config';
+import { ISMTPConfig } from '@leano/common';
 import { TenantAwareCrudService } from './../core/crud';
 import { Email as IEmail } from './email.entity';
 import { RequestContext } from '../core/context';

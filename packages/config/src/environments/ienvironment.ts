@@ -2,7 +2,7 @@
 // MIT License, see https://github.com/xmlking/ngx-starter-kit/blob/develop/LICENSE
 // Copyright (c) 2018 Sumanth Chinthagunta
 
-import { FileStorageProviderEnum } from '@gauzy/contracts';
+import { FileStorageProviderEnum } from '@leano/contracts';
 import {
 	IAuth0Config,
 	IAWSConfig,
@@ -17,7 +17,7 @@ import {
 	ITwitterConfig,
 	IUnleashConfig,
 	IUpworkConfig
-} from '@gauzy/common';
+} from '@leano/common';
 
 export type LogLevel = 'debug' | 'info' | 'warn' | 'error';
 

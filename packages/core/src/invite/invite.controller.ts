@@ -8,7 +8,7 @@ import {
 	IOrganizationContactAcceptInviteInput,
 	IOrganizationContact,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	BadRequestException,
 	Body,

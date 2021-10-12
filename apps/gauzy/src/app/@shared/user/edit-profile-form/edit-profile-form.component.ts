@@ -17,7 +17,7 @@ import {
 	ITag,
 	IRole,
 	IUserUpdateInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Subject } from 'rxjs/internal/Subject';
 import { debounceTime, filter, first, tap } from 'rxjs/operators';

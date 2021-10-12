@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
 import { IntegrationSetting } from './integration-setting.entity';
 import * as faker from 'faker';
-import { ITenant } from '@gauzy/contracts';
+import { ITenant } from '@leano/contracts';
 import { IntegrationTenant, Organization } from './../core/entities/internal';
 
 export const createRandomIntegrationSetting = async (

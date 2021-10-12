@@ -6,7 +6,7 @@ import { CrudService } from '../core/crud/crud.service';
 import {
 	IFeature,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @Injectable()
 export class FeatureService extends CrudService<Feature> {

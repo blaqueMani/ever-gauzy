@@ -5,7 +5,7 @@ import {
 	IOrganizationDepartmentCreateInput,
 	ITag,
 	ComponentLayoutStyleEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { EmployeesService } from 'apps/gauzy/src/app/@core/services';
 import { OrganizationDepartmentsService } from 'apps/gauzy/src/app/@core/services/organization-departments.service';

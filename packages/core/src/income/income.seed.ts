@@ -1,11 +1,11 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
-import { IOrganization, IEmployee, ITenant } from '@gauzy/contracts';
+import { IOrganization, IEmployee, ITenant } from '@leano/contracts';
 import * as fs from 'fs';
 import * as csv from 'csv-parser';
 import * as path from 'path';
 import * as moment from 'moment';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import { Income, OrganizationContact } from './../core/entities/internal';
 
 export const createDefaultIncomes = async (

@@ -27,7 +27,7 @@ import {
 	ITaskUpdateInput,
 	ITaskCreateInput,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { RequestContext } from '../core/context';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';
 import { CommandBus } from '@nestjs/cqrs';

@@ -5,7 +5,7 @@ import yargs from 'yargs';
 import * as chalk from 'chalk';
 
 import { NestFactory } from '@nestjs/core';
-import { IPluginConfig } from '@gauzy/common';
+import { IPluginConfig } from '@leano/common';
 import { registerPluginConfig } from './../../bootstrap';
 import { SeedDataService } from './seed-data.service';
 import { SeederModule } from './seeder.module';

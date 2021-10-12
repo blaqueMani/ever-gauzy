@@ -18,7 +18,7 @@ import {
 	DefaultValueDateTypeEnum,
 	ImportTypeEnum, 
 	IUserOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ExportAllService } from '../../@core/services/export-all.service';
 import { environment } from './../../../environments/environment';
 import { Environment } from './../../../environments/model';

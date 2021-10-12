@@ -1,4 +1,4 @@
-import { IEmployeePresetInput } from '@gauzy/contracts';
+import { IEmployeePresetInput } from '@leano/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class SaveEmployeePresetCommand implements ICommand {

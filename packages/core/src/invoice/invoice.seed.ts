@@ -11,7 +11,7 @@ import {
 	IOrganizationContact,
 	ITag,
 	ITenant
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import * as _ from 'underscore';
 import { InvoiceEstimateHistory, OrganizationContact, Tag, User } from './../core/entities/internal';
 import { randomSeedConfig } from './../core/seeds/random-seed-config';

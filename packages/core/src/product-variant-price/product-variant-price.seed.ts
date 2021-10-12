@@ -1,11 +1,11 @@
 import { Connection } from 'typeorm';
-import { IOrganization, IProductVariantPrice, ITenant } from '@gauzy/contracts';
+import { IOrganization, IProductVariantPrice, ITenant } from '@leano/contracts';
 import { ProductVariantPrice } from './product-variant-price.entity';
 import * as faker from 'faker';
 import { ProductCategory } from '../product-category/product-category.entity';
 import { Product } from '../product/product.entity';
 import { ProductVariant } from '../product-variant/product-variant.entity';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 
 export const createRandomProductVariantPrice = async (
 	connection: Connection,

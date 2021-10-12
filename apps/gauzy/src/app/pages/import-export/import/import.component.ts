@@ -5,7 +5,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { ActivatedRoute } from '@angular/router';
-import { IImportHistory, ImportTypeEnum, ImportHistoryStatusEnum } from '@gauzy/contracts';
+import { IImportHistory, ImportTypeEnum, ImportHistoryStatusEnum } from '@leano/contracts';
 import { Subject } from 'rxjs/internal/Subject';
 import { Observable } from 'rxjs/internal/Observable';
 import { TranslationBaseComponent } from '../../../@shared/language-base/translation-base.component';

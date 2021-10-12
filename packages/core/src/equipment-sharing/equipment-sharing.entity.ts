@@ -15,7 +15,7 @@ import {
 	IEquipmentSharingPolicy,
 	IOrganizationTeam,
 	RequestApprovalStatusTypesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsDate, IsEnum, IsNotEmpty, IsString } from 'class-validator';
 import {

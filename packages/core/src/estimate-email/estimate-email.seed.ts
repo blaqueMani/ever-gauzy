@@ -1,10 +1,10 @@
 import { Connection } from 'typeorm';
 import { Tenant } from '../tenant/tenant.entity';
-import { IEmployee, IOrganization } from '@gauzy/contracts';
+import { IEmployee, IOrganization } from '@leano/contracts';
 import { EstimateEmail } from './estimate-email.entity';
 import * as faker from 'faker';
 import { sign } from 'jsonwebtoken';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 
 export const createRandomEstimateEmail = async (
 	connection: Connection,

@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { ICandidateInterviewersDeleteInput } from '@gauzy/contracts';
+import { ICandidateInterviewersDeleteInput } from '@leano/contracts';
 
 export class CandidateInterviewersEmployeeBulkDeleteCommand
 	implements ICommand {

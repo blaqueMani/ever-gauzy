@@ -1,7 +1,7 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { UserCreateCommand } from '../user.create.command';
 import { UserService } from '../../user.service';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@leano/contracts';
 
 @CommandHandler(UserCreateCommand)
 export class UserCreateHandler implements ICommandHandler<UserCreateCommand> {

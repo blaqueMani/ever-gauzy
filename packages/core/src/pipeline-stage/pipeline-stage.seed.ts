@@ -1,6 +1,6 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@leano/contracts';
 import { PipelineStage } from './pipeline-stage.entity';
 import { Pipeline } from './../core/entities/internal';
 

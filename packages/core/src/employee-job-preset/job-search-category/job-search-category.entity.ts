@@ -6,7 +6,7 @@ import {
 	IJobPreset,
 	IEmployeeUpworkJobsSearchCriterion,
 	IJobPresetUpworkJobSearchCriterion
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	EmployeeUpworkJobsSearchCriterion,
 	JobPresetUpworkJobSearchCriterion,

@@ -1,4 +1,4 @@
-import { IPipeline, IPipelineStage } from '@gauzy/contracts';
+import { IPipeline, IPipelineStage } from '@leano/contracts';
 import {
 	AfterInsert,
 	AfterLoad,

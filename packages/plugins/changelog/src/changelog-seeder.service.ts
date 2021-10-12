@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { SeedDataService } from '@gauzy/core';
+import { SeedDataService } from '@leano/core';
 import { createChangelog } from './changelog.seed';
 import { Connection, getConnection } from 'typeorm';
-import { SEEDER_DB_CONNECTION } from '@gauzy/common';
+import { SEEDER_DB_CONNECTION } from '@leano/common';
 
 /**
  * Service dealing with help center based operations.

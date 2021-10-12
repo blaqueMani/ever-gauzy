@@ -15,7 +15,7 @@ import {
 	ILanguage,
 	IProductTranslation,
 	IProductTranslatable
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { ProductTypeService } from '../../../../@core/services/product-type.service';
 import { ProductCategoryService } from '../../../../@core/services/product-category.service';

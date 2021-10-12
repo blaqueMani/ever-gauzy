@@ -1,4 +1,4 @@
-import { IEmployee, IEmployeeCreateInput, IPagination } from '@gauzy/contracts';
+import { IEmployee, IEmployeeCreateInput, IPagination } from '@leano/contracts';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as moment from 'moment';

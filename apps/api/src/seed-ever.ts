@@ -1,4 +1,4 @@
-import { seedEver } from '@gauzy/core';
+import { seedEver } from '@leano/core';
 import { pluginConfig } from './plugin-config';
 
 /*

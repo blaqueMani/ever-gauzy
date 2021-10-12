@@ -10,12 +10,12 @@ import {
 	IGetCountsStatistics,
 	ITimeLogFilters,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { pick } from 'underscore';
 import { debounceTime, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
-import { isNotEmpty } from '@gauzy/common-angular';
+import { isNotEmpty } from '@leano/common-angular';
 import { Store } from './../../../../@core/services';
 import { TimesheetStatisticsService } from '../../../timesheet/timesheet-statistics.service';
 import { ReportBaseComponent } from '../../report-base/report-base.component';

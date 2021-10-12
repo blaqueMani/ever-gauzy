@@ -1,6 +1,6 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
-import { IOrganization, IPipeline, ITenant } from '@gauzy/contracts';
+import { IOrganization, IPipeline, ITenant } from '@leano/contracts';
 import { Pipeline } from './pipeline.entity';
 
 export const createDefaultPipeline = async (

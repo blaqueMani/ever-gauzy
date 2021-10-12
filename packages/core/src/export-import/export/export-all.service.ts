@@ -9,9 +9,9 @@ import * as csv from 'csv-writer';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as fse from 'fs-extra';
-import { ConfigService } from '@gauzy/config';
-import { getEntitiesFromPlugins } from '@gauzy/plugin';
-import { isFunction, isNotEmpty } from '@gauzy/common';
+import { ConfigService } from '@leano/config';
+import { getEntitiesFromPlugins } from '@leano/plugin';
+import { isFunction, isNotEmpty } from '@leano/common';
 import {
 	AccountingTemplate,
 	Activity,

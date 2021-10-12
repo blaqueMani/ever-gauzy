@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { NbDialogRef, NbDialogService } from '@nebular/theme';
-import { IScreenshot, ITimeSlot, PermissionsEnum } from '@gauzy/contracts';
-import { progressStatus } from '@gauzy/common-angular';
+import { IScreenshot, ITimeSlot, PermissionsEnum } from '@leano/contracts';
+import { progressStatus } from '@leano/common-angular';
 import { TimeLogsLabel } from './../../../../@core/constants/timesheet.constants';
 import { TimesheetService } from '../../timesheet.service';
 import { ViewTimeLogModalComponent } from '../../view-time-log-modal/view-time-log-modal/view-time-log-modal.component';

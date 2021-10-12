@@ -18,8 +18,8 @@ import {
 	IProjectBudgetLimitReport,
 	IProjectBudgetLimitReportInput,
 	IClientBudgetLimitReportInput
-} from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { toParams } from '@leano/common-angular';
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 import { Observable } from 'rxjs/Observable';
 import { API_PREFIX } from '../../@core/constants/app.constants';

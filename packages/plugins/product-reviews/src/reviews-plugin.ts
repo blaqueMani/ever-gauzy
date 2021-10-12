@@ -1,4 +1,4 @@
-import { ExtensionPlugin } from '@gauzy/plugin';
+import { ExtensionPlugin } from '@leano/plugin';
 import { ProductReview } from './entities/product-review.entity';
 import { schemaExtensions } from './graphql/schema-extensions';
 

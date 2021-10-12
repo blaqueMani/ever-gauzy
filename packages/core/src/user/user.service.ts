@@ -7,7 +7,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, InsertResult, SelectQueryBuilder } from 'typeorm';
 import { User } from './user.entity';
 import { TenantAwareCrudService } from './../core/crud';
-import { ComponentLayoutStyleEnum, IUser, LanguagesEnum, RolesEnum } from '@gauzy/contracts';
+import { ComponentLayoutStyleEnum, IUser, LanguagesEnum, RolesEnum } from '@leano/contracts';
 
 @Injectable()
 export class UserService extends TenantAwareCrudService<User> {

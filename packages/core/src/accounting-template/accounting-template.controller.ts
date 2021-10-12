@@ -24,7 +24,7 @@ import {
 	IAccountingTemplateUpdateInput,
 	IPagination,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CrudController, PaginationParams } from '../core/crud';
 import { RequestContext } from './../core/context';
 import { TenantPermissionGuard } from './../shared/guards';

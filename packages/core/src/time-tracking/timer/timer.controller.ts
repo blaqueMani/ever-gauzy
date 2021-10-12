@@ -15,7 +15,7 @@ import {
 	ITimerStatusInput,
 	RolesEnum,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TimerService } from './timer.service';
 import { PermissionGuard, RoleGuard, TenantPermissionGuard } from './../../shared/guards';
 import { Permissions } from './../../shared/decorators';

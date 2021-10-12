@@ -1,6 +1,6 @@
 import { Body, Controller, Get, HttpStatus, Post, Query, UseGuards } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IPagination, IRole, PermissionsEnum } from '@gauzy/contracts';
+import { IPagination, IRole, PermissionsEnum } from '@leano/contracts';
 import { RoleService } from './role.service';
 import { CrudController } from './../core/crud';
 import { Role } from './role.entity';

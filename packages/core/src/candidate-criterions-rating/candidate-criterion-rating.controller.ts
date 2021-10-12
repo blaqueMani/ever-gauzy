@@ -12,7 +12,7 @@ import {
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { CommandBus } from '@nestjs/cqrs';
-import { ICandidateCriterionsRating, IPagination, RolesEnum } from '@gauzy/contracts';
+import { ICandidateCriterionsRating, IPagination, RolesEnum } from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { CandidateCriterionsRatingService } from './candidate-criterion-rating.service';
 import { CandidateCriterionsRating } from './candidate-criterion-rating.entity';

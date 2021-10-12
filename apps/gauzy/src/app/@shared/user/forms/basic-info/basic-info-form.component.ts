@@ -7,7 +7,7 @@ import {
 	AfterViewInit
 } from '@angular/core';
 import { Validators, FormBuilder } from '@angular/forms';
-import { RolesEnum, ITag, ITenant, IUser } from '@gauzy/contracts';
+import { RolesEnum, ITag, ITenant, IUser } from '@leano/contracts';
 import { first } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslationBaseComponent } from '../../../language-base/translation-base.component';

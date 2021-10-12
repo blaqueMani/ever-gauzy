@@ -11,7 +11,7 @@ import {
 	OrganizationPermissionsEnum,
 	PermissionsEnum,
 	ReportDayData
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import * as moment from 'moment';
 import { debounceTime, tap } from 'rxjs/operators';

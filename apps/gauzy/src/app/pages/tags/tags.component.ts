@@ -9,8 +9,8 @@ import {
 	ITag,
 	IOrganization,
 	ComponentLayoutStyleEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange, splitCamelCase } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { distinctUntilChange, splitCamelCase } from '@leano/common-angular';
 import { DeleteConfirmationComponent } from '../../@shared/user/forms';
 import { TagsColorComponent } from './tags-color/tags-color.component';
 import { TagsMutationComponent } from '../../@shared/tags/tags-mutation.component';

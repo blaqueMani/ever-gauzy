@@ -6,7 +6,7 @@ import {
 	IProductTypeTranslatable,
 	IProductTypeTranslated,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { ProductType } from './product-type.entity';
 

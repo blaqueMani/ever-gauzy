@@ -6,7 +6,7 @@ import { EquipmentSharingService } from '../../../equipment-sharing';
 import {
 	ApprovalPolicyTypesStringEnum,
 	StatusTypesMapRequestApprovalEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TimeOffRequestService } from '../../../time-off-request/time-off-request.service';
 
 @CommandHandler(RequestApprovalStatusCommand)

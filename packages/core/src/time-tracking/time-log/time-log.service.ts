@@ -23,12 +23,12 @@ import {
 	IClientBudgetLimitReport,
 	ReportGroupFilterEnum,
 	IOrganizationProject
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import * as moment from 'moment';
 import { CommandBus } from '@nestjs/cqrs';
 import * as _ from 'underscore';
 import { chain } from 'underscore';
-import { ConfigService } from '@gauzy/config';
+import { ConfigService } from '@leano/config';
 import { TenantAwareCrudService } from './../../core/crud';
 import {
 	Employee,

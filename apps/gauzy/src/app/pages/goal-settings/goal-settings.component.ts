@@ -16,7 +16,7 @@ import {
 	GoalOwnershipEnum,
 	IGoalGeneralSetting,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Router, RouterEvent, NavigationEnd } from '@angular/router';
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { GoalTemplatesComponent } from '../../@shared/goal/goal-templates/goal-templates.component';

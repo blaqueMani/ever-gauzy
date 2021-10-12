@@ -3,8 +3,8 @@ import {
 	DEFAULT_API_PORT,
 	DEFAULT_API_BASE_URL,
 	DEFAULT_GRAPHQL_API_PATH
-} from '@gauzy/common';
-import { dbConnectionConfig } from '@gauzy/config';
+} from '@leano/common';
+import { dbConnectionConfig } from '@leano/config';
 import { bootstrap } from './bootstrap';
 
 bootstrap({

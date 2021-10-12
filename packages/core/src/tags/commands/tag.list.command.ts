@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { ITagFindInput } from '@gauzy/contracts';
+import { ITagFindInput } from '@leano/contracts';
 
 export class TagListCommand implements ICommand {
 	static readonly type = '[Tag] List';

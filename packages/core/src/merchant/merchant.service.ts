@@ -1,6 +1,6 @@
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { IMerchant, IPagination } from '@gauzy/contracts';
+import { IMerchant, IPagination } from '@leano/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { Merchant } from './../core/entities/internal';
 

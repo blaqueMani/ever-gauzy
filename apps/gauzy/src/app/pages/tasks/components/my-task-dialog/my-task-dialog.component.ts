@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ITask, IOrganizationProject, IEmployee, ITag } from '@gauzy/contracts';
+import { ITask, IOrganizationProject, IEmployee, ITag } from '@leano/contracts';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { NbDialogRef } from '@nebular/theme';
 import { OrganizationProjectsService } from '../../../../@core/services/organization-projects.service';

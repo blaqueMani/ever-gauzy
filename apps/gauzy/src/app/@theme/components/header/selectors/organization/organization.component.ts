@@ -1,8 +1,8 @@
 import { Component, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
-import { IOrganization, CrudActionEnum } from '@gauzy/contracts';
+import { IOrganization, CrudActionEnum } from '@leano/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { isNotEmpty } from '@gauzy/common-angular';
+import { isNotEmpty } from '@leano/common-angular';
 import { uniq } from 'underscore';
 import { OrganizationEditStore, Store, UsersOrganizationsService } from './../../../../../@core/services';
 

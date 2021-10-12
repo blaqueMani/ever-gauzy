@@ -1,4 +1,4 @@
-import { ICandidateInterview, IOrganization } from '@gauzy/contracts';
+import { ICandidateInterview, IOrganization } from '@leano/contracts';
 import { Component, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { first, filter, tap } from 'rxjs/operators';

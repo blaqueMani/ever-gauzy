@@ -1,4 +1,4 @@
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import { CanActivate, ExecutionContext, Injectable } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
 import { verify } from 'jsonwebtoken';

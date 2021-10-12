@@ -1,9 +1,9 @@
 {
-	"name": "@gauzy/common",
+	"name": "@leano/common",
 	"version": "0.1.0",
 	"description": "Ever Gauzy Platform Common module",
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},

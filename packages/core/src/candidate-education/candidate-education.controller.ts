@@ -1,7 +1,7 @@
 import { CandidateEducationService } from './candidate-education.service';
 import { Controller, HttpStatus, Get, Query, UseGuards } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { ICandidateEducation, IPagination } from '@gauzy/contracts';
+import { ICandidateEducation, IPagination } from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { CandidateEducation } from './candidate-education.entity';
 import { TenantPermissionGuard } from './../shared/guards';

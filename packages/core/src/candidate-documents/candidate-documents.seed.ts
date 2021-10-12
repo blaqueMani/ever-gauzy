@@ -1,4 +1,4 @@
-import { ICandidate, ICandidateDocument, IOrganization, ITenant } from '@gauzy/contracts';
+import { ICandidate, ICandidateDocument, IOrganization, ITenant } from '@leano/contracts';
 import * as faker from 'faker';
 import { Connection } from 'typeorm';
 import { CandidateDocument, Organization } from './../core/entities/internal';

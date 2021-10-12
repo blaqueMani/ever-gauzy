@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IInvoice } from '@gauzy/contracts';
+import { IInvoice } from '@leano/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { InvoicesService } from '../../../@core/services/invoices.service';
 

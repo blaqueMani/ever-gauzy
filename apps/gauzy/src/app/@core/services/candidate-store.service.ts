@@ -3,7 +3,7 @@ import {
 	ICandidate,
 	ICandidateUpdateInput,
 	ICandidateInterview
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
 

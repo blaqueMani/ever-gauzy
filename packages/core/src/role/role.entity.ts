@@ -1,7 +1,7 @@
 import { Column, Entity, Index, OneToMany } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty, IsEnum } from 'class-validator';
-import { RolesEnum, IRolePermission, IRole } from '@gauzy/contracts';
+import { RolesEnum, IRolePermission, IRole } from '@leano/contracts';
 import { RolePermission, TenantBaseEntity } from '../core/entities/internal';
 
 @Entity('role')

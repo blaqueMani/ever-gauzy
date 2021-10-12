@@ -9,9 +9,9 @@ import {
 	ITenant,
 	ITimesheet,
 	ITimeLog
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import * as moment from 'moment';
-import { IPluginConfig, isEmpty } from '@gauzy/common';
+import { IPluginConfig, isEmpty } from '@leano/common';
 import { createRandomScreenshot } from '../screenshot/screenshot.seed';
 import { createTimeSlots } from '../time-slot/time-slot.seed';
 import { OrganizationProject, Screenshot, TimeLog, TimeSlot } from './../../core/entities/internal';

@@ -15,8 +15,8 @@ import {
 	ICandidateDocument,
 	ICandidateSource,
 	IOrganization
-} from '@gauzy/contracts';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { distinctUntilChange, isNotEmpty } from '@leano/common-angular';
 import {
 	CandidateSourceService,
 	CandidatesService,

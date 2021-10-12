@@ -8,8 +8,8 @@ import {
 	IPagination,
 	IReport,
 	UpdateReportMenuInput
-} from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { toParams } from '@leano/common-angular';
 import { Query, Store, StoreConfig } from '@datorama/akita';
 import { API_PREFIX } from '../../../@core/constants/app.constants';
 

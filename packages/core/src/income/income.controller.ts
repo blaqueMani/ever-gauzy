@@ -20,7 +20,7 @@ import {
 	IIncomeCreateInput,
 	IPagination,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { RequestContext } from '../core/context';
 import { CrudController, PaginationParams } from './../core/crud';
 import { EmployeeService } from '../employee/employee.service';

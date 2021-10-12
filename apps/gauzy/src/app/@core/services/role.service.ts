@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IRole, RolesEnum, ITenant, IPagination } from '@gauzy/contracts';
+import { IRole, RolesEnum, ITenant, IPagination } from '@leano/contracts';
 import { Observable } from 'rxjs';
 import { first } from 'rxjs/operators';
 import { API_PREFIX } from '../constants/app.constants';

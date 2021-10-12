@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { IPagination } from '@gauzy/contracts';
+import { IPagination } from '@leano/contracts';
 import { Repository, FindManyOptions, Between, ILike, In } from 'typeorm';
 import * as moment from 'moment';
 import { Income } from './income.entity';

@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { TenantAwareCrudService } from './../core/crud';
 import { Repository } from 'typeorm';
 import { Warehouse } from './warehouse.entity';
-import { IPagination, IWarehouse } from '@gauzy/contracts';
+import { IPagination, IWarehouse } from '@leano/contracts';
 
 @Injectable()
 export class WarehouseService extends TenantAwareCrudService<Warehouse> {

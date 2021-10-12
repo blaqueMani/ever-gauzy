@@ -1,4 +1,4 @@
-import { ICandidate, CandidateStatus, ICandidateFeedback, IOrganization, ITenant } from '@gauzy/contracts';
+import { ICandidate, CandidateStatus, ICandidateFeedback, IOrganization, ITenant } from '@leano/contracts';
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
 import { DEFAULT_CANDIDATE_FEEDBACKS } from './default-candidate-feedbacks';

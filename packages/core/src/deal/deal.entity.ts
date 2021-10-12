@@ -3,7 +3,7 @@ import {
 	IUser,
 	IPipelineStage,
 	IOrganizationContact
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Column,
 	Entity,

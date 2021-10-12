@@ -1,8 +1,8 @@
 {
-	"name": "gauzy-desktop",
-	"productName": "gauzy-desktop",
+	"name": "bionik-desktop",
+	"productName": "bionik-desktop",
 	"version": "0.1.0",
-	"description": "Gauzy Desktop",
+	"description": "BioniK Desktop",
 	"license": "AGPL-3.0",
 	"homepage": "https://gauzy.co",
 	"repository": {
@@ -14,7 +14,7 @@
 	},
 	"private": true,
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},
@@ -39,7 +39,7 @@
 	"build": {
 		"appId": "com.company.gauzydesktop",
 		"productName": "Gauzy Desktop",
-		"copyright": "Copyright © 2019-Present. Ever Co. LTD",
+		"copyright": "Copyright © 2019-Present. Leano Industry Solutions Pty Ltd",
 		"asar": true,
 		"npmRebuild": true,
 		"directories": {
@@ -118,16 +118,16 @@
 		"pg": "^8.6.0",
 		"pg-query-stream": "^4.1.0",
 		"@nestjs/platform-express": "^7.6.5",
-		"@gauzy/core": "^0.1.0",
-		"@gauzy/auth": "^0.1.0",
+		"@leano/core": "^0.1.0",
+		"@leano/auth": "^0.1.0",
 		"sound-play": "1.1.0",
 		"@sentry/electron": "2.4.0",
 		"underscore": "^1.13.0",
-		"@gauzy/knowledge-base": "^0.1.0",
-		"@gauzy/changelog": "^0.1.0",
+		"@leano/knowledge-base": "^0.1.0",
+		"@leano/changelog": "^0.1.0",
 		"tslib": "^2.3.1",
-		"@gauzy/desktop-window": "^0.1.0",
-		"@gauzy/desktop-libs": "^0.1.0",
+		"@leano/desktop-window": "^0.1.0",
+		"@leano/desktop-libs": "^0.1.0",
 		"@sentry/node": "^5.30.0",
 		"@sentry/tracing": "^5.30.0",
 		"htmlparser2": "^3.10.1"

@@ -5,7 +5,7 @@ import {
 	IUserOrganization,
 	ISeedUsers,
 	ITenant
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UserOrganization } from './user-organization.entity';
 
 export const createDefaultUsersOrganizations = async (

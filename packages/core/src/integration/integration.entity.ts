@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Column, Entity, ManyToMany, JoinTable } from 'typeorm';
-import { IIntegration, IIntegrationType, ITag } from '@gauzy/contracts';
+import { IIntegration, IIntegrationType, ITag } from '@leano/contracts';
 import { IsNumber } from 'class-validator';
 import { BaseEntity, IntegrationType, Tag } from '../core/entities/internal';
 

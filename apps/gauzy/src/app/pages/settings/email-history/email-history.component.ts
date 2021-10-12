@@ -6,13 +6,13 @@ import {
 	IOrganization,
 	IOrganizationContact,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { DomSanitizer } from '@angular/platform-browser';
 import { first, filter, tap, debounceTime } from 'rxjs/operators';
 import { Subject } from 'rxjs/internal/Subject';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import { EmailFiltersComponent } from './email-filters/email-filters.component';
 import { TranslationBaseComponent } from '../../../@shared/language-base';
 import {

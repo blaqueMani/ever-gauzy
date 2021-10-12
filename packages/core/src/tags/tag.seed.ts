@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
 import { DEFAULT_GLOBAL_TAGS, DEFAULT_ORGANIZATION_TAGS } from './default-tags';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@leano/contracts';
 import { Tag } from './../core/entities/internal';
 
 export const createDefaultTags = async (

@@ -1,4 +1,4 @@
-import { ComponentLayoutStyleEnum, LanguagesEnum } from '@gauzy/contracts';
+import { ComponentLayoutStyleEnum, LanguagesEnum } from '@leano/contracts';
 
 export const DEFAULT_SUPER_ADMINS = [
 	{

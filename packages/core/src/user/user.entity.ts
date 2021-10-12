@@ -9,7 +9,7 @@ import {
 	ITag,
 	IEmployee,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Exclude } from 'class-transformer';
 import {

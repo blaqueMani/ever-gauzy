@@ -1,5 +1,5 @@
-import { gauzyToggleFeatures } from "@gauzy/config";
-import { FeatureStatusEnum } from "@gauzy/contracts";
+import { gauzyToggleFeatures } from "@leano/config";
+import { FeatureStatusEnum } from "@leano/contracts";
 import { EntitySubscriberInterface, EventSubscriber } from "typeorm";
 import { shuffle } from 'underscore';
 import { FileStorage } from "./../core/file-storage";

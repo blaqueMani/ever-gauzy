@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, Input } from '@angular/core';
-import { RolesEnum, IUser, ITag } from '@gauzy/contracts';
+import { RolesEnum, IUser, ITag } from '@leano/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { Store } from '../../../@core/services/store.service';
 import { ToastrService } from '../../../@core/services/toastr.service';

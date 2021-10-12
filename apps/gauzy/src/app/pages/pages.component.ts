@@ -6,14 +6,14 @@ import {
 	IRolePermission,
 	IUser,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbMenuItem } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, map, mergeMap, tap } from 'rxjs/operators';
 import { NgxPermissionsService } from 'ngx-permissions';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { chain } from 'underscore';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@leano/common-angular';
 import { SelectorService } from '../@core/utils/selector.service';
 import { EmployeesService, Store, UsersService } from '../@core/services';
 import {

@@ -13,7 +13,7 @@ import {
 	IWarehouse,
 	IImageAsset,
 	IOrganization,
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { LocationFormComponent, LeafletMapComponent } from './../../../../../@shared/forms';
 import {
 	ToastrService,

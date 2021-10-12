@@ -1,7 +1,7 @@
 {
-	"name": "ever-gauzy",
+	"name": "leano-bionik",
 	"version": "0.1.0",
-	"description": "Ever Gauzy - Business Management Platform (ERP/CRM/HRM)",
+	"description": "Leano BioniK - Business Management Platform (ERP/CRM/HRM)",
 	"license": "AGPL-3.0",
 	"homepage": "https://gauzy.co",
 	"repository": {
@@ -13,7 +13,7 @@
 	},
 	"private": true,
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},

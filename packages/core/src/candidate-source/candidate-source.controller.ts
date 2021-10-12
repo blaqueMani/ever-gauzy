@@ -10,7 +10,7 @@ import {
 	Put
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { ICandidateSource, IPagination } from '@gauzy/contracts';
+import { ICandidateSource, IPagination } from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { TenantPermissionGuard } from './../shared/guards';
 import { ParseJsonPipe } from './../shared/pipes';

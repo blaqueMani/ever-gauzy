@@ -1,5 +1,5 @@
-import { environment as env } from '@gauzy/config';
-import { RolesEnum } from '@gauzy/contracts';
+import { environment as env } from '@leano/config';
+import { RolesEnum } from '@leano/contracts';
 import { SetMetadata, createParamDecorator } from '@nestjs/common';
 import { verify } from 'jsonwebtoken';
 import { RequestContext } from '../../core/context';

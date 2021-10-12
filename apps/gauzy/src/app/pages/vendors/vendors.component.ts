@@ -4,7 +4,7 @@ import {
 	ITag,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Router, RouterEvent, NavigationEnd } from '@angular/router';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { NbDialogService } from '@nebular/theme';

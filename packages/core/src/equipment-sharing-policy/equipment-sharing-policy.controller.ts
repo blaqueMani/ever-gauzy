@@ -11,7 +11,7 @@ import {
 	Query,
 	Post
 } from '@nestjs/common';
-import { IEquipmentSharingPolicy, IPagination } from '@gauzy/contracts';
+import { IEquipmentSharingPolicy, IPagination } from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { EquipmentSharingPolicy } from './equipment-sharing-policy.entity';
 import { EquipmentSharingPolicyService } from './equipment-sharing-policy.service';

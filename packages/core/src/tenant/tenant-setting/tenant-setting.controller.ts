@@ -1,4 +1,4 @@
-import { ITenantSetting, RolesEnum } from '@gauzy/contracts';
+import { ITenantSetting, RolesEnum } from '@leano/contracts';
 import {
 	Body,
 	Controller,

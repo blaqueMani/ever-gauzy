@@ -5,7 +5,7 @@ import {
 	IOrganizationDocument,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ToastrService } from 'apps/gauzy/src/app/@core/services/toastr.service';
 import { OrganizationDocumentsService } from 'apps/gauzy/src/app/@core/services/organization-documents.service';
 import { filter, first } from 'rxjs/operators';

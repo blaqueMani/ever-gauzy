@@ -1,8 +1,8 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsDate, IsOptional, IsString } from 'class-validator';
 import { Column, Entity } from 'typeorm';
-import { IChangelog } from '@gauzy/contracts';
-import { TenantOrganizationBaseEntity } from '@gauzy/core';
+import { IChangelog } from '@leano/contracts';
+import { TenantOrganizationBaseEntity } from '@leano/core';
 
 @Entity('changelog')
 export class Changelog

@@ -1,6 +1,6 @@
 {
-	"name": "gauzy-desktop-timer",
-	"productName": "gauzy-desktop-timer",
+	"name": "bionik-desktop-timer",
+	"productName": "bionik-desktop-timer",
 	"version": "0.1.0",
 	"description": "Gauzy Desktop Timer",
 	"license": "AGPL-3.0",
@@ -14,7 +14,7 @@
 	},
 	"private": true,
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},
@@ -27,8 +27,8 @@
 	},
 	"build": {
 		"appId": "com.company.gauzydesktoptimer",
-		"productName": "Gauzy Desktop Timer",
-		"copyright": "Copyright © 2019-Present. Ever Co. LTD",
+		"productName": "BioniK Desktop Timer",
+		"copyright": "Copyright © 2019-Present. Leano Industry Solutions Pty Ltd",
 		"asar": true,
 		"npmRebuild": true,
 		"directories": {
@@ -111,7 +111,7 @@
 		"auto-launch": "5.0.5",
 		"@sentry/electron": "2.4.0",
 		"underscore": "^1.13.0",
-		"@gauzy/desktop-window": "^0.1.0",
-		"@gauzy/desktop-libs": "^0.1.0"
+		"@leano/desktop-window": "^0.1.0",
+		"@leano/desktop-libs": "^0.1.0"
 	}
 }

@@ -1,4 +1,4 @@
-import { IMatchingCriterions } from '@gauzy/contracts';
+import { IMatchingCriterions } from '@leano/contracts';
 import { ICommand } from '@nestjs/cqrs';
 
 export class SavePresetCriterionCommand implements ICommand {

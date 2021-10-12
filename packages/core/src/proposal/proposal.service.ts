@@ -4,7 +4,7 @@ import { Repository, FindManyOptions, Between, ILike } from 'typeorm';
 import * as moment from 'moment';
 import { Proposal } from './proposal.entity';
 import { getDateRangeFormat } from './../core/utils';
-import { IProposalCreateInput, IProposal, IPagination } from '@gauzy/contracts';
+import { IProposalCreateInput, IProposal, IPagination } from '@leano/contracts';
 import { Employee } from '../employee/employee.entity';
 import { TenantAwareCrudService } from './../core/crud';
 

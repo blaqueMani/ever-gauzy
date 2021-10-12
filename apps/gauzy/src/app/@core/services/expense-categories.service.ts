@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { IExpenseCategory } from '@gauzy/contracts';
+import { IExpenseCategory } from '@leano/contracts';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable({

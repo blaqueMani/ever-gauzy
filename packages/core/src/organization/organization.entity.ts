@@ -42,7 +42,7 @@ import {
 	IFeatureOrganization,
 	IAccountingTemplate,
 	IReportOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	AccountingTemplate,
 	Contact,

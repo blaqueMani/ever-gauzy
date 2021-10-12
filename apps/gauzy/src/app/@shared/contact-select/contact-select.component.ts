@@ -10,7 +10,7 @@ import {
 	ContactType,
 	IOrganization,
 	IOrganizationContact,
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { Subject } from 'rxjs';
 import { debounceTime, filter, tap } from 'rxjs/operators';

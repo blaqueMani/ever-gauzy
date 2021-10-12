@@ -7,11 +7,11 @@ import {
 	StartDateUpdateTypeEnum,
 	IEmployee,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { first } from 'rxjs/operators';
 import * as moment from 'moment';
-import { IExpenseCategory } from '@gauzy/contracts';
+import { IExpenseCategory } from '@leano/contracts';
 import { OrganizationsService } from '../../../@core/services/organizations.service';
 import { Store } from '../../../@core/services/store.service';
 import { TranslationBaseComponent } from '../../language-base/translation-base.component';

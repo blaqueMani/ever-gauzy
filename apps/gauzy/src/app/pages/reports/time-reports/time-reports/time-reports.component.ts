@@ -11,7 +11,7 @@ import {
 	ReportGroupByFilter,
 	ReportGroupFilterEnum,
 	TimeLogType
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { debounceTime, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';

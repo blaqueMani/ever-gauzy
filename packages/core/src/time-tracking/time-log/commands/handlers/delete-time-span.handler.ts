@@ -8,7 +8,7 @@ import { DeleteTimeSpanCommand } from '../delete-time-span.command';
 import { TimeLogUpdateCommand } from '../time-log-update.command';
 import { TimeLogDeleteCommand } from '../time-log-delete.command';
 import { moment } from '../../../../core/moment-extend';
-import { ITimeLog, ITimeSlot } from '@gauzy/contracts';
+import { ITimeLog, ITimeSlot } from '@leano/contracts';
 import { TimeSlot } from './../../../../core';
 
 @CommandHandler(DeleteTimeSpanCommand)

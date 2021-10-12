@@ -10,7 +10,7 @@ import {
 	IRolePermission,
 	IImportRecord,
 	IRolePermissionMigrateInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from './../core/context';
 import { ImportRecordUpdateOrCreateCommand } from './../export-import/import-record';

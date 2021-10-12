@@ -8,8 +8,8 @@ import {
 	IOrganization,
 	TimerState,
 	TimeLogSourceEnum
-} from '@gauzy/contracts';
-import { toLocal } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { toLocal } from '@leano/common-angular';
 import * as moment from 'moment';
 import { StoreConfig, Store, Query } from '@datorama/akita';
 import { Store as AppStore } from '../../@core/services/store.service';

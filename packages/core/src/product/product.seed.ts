@@ -1,6 +1,6 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
-import { IOrganization, ITenant, LanguagesEnum } from '@gauzy/contracts';
+import { IOrganization, ITenant, LanguagesEnum } from '@leano/contracts';
 import { Product, ProductCategory, ProductTranslation, ProductType } from './../core/entities/internal';
 
 export const createDefaultProducts = async (

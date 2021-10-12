@@ -8,8 +8,8 @@ import {
 	IExpenseUpdateInput,
 	IPagination,
 	ISplitExpenseOutput
-} from '@gauzy/contracts';
-import { toParams } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { toParams } from '@leano/common-angular';
 import { first } from 'rxjs/operators';
 import { API_PREFIX } from '../constants/app.constants';
 

@@ -13,7 +13,7 @@ import {
 	FormControl,
 	NG_VALUE_ACCESSOR
 } from '@angular/forms';
-import { ICountry } from '@gauzy/contracts';
+import { ICountry } from '@leano/contracts';
 import { UntilDestroy } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { Observable } from 'rxjs/Observable';

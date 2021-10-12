@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 import { NbDialogService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { combineLatest, Subject } from 'rxjs';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import * as moment from 'moment';
 import {
 	IPayment,
@@ -17,7 +17,7 @@ import {
 	IInvoice,
 	ITag,
 	IOrganizationContact
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ComponentEnum } from '../../@core/constants/layout.constants';
 import { PaginationFilterBaseComponent } from '../../@shared/pagination/pagination-filter-base.component';
 import { PaymentMutationComponent } from '../invoices/invoice-payments/payment-mutation/payment-mutation.component';

@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { IPagination, ITag } from '@gauzy/contracts';
+import { IPagination, ITag } from '@leano/contracts';
 import { TagService } from './../../tag.service';
 import { TagListCommand } from './../tag.list.command';
 

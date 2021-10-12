@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, OnDestroy } from '@angular/core';
-import { ITimeLog, OrganizationPermissionsEnum } from '@gauzy/contracts';
+import { ITimeLog, OrganizationPermissionsEnum } from '@leano/contracts';
 import * as moment from 'moment';
 import { NbDialogService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

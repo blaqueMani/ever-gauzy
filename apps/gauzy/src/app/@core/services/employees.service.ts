@@ -5,10 +5,10 @@ import {
 	IEmployeeFindInput,
 	IEmployeeCreateInput,
 	IEmployeeUpdateInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Observable } from 'rxjs';
 import { first } from 'rxjs/operators';
-import { toParams } from '@gauzy/common-angular';
+import { toParams } from '@leano/common-angular';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

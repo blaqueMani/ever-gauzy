@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { IEmployee, IOrganization, IRequestApprovalTeam, ITenant } from '@gauzy/contracts';
+import { IEmployee, IOrganization, IRequestApprovalTeam, ITenant } from '@leano/contracts';
 import { RequestApprovalTeam } from './request-approval-team.entity';
 import * as faker from 'faker';
 import { ApprovalPolicy, OrganizationTeam, RequestApproval } from './../core/entities/internal';

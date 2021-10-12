@@ -1,6 +1,6 @@
 import { Controller, HttpStatus, Get, Query, UseGuards } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { ICandidateExperience, IPagination } from '@gauzy/contracts';
+import { ICandidateExperience, IPagination } from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { CandidateExperienceService } from './candidate-experience.service';
 import { CandidateExperience } from './candidate-experience.entity';

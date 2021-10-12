@@ -4,8 +4,8 @@ import { Subject } from 'rxjs/internal/Subject';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { combineLatest } from 'rxjs';
-import { IOrganization, IOrganizationTeam, ISelectedEmployee } from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { IOrganization, IOrganizationTeam, ISelectedEmployee } from '@leano/contracts';
+import { distinctUntilChange } from '@leano/common-angular';
 import { OrganizationTeamsService, Store } from '../../@core/services';
 
 @UntilDestroy({ checkProperties: true })

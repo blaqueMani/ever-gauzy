@@ -12,7 +12,7 @@ import {
 	ITimeOff as ITimeOffRequest,
 	ITimeOffPolicy,
 	StatusTypesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	IsString,

@@ -1,7 +1,7 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { catchError, tap } from 'rxjs/operators';
 import { of as observableOf } from 'rxjs/internal/observable/of';
-import { ITenant } from '@gauzy/contracts';
+import { ITenant } from '@leano/contracts';
 import { GauzyCloudService } from '../../gauzy-cloud.service';
 import { RoleService } from './../../../role/role.service';
 import { GauzyCloudTenantMigrateCommand } from './../gauzy-cloud-tenant.migrate.command';

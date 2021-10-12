@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IOrganization } from '@gauzy/contracts';
+import { IOrganization } from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslationBaseComponent } from '../../../@shared/language-base/translation-base.component';

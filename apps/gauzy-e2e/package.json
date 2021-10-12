@@ -1,5 +1,5 @@
 {
-	"name": "@gauzy/e2e",
+	"name": "@leano/e2e",
 	"version": "0.1.0",
 	"description": "Gauzy e2e tests",
 	"license": "GPL-3.0",
@@ -13,7 +13,7 @@
 	},
 	"private": true,
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},

@@ -27,7 +27,7 @@ import {
 	IInvoiceCreateInput,
 	IInvoiceUpdateInput,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { Invoice } from './invoice.entity';
 import { InvoiceService } from './invoice.service';

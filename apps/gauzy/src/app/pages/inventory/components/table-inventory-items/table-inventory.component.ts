@@ -8,14 +8,14 @@ import { debounceTime, filter, first, tap } from 'rxjs/operators';
 import { Subject } from 'rxjs/internal/Subject';
 import { Router } from '@angular/router';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import {
 	IProduct,
 	ComponentLayoutStyleEnum,
 	IOrganization,
 	IProductTranslated,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { PaginationFilterBaseComponent } from './../../../../@shared/pagination/pagination-filter-base.component';
 import { DeleteConfirmationComponent } from '../../../../@shared/user/forms';
 import { API_PREFIX, ComponentEnum } from '../../../../@core/constants';

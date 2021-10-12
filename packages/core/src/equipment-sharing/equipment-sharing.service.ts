@@ -7,8 +7,8 @@ import {
 import { EquipmentSharing } from './equipment-sharing.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Brackets, Repository, WhereExpressionBuilder } from 'typeorm';
-import { IEquipmentSharing, IPagination, RequestApprovalStatusTypesEnum } from '@gauzy/contracts';
-import { ConfigService } from '@gauzy/config';
+import { IEquipmentSharing, IPagination, RequestApprovalStatusTypesEnum } from '@leano/contracts';
+import { ConfigService } from '@leano/config';
 import { RequestContext } from '../core/context';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestApproval } from '../request-approval/request-approval.entity';

@@ -10,11 +10,11 @@ import {
 	IGetActivitiesInput,
 	IDailyActivity,
 	IBulkActivitiesInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CommandBus } from '@nestjs/cqrs';
 import { BulkActivitiesSaveCommand } from './commands/bulk-activities-save.command';
 import { indexBy, pluck } from 'underscore';
-import { getConfig } from '@gauzy/config';
+import { getConfig } from '@leano/config';
 import { Employee, OrganizationProject } from './../../core/entities/internal';
 const config = getConfig();
 

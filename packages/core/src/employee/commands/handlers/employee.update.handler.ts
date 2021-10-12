@@ -1,4 +1,4 @@
-import { IEmployee } from '@gauzy/contracts';
+import { IEmployee } from '@leano/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { EmployeeUpdateCommand } from './../employee.update.command';
 import { EmployeeService } from './../../employee.service';

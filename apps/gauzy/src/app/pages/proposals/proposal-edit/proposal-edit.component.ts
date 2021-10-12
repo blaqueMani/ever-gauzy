@@ -15,7 +15,7 @@ import {
 	IOrganizationContact,
 	IProposalViewModel,
 	ITag
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { filter, tap } from 'rxjs/operators';
 import { OrganizationContactService } from '../../../@core/services/organization-contact.service';

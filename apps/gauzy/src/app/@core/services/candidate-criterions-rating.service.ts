@@ -5,7 +5,7 @@ import {
 	ICandidatePersonalQualities,
 	ICandidateCriterionsRating,
 	ICandidateTechnologies
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()

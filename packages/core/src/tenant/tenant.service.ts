@@ -10,7 +10,7 @@ import {
 	ITenant,
 	IUser,
 	FileStorageProviderEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UserService } from '../user/user.service';
 import { RoleService } from 'role/role.service';
 import { TenantRoleBulkCreateCommand } from '../role/commands/tenant-role-bulk-create.command';

@@ -7,7 +7,7 @@ import {
 	ReportGroupFilterEnum,
 	IExpense,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Body,
 	Controller,

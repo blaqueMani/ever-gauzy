@@ -1,4 +1,4 @@
-import { ITenantSetting } from '@gauzy/contracts';
+import { ITenantSetting } from '@leano/contracts';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FindManyOptions, In, Repository } from 'typeorm';

@@ -12,7 +12,7 @@ import {
 	IWarehouse,
 	IWarehouseProduct,
 	IWarehouseProductVariant
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString } from 'class-validator';
 import {

@@ -7,7 +7,7 @@ import {
     IRoleMigrateInput,
     ITenant,
     IRolePermissionMigrateInput
-} from "@gauzy/contracts";
+} from "@leano/contracts";
 import { AxiosResponse } from 'axios';
 import { Observable } from "rxjs/internal/Observable";
 

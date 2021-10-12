@@ -21,8 +21,8 @@ import {
 	ITimeLog,
 	ITimeLogFilters,
 	OrganizationPermissionsEnum
-} from '@gauzy/contracts';
-import { toUTC, toLocal } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { toUTC, toLocal } from '@leano/common-angular';
 import { Store } from './../../../../../@core/services/store.service';
 import { combineLatest, Subject } from 'rxjs';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

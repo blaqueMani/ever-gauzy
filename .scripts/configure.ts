@@ -73,7 +73,7 @@ if (!env.IS_DOCKER) {
 		API_BASE_URL: API_BASE_URL,
 		CLIENT_BASE_URL: CLIENT_BASE_URL,
 
-		COMPANY_NAME: 'Ever Co. LTD',
+		COMPANY_NAME: 'Leano Industry Solutions Pty Ltd',
 		COMPANY_SITE: 'Gauzy',
 		COMPANY_LINK: 'https://ever.co/',
 		COMPANY_SITE_LINK: 'https://gauzy.co',
@@ -147,7 +147,7 @@ if (!env.IS_DOCKER) {
 		API_BASE_URL: API_BASE_URL,
 		CLIENT_BASE_URL: CLIENT_BASE_URL,
 
-		COMPANY_NAME: 'Ever Co. LTD',
+		COMPANY_NAME: 'Leano Industry Solutions Pty Ltd',
 		COMPANY_SITE: 'Gauzy',
 		COMPANY_LINK: 'https://ever.co/',
 		COMPANY_SITE_LINK: 'https://gauzy.co',

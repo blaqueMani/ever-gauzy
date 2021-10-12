@@ -1,4 +1,4 @@
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import {
 	ICreateEmailInvitesInput,
 	ICreateEmailInvitesOutput,
@@ -16,7 +16,7 @@ import {
 	IRole,
 	InvitationExpirationEnum,
 	IInvite
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { sign } from 'jsonwebtoken';

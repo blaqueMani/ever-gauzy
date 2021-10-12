@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { IOrganization, ITenant, JobPostSourceEnum } from '@gauzy/contracts';
+import { IOrganization, ITenant, JobPostSourceEnum } from '@leano/contracts';
 import { JobSearchCategory } from './job-search-category.entity';
 
 export const createDefaultJobSearchCategories = async (

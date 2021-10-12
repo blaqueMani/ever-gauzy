@@ -19,7 +19,7 @@ import {
 	IProductVariantSetting,
 	IProductOptionTranslatable,
 	IWarehouseProductVariant
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { IsNumber, IsString, IsOptional, IsEnum } from 'class-validator';
 import {
 	ImageAsset,

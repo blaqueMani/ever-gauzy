@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { IOrganizationProjectsFindInput } from '@gauzy/contracts';
+import { IOrganizationProjectsFindInput } from '@leano/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { RequestContext } from '../core/context';
 import { OrganizationProject } from './organization-project.entity';

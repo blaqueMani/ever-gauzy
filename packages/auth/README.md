@@ -1,3 +1,3 @@
-# `@gauzy/auth`
+# `@leano/auth`
 
 Gauzy Auth

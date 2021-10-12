@@ -14,13 +14,13 @@ import {
 	IEmployee,
 	IEmployeeProposalTemplate,
 	IOrganizationContact
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import * as moment from 'moment';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@leano/common-angular';
 import { EmployeeSelectorComponent } from '../../../@theme/components/header/selectors/employee/employee.component';
 import { TranslationBaseComponent } from '../../../@shared/language-base/translation-base.component';
 import { ProposalsService, Store, ToastrService } from '../../../@core/services';

@@ -1,4 +1,4 @@
-import { deepMerge, IPluginConfig } from '@gauzy/common';
+import { deepMerge, IPluginConfig } from '@leano/common';
 import { defaultConfiguration } from './default-configuration';
 
 let defaultConfig: IPluginConfig = defaultConfiguration;

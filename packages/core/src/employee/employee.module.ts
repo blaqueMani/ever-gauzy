@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { CqrsModule } from '@nestjs/cqrs';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { RouterModule } from 'nest-router';
-import { GauzyAIService } from '@gauzy/integration-ai';
+import { GauzyAIService } from '@leano/integration-ai';
 import { TimeLog } from './../core/entities/internal';
 import { Employee } from './employee.entity';
 import { UserModule } from './../user/user.module';

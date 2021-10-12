@@ -6,8 +6,8 @@ import {
 	ITimesheet,
 	TimesheetStatus,
 	IGetTimesheetInput,
-} from '@gauzy/contracts';
-import { distinctUntilChange, toUTC } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { distinctUntilChange, toUTC } from '@leano/common-angular';
 import { NbMenuItem, NbMenuService } from '@nebular/theme';
 import { combineLatest } from 'rxjs';
 import { debounceTime, filter, map, tap } from 'rxjs/operators';

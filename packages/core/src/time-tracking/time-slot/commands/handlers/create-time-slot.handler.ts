@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Brackets, In, Repository } from 'typeorm';
 import * as moment from 'moment';
 import * as _ from 'underscore';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@leano/contracts';
 import { RequestContext } from '../../../../core/context';
 import {
 	Employee,

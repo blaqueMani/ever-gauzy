@@ -9,7 +9,7 @@ import { CommandBus } from '@nestjs/cqrs';
 import { DeepPartial } from 'typeorm';
 import { map, catchError, switchMap } from 'rxjs/operators';
 import * as moment from 'moment';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import {
 	ICreateIntegrationDto,
 	IIntegrationTenant,
@@ -26,11 +26,11 @@ import {
 	IHubstaffOrganization,
 	IHubstaffProject,
 	IIntegrationEntitySetting
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	DEFAULT_ENTITY_SETTINGS,
 	PROJECT_TIED_ENTITIES
-} from '@gauzy/integration-hubstaff';
+} from '@leano/integration-hubstaff';
 import { IntegrationTenantService } from '../integration-tenant/integration-tenant.service';
 import { IntegrationSettingService } from '../integration-setting/integration-setting.service';
 import { IntegrationMapService } from '../integration-map/integration-map.service';

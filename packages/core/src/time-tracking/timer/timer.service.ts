@@ -12,7 +12,7 @@ import {
 	TimeLogSourceEnum,
 	ITimerStatusInput,
 	ITimeLog
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Employee, TimeLog } from './../../core/entities/internal';
 import { RequestContext } from '../../core/context';
 import { getDateRange } from './../../core/utils';

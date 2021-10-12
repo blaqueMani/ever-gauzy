@@ -1,9 +1,9 @@
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { AuthService } from './auth.service';
-import { IUser } from '@gauzy/contracts';
+import { IUser } from '@leano/contracts';
 
 @Injectable()
 export class JwtStrategy extends PassportStrategy(Strategy, 'jwt') {

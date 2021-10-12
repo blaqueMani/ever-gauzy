@@ -1,4 +1,4 @@
-import { ITask, ITaskUpdateInput } from '@gauzy/contracts';
+import { ITask, ITaskUpdateInput } from '@leano/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { TaskService } from '../../task.service';
 import { TaskUpdateCommand } from '../task-update.command';

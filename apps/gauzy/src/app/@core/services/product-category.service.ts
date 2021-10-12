@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import {
 	IProductCategoryTranslatable,
 	IProductCategoryTranslated
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { first } from 'rxjs/operators';
 import { API_PREFIX } from '../constants/app.constants';
 

@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { CommandBus } from '@nestjs/cqrs';
 import { getManager, Repository } from 'typeorm';
-import { IRole, ITenant, RolesEnum, IRoleMigrateInput, IImportRecord } from '@gauzy/contracts';
+import { IRole, ITenant, RolesEnum, IRoleMigrateInput, IImportRecord } from '@leano/contracts';
 import { TenantAwareCrudService } from './../core/crud';
 import { Role } from './role.entity';
 import { RequestContext } from './../core/context';

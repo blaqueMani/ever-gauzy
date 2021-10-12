@@ -1,10 +1,10 @@
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import { CanActivate, ExecutionContext, Injectable } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
 import { InjectRepository } from '@nestjs/typeorm';
 import { verify } from 'jsonwebtoken';
 import { Repository } from 'typeorm';
-import { RolesEnum } from '@gauzy/contracts';
+import { RolesEnum } from '@leano/contracts';
 import { RequestContext } from './../../core/context';
 import { Employee } from './../../core/entities/internal';
 

@@ -4,7 +4,7 @@ import {
 	IEmployee,
 	ISelectedEmployee,
 	IUser
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, tap } from 'rxjs/operators';

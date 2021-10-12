@@ -16,7 +16,7 @@ import {
 	ITask,
 	ITimeSlot,
 	IOrganizationProject
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import {
 	IsString,
@@ -32,7 +32,7 @@ import {
 	TenantOrganizationBaseEntity,
 	TimeSlot
 } from './../../core/entities/internal';
-import { getConfig } from '@gauzy/config';
+import { getConfig } from '@leano/config';
 const config = getConfig();
 
 @Entity('activity')

@@ -226,16 +226,16 @@ This software is available under following licenses:
 
 ## Trademarks
 
-**Ever**® is a registered trademark of [Ever Co. LTD](https://ever.co).  
-**Ever® Demand™**, **Ever® Gauzy™** and **Ever® OpenSaaS™**  are all trademarks of [Ever Co. LTD](https://ever.co).
+**Ever**® is a registered trademark of [Leano Industry Solutions Pty Ltd](https://ever.co).  
+**Ever® Demand™**, **Ever® Gauzy™** and **Ever® OpenSaaS™**  are all trademarks of [Leano Industry Solutions Pty Ltd](https://ever.co).
 
-The trademarks may only be used with the written permission of Ever Co. LTD. and may not be used to promote or otherwise market competitive products or services.
+The trademarks may only be used with the written permission of Leano Industry Solutions Pty Ltd. and may not be used to promote or otherwise market competitive products or services.
 
 All other brand and product names are trademarks, registered trademarks or service marks of their respective holders.
 
 ## Copyright
 
-#### Copyright © 2019-present, Ever Co. LTD. All rights reserved.
+#### Copyright © 2019-present, Leano Industry Solutions Pty Ltd. All rights reserved.
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ever-co.gauzy-platform)
 [![huntr](https://cdn.huntr.dev/huntr_security_badge_mono.svg)](https://huntr.dev)

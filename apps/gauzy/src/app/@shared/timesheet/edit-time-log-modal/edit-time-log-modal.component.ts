@@ -14,8 +14,8 @@ import {
 	OrganizationPermissionsEnum,
 	IGetTimeLogConflictInput,
 	ISelectedEmployee
-} from '@gauzy/contracts';
-import { toUTC, toLocal } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { toUTC, toLocal } from '@leano/common-angular';
 import { TimesheetService } from '../timesheet.service';
 import { FormGroup, FormControl } from '@angular/forms';
 import { NbDialogRef } from '@nebular/theme';

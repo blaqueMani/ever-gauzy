@@ -8,7 +8,7 @@ import {
 	loginPage,
 	timeTrackerPage,
 	getApiBaseUrl
-} from '@gauzy/desktop-window';
+} from '@leano/desktop-window';
 
 export class TrayIcon {
 	tray: Tray;

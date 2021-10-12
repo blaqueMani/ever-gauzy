@@ -20,7 +20,7 @@ import {
 	ScreenCaptureModule,
 	TimeTrackerModule,
 	SetupModule
-} from '@gauzy/desktop-ui-lib';
+} from '@leano/desktop-ui-lib';
 import { NbCardModule, NbButtonModule } from '@nebular/theme';
 import { RouterModule } from '@angular/router';
 

@@ -1,5 +1,5 @@
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
-import { ConfigService } from '@gauzy/config';
+import { ConfigService } from '@leano/config';
 import { UserDeleteCommand } from './../user.delete.command';
 import { UserService } from './../../user.service';
 import { ForbiddenException } from '@nestjs/common';

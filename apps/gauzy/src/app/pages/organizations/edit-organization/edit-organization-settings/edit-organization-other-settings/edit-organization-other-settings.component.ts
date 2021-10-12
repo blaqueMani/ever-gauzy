@@ -17,7 +17,7 @@ import {
 	CrudActionEnum,
 	IKeyValuePair,
 	DEFAULT_TIME_FORMATS
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { formatDate } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

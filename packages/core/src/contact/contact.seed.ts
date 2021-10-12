@@ -1,6 +1,6 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
-import { IContact, IOrganization, ITenant } from '@gauzy/contracts';
+import { IContact, IOrganization, ITenant } from '@leano/contracts';
 import { Contact } from './../core/entities/internal';
 
 export const createRandomContacts = async (

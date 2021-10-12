@@ -3,7 +3,7 @@ import { Observable, of } from 'rxjs';
 import { ServerSourceConf } from './server-source.conf';
 import { LocalDataSource } from 'ng2-smart-table';
 import { catchError, map, tap } from 'rxjs/operators';
-import { isNotEmpty, toParams } from '@gauzy/common-angular';
+import { isNotEmpty, toParams } from '@leano/common-angular';
 
 export class ServerDataSource extends LocalDataSource {
 

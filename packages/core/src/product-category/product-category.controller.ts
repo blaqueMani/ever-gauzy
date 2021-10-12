@@ -16,7 +16,7 @@ import {
 	LanguagesEnum,
 	IPagination,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ProductCategory } from './product-category.entity';
 import { ProductCategoryService } from './product-category.service';
 import { CrudController, PaginationParams } from './../core/crud';

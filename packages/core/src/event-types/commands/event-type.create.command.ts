@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IEventTypeCreateInput } from '@gauzy/contracts';
+import { IEventTypeCreateInput } from '@leano/contracts';
 
 export class EventTypeCreateCommand implements ICommand {
 	static readonly type = '[EventType] Create';

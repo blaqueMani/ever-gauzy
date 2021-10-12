@@ -19,9 +19,9 @@ import {
 	InvoiceStatusTypesEnum,
 	IInvoiceItemCreateInput,
 	IProductTranslatable
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { filter, first, tap } from 'rxjs/operators';
-import { compareDate, isEmpty } from '@gauzy/common-angular';
+import { compareDate, isEmpty } from '@leano/common-angular';
 import { LocalDataSource } from 'ng2-smart-table';
 import { Observable } from 'rxjs';
 import { Router } from '@angular/router';

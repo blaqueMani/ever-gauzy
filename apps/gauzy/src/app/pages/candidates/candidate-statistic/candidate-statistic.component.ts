@@ -3,7 +3,7 @@ import {
 	ICandidateInterview,
 	IEmployee,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CandidatesService } from '../../../@core/services/candidates.service';
 import { filter, first } from 'rxjs/operators';

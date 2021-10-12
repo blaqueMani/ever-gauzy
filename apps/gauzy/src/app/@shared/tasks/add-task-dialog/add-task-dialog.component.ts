@@ -7,7 +7,7 @@ import {
 	ITag,
 	TaskParticipantEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { NbDialogRef } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';

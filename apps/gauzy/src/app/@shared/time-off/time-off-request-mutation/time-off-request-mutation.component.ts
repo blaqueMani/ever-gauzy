@@ -7,7 +7,7 @@ import {
 	ITimeOff,
 	IOrganization,
 	StatusTypesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { debounceTime, filter, first, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

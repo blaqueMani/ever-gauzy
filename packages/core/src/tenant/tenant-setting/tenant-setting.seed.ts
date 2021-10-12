@@ -1,4 +1,4 @@
-import { FileStorageProviderEnum, ITenant } from "@gauzy/contracts";
+import { FileStorageProviderEnum, ITenant } from "@leano/contracts";
 import { TenantSetting } from "core";
 import { Connection } from "typeorm";
 

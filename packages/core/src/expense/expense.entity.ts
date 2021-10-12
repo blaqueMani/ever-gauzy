@@ -28,7 +28,7 @@ import {
 	IEmployee,
 	IOrganizationProject,
 	IOrganizationContact
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Employee,
 	ExpenseCategory,

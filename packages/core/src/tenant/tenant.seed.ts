@@ -2,7 +2,7 @@ import { Connection } from 'typeorm';
 import { Tenant } from './tenant.entity';
 import * as faker from 'faker';
 import { DEFAULT_EVER_TENANT } from './default-tenants';
-import { ITenant } from '@gauzy/contracts';
+import { ITenant } from '@leano/contracts';
 
 export const getDefaultTenant = async (
 	connection: Connection,

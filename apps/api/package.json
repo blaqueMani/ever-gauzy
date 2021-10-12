@@ -1,7 +1,7 @@
 {
-	"name": "@gauzy/api",
+	"name": "@bionik/api",
 	"version": "0.1.0",
-	"description": "Gauzy API",
+	"description": "BioniK API",
 	"license": "AGPL-3.0",
 	"homepage": "https://gauzy.co",
 	"repository": {
@@ -13,7 +13,7 @@
 	},
 	"private": true,
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},
@@ -37,9 +37,9 @@
 		"seed:prod:build": "yarn ng run api:seed -c=production"
 	},
 	"dependencies": {
-		"@gauzy/changelog": "^0.1.0",
-		"@gauzy/core": "^0.1.0",
-		"@gauzy/knowledge-base": "^0.1.0"
+		"@leano/changelog": "^0.1.0",
+		"@leano/core": "^0.1.0",
+		"@leano/knowledge-base": "^0.1.0"
 	},
 	"devDependencies": {
 		"@nestjs/schematics": "^7.1.2",

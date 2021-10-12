@@ -1,4 +1,4 @@
-import { CurrenciesEnum, DefaultValueDateTypeEnum } from '@gauzy/contracts';
+import { CurrenciesEnum, DefaultValueDateTypeEnum } from '@leano/contracts';
 
 export const DEFAULT_EVER_ORGANIZATIONS = [
 	{
@@ -9,7 +9,7 @@ export const DEFAULT_EVER_ORGANIZATIONS = [
 		isDefault: true
 	},
 	{
-		name: 'Ever Co. Ltd',
+		name: 'Leano Industry Solutions Pty Ltd',
 		currency: CurrenciesEnum.ILS,
 		defaultValueDateType: DefaultValueDateTypeEnum.TODAY,
 		imageUrl: 'assets/images/logos/ever-large.jpg',

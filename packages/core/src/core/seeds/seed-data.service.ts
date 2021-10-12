@@ -15,8 +15,8 @@ import {
 } from 'typeorm';
 import * as chalk from 'chalk';
 import * as moment from 'moment';
-import { IPluginConfig, SEEDER_DB_CONNECTION } from '@gauzy/common';
-import { environment as env, getConfig, ConfigService } from '@gauzy/config';
+import { IPluginConfig, SEEDER_DB_CONNECTION } from '@leano/common';
+import { environment as env, getConfig, ConfigService } from '@leano/config';
 import {
 	IEmployee,
 	IOrganization,
@@ -24,12 +24,12 @@ import {
 	IRole,
 	ITenant,
 	IUser
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	getPluginModules,
 	hasLifecycleMethod,
 	PluginLifecycleMethods
-} from '@gauzy/plugin';
+} from '@leano/plugin';
 import { createRoles } from '../../role/role.seed';
 import { createDefaultSkills } from '../../skills/skill.seed';
 import { createLanguages } from '../../language/language.seed';

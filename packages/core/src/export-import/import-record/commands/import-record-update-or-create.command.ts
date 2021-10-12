@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IImportRecord, IImportRecordFind } from '@gauzy/contracts';
+import { IImportRecord, IImportRecordFind } from '@leano/contracts';
 
 export class ImportRecordUpdateOrCreateCommand implements ICommand {
 	static readonly type = '[Find Or Create] Import Record';

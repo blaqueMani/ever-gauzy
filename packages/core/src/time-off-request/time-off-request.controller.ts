@@ -19,7 +19,7 @@ import {
 	ITimeOffUpdateInput,
 	PermissionsEnum,
 	StatusTypesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { TimeOffRequest } from './time-off-request.entity';
 import { TimeOffRequestService } from './time-off-request.service';

@@ -15,7 +15,7 @@ import {
 	IEmployee,
 	ICandidateFeedback,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { EmployeesService } from '../../../../../@core/services';
 import { CandidateInterviewFeedbackComponent } from '../../../../../@shared/candidate/candidate-interview-feedback/candidate-interview-feedback.component';
 import { DeleteInterviewComponent } from '../../../../../@shared/candidate/candidate-confirmation/delete-interview/delete-interview.component';
@@ -31,7 +31,7 @@ import { CandidateFeedbacksService } from '../../../../../@core/services/candida
 import { CandidatesService } from '../../../../../@core/services/candidates.service';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { ToastrService } from 'apps/gauzy/src/app/@core/services/toastr.service';
-import { isNotEmpty } from '@gauzy/common-angular';
+import { isNotEmpty } from '@leano/common-angular';
 
 @UntilDestroy({ checkProperties: true })
 @Component({

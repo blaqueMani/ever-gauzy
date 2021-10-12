@@ -23,7 +23,7 @@ import {
 	ICandidate,
 	ICandidateUpdateInput,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CrudController, PaginationParams} from './../core/crud';
 import { CandidateService } from './candidate.service';
 import { Candidate } from './candidate.entity';

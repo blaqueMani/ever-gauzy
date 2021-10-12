@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy, Input, forwardRef, AfterViewInit } from '@angular/core';
-import { ITask, PermissionsEnum, TaskStatusEnum } from '@gauzy/contracts';
+import { ITask, PermissionsEnum, TaskStatusEnum } from '@leano/contracts';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 import { TasksService } from '../../../../@core/services/tasks.service';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';

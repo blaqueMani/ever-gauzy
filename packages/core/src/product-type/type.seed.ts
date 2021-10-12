@@ -2,7 +2,7 @@ import { Connection } from 'typeorm';
 import { ProductType } from './product-type.entity';
 import * as seed from './product-type.seed.json';
 import { ProductTypeTranslation } from './product-type-translation.entity';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@leano/contracts';
 
 export const createDefaultProductType = async (
 	connection: Connection,

@@ -4,7 +4,7 @@ import {
 	ITag,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { ComponentEnum } from '../../@core/constants/layout.constants';

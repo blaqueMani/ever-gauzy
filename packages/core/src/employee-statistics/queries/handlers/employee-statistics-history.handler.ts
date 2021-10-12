@@ -6,7 +6,7 @@ import {
 	EmployeeStatisticsHistoryEnum,
 	IEmployeeStatisticsHistoryFindInput,
 	RecurringExpenseDefaultCategoriesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { EmployeeStatisticsHistoryQuery } from '../employee-statistics-history.query';
 
 /**

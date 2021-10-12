@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { ILanguage, LanguagesEnum } from '@gauzy/contracts';
+import { ILanguage, LanguagesEnum } from '@leano/contracts';
 import * as faker from 'faker';
 import { Language } from './language.entity';
 import  allLanguages from './all-languages';

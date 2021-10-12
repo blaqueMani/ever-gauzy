@@ -10,7 +10,7 @@ import {
 	BadRequestException
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IOrganizationPosition, IPagination } from '@gauzy/contracts';
+import { IOrganizationPosition, IPagination } from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { OrganizationPositionService } from './organization-position.service';
 import { OrganizationPosition } from './organization-position.entity';

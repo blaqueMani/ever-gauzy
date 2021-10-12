@@ -8,7 +8,7 @@ import {
 	Body
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { IGetActivitiesInput, IBulkActivitiesInput, ReportGroupFilterEnum } from '@gauzy/contracts';
+import { IGetActivitiesInput, IBulkActivitiesInput, ReportGroupFilterEnum } from '@leano/contracts';
 import { TenantPermissionGuard } from './../../shared/guards';
 import { ActivityService } from './activity.service';
 import { ActivityMapService } from './activity.map.service';

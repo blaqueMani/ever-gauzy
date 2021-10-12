@@ -7,7 +7,7 @@ import {
 	ComponentLayoutStyleEnum,
 	ISelectedEquipmentSharing,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';
 import { FormGroup } from '@angular/forms';
 import { NbDialogService } from '@nebular/theme';

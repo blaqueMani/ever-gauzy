@@ -1,4 +1,4 @@
-import { ICandidate, IEmployee, IOrganizationEmploymentType, ITag } from '@gauzy/contracts';
+import { ICandidate, IEmployee, IOrganizationEmploymentType, ITag } from '@leano/contracts';
 import { Column, Entity, JoinTable, ManyToMany } from 'typeorm';
 import { ApiPropertyOptional } from '@nestjs/swagger';
 import {

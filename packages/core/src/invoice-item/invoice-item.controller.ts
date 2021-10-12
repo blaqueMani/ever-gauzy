@@ -12,7 +12,7 @@ import {
 	Body,
 	Param
 } from '@nestjs/common';
-import { IInvoiceItem, IInvoiceItemCreateInput, IPagination } from '@gauzy/contracts';
+import { IInvoiceItem, IInvoiceItemCreateInput, IPagination } from '@leano/contracts';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';
 import { CommandBus } from '@nestjs/cqrs';

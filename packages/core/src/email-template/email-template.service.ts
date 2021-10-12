@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Brackets, Repository, SelectQueryBuilder, WhereExpressionBuilder } from 'typeorm';
-import { IEmailTemplate, IListQueryInput, IPagination } from '@gauzy/contracts';
+import { IEmailTemplate, IListQueryInput, IPagination } from '@leano/contracts';
 import { CrudService } from './../core/crud';
 import { EmailTemplate } from './email-template.entity';
 import { RequestContext } from './../core/context';

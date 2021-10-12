@@ -15,10 +15,10 @@ import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { ProposalService } from './proposal.service';
 import { Proposal } from './proposal.entity';
 import { CrudController } from './../core/crud';
-import { IProposalCreateInput, IProposal, IPagination } from '@gauzy/contracts';
+import { IProposalCreateInput, IProposal, IPagination } from '@leano/contracts';
 import { PaginationParams } from '../core';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';
-import { PermissionsEnum } from '@gauzy/contracts';
+import { PermissionsEnum } from '@leano/contracts';
 import { Permissions } from './../shared/decorators';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';
 

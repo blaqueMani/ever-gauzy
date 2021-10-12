@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { ConfigService, IEnvironment } from '@gauzy/config';
+import { ConfigService, IEnvironment } from '@leano/config';
 import * as bcrypt from 'bcrypt';
 
 export abstract class BaseSocialAuth {

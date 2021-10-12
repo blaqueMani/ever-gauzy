@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { TranslationBaseComponent } from '../../@shared/language-base/translation-base.component';
 import { Router, ActivatedRoute } from '@angular/router';
-import { IEmployee, IEventType } from '@gauzy/contracts';
+import { IEmployee, IEventType } from '@leano/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { filter } from 'rxjs/operators';
 import { EmployeesService } from '../../@core/services';

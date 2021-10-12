@@ -1,4 +1,4 @@
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@leano/contracts';
 import { Connection } from 'typeorm';
 import { DEFAULT_GOAL_KPI_TEMPLATES } from './default-goal-kpi-templates';
 import { GoalKPITemplate } from './goal-kpi-template.entity';

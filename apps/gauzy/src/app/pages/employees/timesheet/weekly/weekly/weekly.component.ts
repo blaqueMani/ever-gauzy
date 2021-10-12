@@ -13,8 +13,8 @@ import {
 	IOrganizationProject,
 	ITimeLogFilters,
 	OrganizationPermissionsEnum
-} from '@gauzy/contracts';
-import { toUTC } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { toUTC } from '@leano/common-angular';
 import { Store } from './../../../../../@core/services';
 import { TimesheetService, TimesheetFilterService } from './../../../../../@shared/timesheet';
 import { EditTimeLogModalComponent, ViewTimeLogComponent } from './../../../../../@shared/timesheet';

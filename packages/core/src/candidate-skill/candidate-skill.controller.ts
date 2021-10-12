@@ -15,7 +15,7 @@ import {
 	IPagination,
 	ISkillCreateInput,
 	RolesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { CandidateSkill } from './candidate-skill.entity';
 import { CandidateSkillService } from './candidate-skill.service';

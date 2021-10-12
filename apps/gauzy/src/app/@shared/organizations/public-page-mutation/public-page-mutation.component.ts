@@ -10,7 +10,7 @@ import {
 	IOrganizationLanguage,
 	ClientFocusEnum,
 	MinimumProjectSizeEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { OrganizationAwardsService } from '../../../@core/services/organization-awards.service';
 import { OrganizationLanguagesService } from '../../../@core/services/organization-languages.service';

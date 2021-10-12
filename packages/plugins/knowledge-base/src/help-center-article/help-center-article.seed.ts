@@ -1,6 +1,6 @@
 import { Connection, IsNull, Not } from 'typeorm';
 import * as faker from 'faker';
-import { IHelpCenter, IHelpCenterArticle, IOrganization, ITenant } from '@gauzy/contracts';
+import { IHelpCenter, IHelpCenterArticle, IOrganization, ITenant } from '@leano/contracts';
 import { HelpCenterArticle } from './help-center-article.entity';
 import { HelpCenter } from './../help-center';
 

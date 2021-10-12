@@ -12,7 +12,7 @@ import * as path from 'path';
 import * as moment from 'moment';
 import * as sharp from 'sharp';
 import * as fs from 'fs';
-import { IScreenshot } from '@gauzy/contracts';
+import { IScreenshot } from '@leano/contracts';
 import { Screenshot } from './screenshot.entity';
 import { ScreenshotService } from './screenshot.service';
 import { FileStorage, UploadedFileStorage } from '../../core/file-storage';

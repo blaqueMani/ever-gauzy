@@ -6,7 +6,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { EmployeesService } from '../../../@core/services';
 import { takeUntil, first } from 'rxjs/operators';
 import { EmployeeAppointmentService } from '../../../@core/services/employee-appointment.service';
-import { IEmployee, IEmployeeAppointment } from '@gauzy/contracts';
+import { IEmployee, IEmployeeAppointment } from '@leano/contracts';
 import * as moment from 'moment';
 import { AlertModalComponent } from '../../../@shared/alert-modal/alert-modal.component';
 import { NbDialogService } from '@nebular/theme';

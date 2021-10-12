@@ -18,7 +18,7 @@ import {
 	IOrganizationProject,
 	IOrganizationContact,
 	ITimeSlot
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsBoolean, IsDateString, IsEnum, IsOptional } from 'class-validator';
 import * as moment from 'moment';

@@ -6,7 +6,7 @@ import {
 	IUser,
 	IRole,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { Subject } from 'rxjs/internal/Subject';

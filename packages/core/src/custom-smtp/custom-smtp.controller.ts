@@ -17,8 +17,8 @@ import {
 	ICustomSmtpCreateInput,
 	ICustomSmtpFindInput,
 	ICustomSmtpUpdateInput
-} from '@gauzy/contracts';
-import { ISMTPConfig } from '@gauzy/common';
+} from '@leano/contracts';
+import { ISMTPConfig } from '@leano/common';
 import { CrudController } from './../core/crud';
 import { UUIDValidationPipe } from './../shared/pipes';
 import { TenantPermissionGuard } from './../shared/guards';

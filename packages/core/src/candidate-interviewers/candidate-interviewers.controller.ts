@@ -17,7 +17,7 @@ import {
 	ICandidateInterviewersCreateInput,
 	ICandidateInterviewers,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CrudController } from './../core/crud';
 import { CandidateInterviewersService } from './candidate-interviewers.service';
 import { PermissionGuard, TenantPermissionGuard } from './../shared/guards';

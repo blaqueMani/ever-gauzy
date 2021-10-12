@@ -12,7 +12,7 @@ import {
 	ICountsStatistics,
 	IMembersStatistics,
 	IProjectsStatistics
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { TenantPermissionGuard } from './../../shared/guards';
 
 @ApiTags('TimesheetStatistic')

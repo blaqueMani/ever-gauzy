@@ -19,7 +19,7 @@ import { QueryDeepPartialEntity } from 'typeorm/query-builder/QueryPartialEntity
 import { EmployeeAwardService } from './employee-award.service';
 import { TenantPermissionGuard } from './../shared/guards';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';
-import { IEmployeeAward, IPagination } from '@gauzy/contracts';
+import { IEmployeeAward, IPagination } from '@leano/contracts';
 
 @ApiTags('EmployeeAward')
 @UseGuards(TenantPermissionGuard)

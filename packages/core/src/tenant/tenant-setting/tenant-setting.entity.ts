@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { Entity, Column } from 'typeorm';
-import { ITenant } from '@gauzy/contracts';
+import { ITenant } from '@leano/contracts';
 import { TenantBaseEntity } from '../../core/entities/internal';
 
 @Entity('tenant_setting')

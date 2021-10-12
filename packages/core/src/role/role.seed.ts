@@ -4,7 +4,7 @@
 
 import { Connection } from 'typeorm';
 import { Role } from './role.entity';
-import { IRole, ITenant, RolesEnum } from '@gauzy/contracts';
+import { IRole, ITenant, RolesEnum } from '@leano/contracts';
 
 export const createRoles = async (
 	connection: Connection,

@@ -18,7 +18,7 @@ import {
 	ICandidatePersonalQualities,
 	ICandidateTechnologies,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { filter, first, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import {

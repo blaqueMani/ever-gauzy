@@ -1,4 +1,4 @@
-import { IEstimateEmail } from '@gauzy/contracts';
+import { IEstimateEmail } from '@leano/contracts';
 import { ApiPropertyOptional } from '@nestjs/swagger';
 import {
 	IsBoolean,

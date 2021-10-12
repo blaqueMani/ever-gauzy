@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { ViewCell } from 'ng2-smart-table';
-import { getContrastColor } from '@gauzy/common-angular';
+import { getContrastColor } from '@leano/common-angular';
 
 @Component({
 	selector: 'ngx-tags-color',

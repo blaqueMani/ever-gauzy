@@ -1,6 +1,6 @@
 import { CommandHandler, ICommandHandler, CommandBus } from '@nestjs/cqrs';
 import { IntegrationMapSyncProjectCommand } from '..';
-import { IntegrationEntity } from '@gauzy/contracts';
+import { IntegrationEntity } from '@leano/contracts';
 import { IntegrationMapService } from '../../integration-map.service';
 import { OrganizationProjectCreateCommand } from '../../../organization-project/commands';
 import { IntegrationMap } from '../../integration-map.entity';

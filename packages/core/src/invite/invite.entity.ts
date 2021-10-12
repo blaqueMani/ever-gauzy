@@ -6,7 +6,7 @@ import {
 	IOrganizationProject,
 	IUser,
 	IRole
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsDate, IsEmail, IsEnum, IsNotEmpty, IsString } from 'class-validator';
 import {

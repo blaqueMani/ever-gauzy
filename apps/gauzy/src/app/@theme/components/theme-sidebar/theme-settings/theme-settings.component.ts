@@ -9,7 +9,7 @@ import {
 import {
 	IUser,
 	ComponentLayoutStyleEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Store, UsersService } from './../../../../@core/services';

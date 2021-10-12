@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { ListsInputTypeEnum } from '@gauzy/contracts';
+import { ListsInputTypeEnum } from '@leano/contracts';
 @Component({
 	selector: 'ngx-organization-list',
 	templateUrl: './organization-list.component.html',

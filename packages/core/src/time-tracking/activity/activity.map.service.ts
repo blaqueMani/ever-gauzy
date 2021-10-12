@@ -1,4 +1,4 @@
-import { IActivity } from '@gauzy/contracts';
+import { IActivity } from '@leano/contracts';
 import { Injectable } from '@nestjs/common';
 import * as moment from 'moment';
 import { chain } from 'underscore';

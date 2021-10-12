@@ -1,4 +1,4 @@
-import { ITask } from '@gauzy/contracts';
+import { ITask } from '@leano/contracts';
 import { CommandHandler, ICommandHandler } from '@nestjs/cqrs';
 import { TaskCreateCommand } from '..';
 import { TaskService } from '../../task.service';

@@ -1,4 +1,4 @@
-import { GoalOwnershipEnum, IOrganization, ITenant } from '@gauzy/contracts';
+import { GoalOwnershipEnum, IOrganization, ITenant } from '@leano/contracts';
 import { Connection } from 'typeorm';
 import { GoalGeneralSetting } from './goal-general-setting.entity';
 

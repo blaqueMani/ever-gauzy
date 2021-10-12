@@ -1,9 +1,9 @@
 {
-	"name": "@gauzy/product-reviews",
+	"name": "@leano/product-reviews",
 	"version": "0.1.0",
 	"description": "Ever Gauzy Platform Product Reviews plugin",
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},
@@ -28,7 +28,7 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@gauzy/plugin": "^0.1.0"
+		"@leano/plugin": "^0.1.0"
 	},
 	"devDependencies": {
 		"@types/node": "^14.14.22",

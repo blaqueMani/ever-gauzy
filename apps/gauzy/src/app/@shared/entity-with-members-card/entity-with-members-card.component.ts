@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import {
 	IBaseEntityWithMembers,
 	ComponentLayoutStyleEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @Component({
 	selector: 'ga-entity-with-members-card',

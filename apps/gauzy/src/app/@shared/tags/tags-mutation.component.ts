@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NbDialogRef } from '@nebular/theme';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { TagsService } from '../../@core/services/tags.service';
-import { ITag } from '@gauzy/contracts';
+import { ITag } from '@leano/contracts';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslationBaseComponent } from '../language-base/translation-base.component';
 import { Store } from '../../@core/services/store.service';

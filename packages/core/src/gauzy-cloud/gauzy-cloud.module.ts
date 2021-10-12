@@ -1,7 +1,7 @@
 import { forwardRef, HttpModule, Module } from '@nestjs/common';
 import { CqrsModule } from '@nestjs/cqrs';
 import { RouterModule } from 'nest-router';
-import { ConfigModule, ConfigService } from '@gauzy/config';
+import { ConfigModule, ConfigService } from '@leano/config';
 import { GauzyCloudController } from './gauzy-cloud.controller';
 import { GauzyCloudService } from './gauzy-cloud.service';
 import { TenantModule } from './../tenant';

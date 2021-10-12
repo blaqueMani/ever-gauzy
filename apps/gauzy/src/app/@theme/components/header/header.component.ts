@@ -17,14 +17,14 @@ import { debounceTime, filter, first, tap } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 import * as moment from 'moment';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import {
 	CrudActionEnum,
 	IOrganization,
 	IUser,
 	PermissionsEnum,
 	TimeLogType
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { environment } from '../../../../environments/environment';
 import { ALL_EMPLOYEES_SELECTED, NO_EMPLOYEE_SELECTED } from './selectors/employee';
 import { TimeTrackerService } from '../../../@shared/time-tracker/time-tracker.service';

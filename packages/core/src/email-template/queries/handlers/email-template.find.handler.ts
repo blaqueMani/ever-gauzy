@@ -5,7 +5,7 @@ import {
 	ICustomizableEmailTemplate,
 	LanguagesEnum,
 	EmailTemplateNameEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { IsNull } from 'typeorm';
 import { RequestContext } from './../../../core/context';
 

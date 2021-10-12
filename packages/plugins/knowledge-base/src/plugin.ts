@@ -1,10 +1,10 @@
-import { SeederModule } from '@gauzy/core';
-import { IOnPluginBootstrap, IOnPluginDestroy } from '@gauzy/common';
+import { SeederModule } from '@leano/core';
+import { IOnPluginBootstrap, IOnPluginDestroy } from '@leano/common';
 import {
 	ExtensionPlugin,
 	OnDefaultPluginSeed,
 	OnRandomPluginSeed
-} from '@gauzy/plugin';
+} from '@leano/plugin';
 import { HelpCenterAuthor, HelpCenterAuthorModule } from './help-center-author';
 import { HelpCenter, HelpCenterModule } from './help-center';
 import {

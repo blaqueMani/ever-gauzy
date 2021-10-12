@@ -11,7 +11,7 @@ import {
 	IIntegrationMap,
 	IntegrationEntity,
 	IntegrationEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { v4 as uuid } from 'uuid';
 import { Store } from './store.service';
 import { switchMap, tap } from 'rxjs/operators';

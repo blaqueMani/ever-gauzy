@@ -12,7 +12,7 @@ import {
 	KeyResultUpdateStatusEnum,
 	IKPI,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { KeyResultUpdateComponent } from '../keyresult-update/keyresult-update.component';
 import { first, takeUntil } from 'rxjs/operators';
 import { KeyResultService } from '../../../@core/services/keyresult.service';

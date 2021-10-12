@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { IChangelog } from '@gauzy/contracts';
+import { IChangelog } from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Observable, Subject } from 'rxjs';
 import { tap } from 'rxjs/operators';

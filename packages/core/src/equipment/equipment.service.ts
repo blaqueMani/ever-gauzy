@@ -1,7 +1,7 @@
 import { InjectRepository } from '@nestjs/typeorm';
 import { Injectable } from '@nestjs/common';
 import { Repository } from 'typeorm';
-import { IEquipment, IPagination } from '@gauzy/contracts';
+import { IEquipment, IPagination } from '@leano/contracts';
 import { Equipment } from './equipment.entity';
 import { TenantAwareCrudService } from './../core/crud';
 

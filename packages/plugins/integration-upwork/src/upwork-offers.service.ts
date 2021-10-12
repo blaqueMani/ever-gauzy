@@ -6,7 +6,7 @@ import {
 	IUpworkApiConfig,
 	IUpworkProposalStatusEnum,
 	IUpworkOfferStatusEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @Injectable()
 export class UpworkOffersService {

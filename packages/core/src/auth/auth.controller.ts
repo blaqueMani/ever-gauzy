@@ -18,7 +18,7 @@ import {
 	IAuthResponse,
 	IUserRegistrationInput,
 	LanguagesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { AuthService } from './auth.service';
 import { User as IUser } from '../user/user.entity';
 import { AuthRegisterCommand } from './commands';

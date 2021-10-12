@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 import { TenantAwareCrudService } from './../core/crud';
 import { OrganizationTeamEmployee } from './organization-team-employee.entity';
 import { Role } from '../role/role.entity';
-import { IEmployee } from '@gauzy/contracts';
+import { IEmployee } from '@leano/contracts';
 
 @Injectable()
 export class OrganizationTeamEmployeeService extends TenantAwareCrudService<OrganizationTeamEmployee> {

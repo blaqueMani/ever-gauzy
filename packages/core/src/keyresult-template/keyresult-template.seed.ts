@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { ITenant, KeyResultTypeEnum } from '@gauzy/contracts';
+import { ITenant, KeyResultTypeEnum } from '@leano/contracts';
 import { KeyResultTemplate } from './keyresult-template.entity';
 import { GoalTemplate } from '../goal-template/goal-template.entity';
 import { GoalKPITemplate } from '../goal-kpi-template/goal-kpi-template.entity';

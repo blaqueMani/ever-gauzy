@@ -1,5 +1,5 @@
 import { Column, Entity } from 'typeorm';
-import { ICandidateSource } from '@gauzy/contracts';
+import { ICandidateSource } from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { TenantOrganizationBaseEntity } from '../core/entities/internal';
 

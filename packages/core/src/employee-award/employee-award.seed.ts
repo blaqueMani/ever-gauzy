@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
 import { EmployeeAward } from './employee-award.entity';
 import { DEFAULT_EMPLOYEE_AWARDS } from './default-employee-awards';
-import { IEmployee, ITenant } from '@gauzy/contracts';
+import { IEmployee, ITenant } from '@leano/contracts';
 
 export const createDefaultEmployeeAwards = async (
 	connection: Connection,

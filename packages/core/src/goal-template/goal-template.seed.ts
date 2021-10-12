@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
 import { GoalTemplate } from './goal-template.entity';
 import { DEFAULT_GOAL_TEMPLATES } from './default-goal-templates';
-import { IOrganization, ITenant } from '@gauzy/contracts';
+import { IOrganization, ITenant } from '@leano/contracts';
 
 export const createDefaultGoalTemplates = async (
 	connection: Connection,

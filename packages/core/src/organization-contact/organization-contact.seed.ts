@@ -1,6 +1,6 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
-import { ContactOrganizationInviteStatus, ContactType, IContact, IEmployee, IOrganization, IOrganizationContact, ITag, ITenant, OrganizationContactBudgetTypeEnum } from '@gauzy/contracts';
+import { ContactOrganizationInviteStatus, ContactType, IContact, IEmployee, IOrganization, IOrganizationContact, ITag, ITenant, OrganizationContactBudgetTypeEnum } from '@leano/contracts';
 import * as _ from 'underscore';
 import { getDummyImage } from '../core';
 import { Contact, Organization, OrganizationContact, Tag } from './../core/entities/internal';

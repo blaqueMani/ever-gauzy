@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
-import { DEFAULT_ENTITY_SETTINGS } from '@gauzy/integration-hubstaff';
-import { IIntegrationEntitySetting, IIntegrationEntitySettingTied, ITenant } from '@gauzy/contracts';
+import { DEFAULT_ENTITY_SETTINGS } from '@leano/integration-hubstaff';
+import { IIntegrationEntitySetting, IIntegrationEntitySettingTied, ITenant } from '@leano/contracts';
 import { IntegrationEntitySetting } from './integration-entity-setting.entity';
 import { IntegrationTenant, Organization } from './../core/entities/internal';
 

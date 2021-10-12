@@ -11,7 +11,7 @@ import {
 	IOrganizationContact,
 	IOrganization,
 	ICurrency
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { debounceTime, filter, tap } from 'rxjs/operators';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';

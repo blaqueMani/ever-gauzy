@@ -7,7 +7,7 @@ import {
 	OneToMany,
 	Index
 } from 'typeorm';
-import { IEmployee, ITimeLog, ITimesheet, TimesheetStatus } from '@gauzy/contracts';
+import { IEmployee, ITimeLog, ITimesheet, TimesheetStatus } from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import {
 	IsString,

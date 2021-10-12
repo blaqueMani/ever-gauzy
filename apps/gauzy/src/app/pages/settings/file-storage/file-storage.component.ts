@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FileStorageProviderEnum, ITenantSetting, IUser } from '@gauzy/contracts';
+import { FileStorageProviderEnum, ITenantSetting, IUser } from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, tap } from 'rxjs/operators';

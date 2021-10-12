@@ -3,7 +3,7 @@ import {
 	GoalLevelEnum,
 	GoalTemplateCategoriesEnum,
 	IKeyResultTemplate
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Entity, Column, OneToMany } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsEnum } from 'class-validator';

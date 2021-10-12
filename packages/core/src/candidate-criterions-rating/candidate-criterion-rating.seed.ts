@@ -1,5 +1,5 @@
 import { Connection } from 'typeorm';
-import { ICandidate, IOrganization, ITenant } from '@gauzy/contracts';
+import { ICandidate, IOrganization, ITenant } from '@leano/contracts';
 import { CandidateCriterionsRating } from './candidate-criterion-rating.entity';
 import { CandidateFeedback, CandidateInterview, CandidatePersonalQualities, CandidateTechnologies } from './../core/entities/internal';
 

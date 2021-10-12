@@ -5,7 +5,7 @@ import {
 	IKeyResultTemplate,
 	IGoalKPITemplate,
 	IGoalTemplateFind
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { catchError } from 'rxjs/operators';
 import { throwError } from 'rxjs';
 import { ToastrService } from './toastr.service';

@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
-import { IEmployee, IOrganization, ITag } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ITag } from '@leano/contracts';
 import { Store } from '../../../@core/services/store.service';
 
 @Component({

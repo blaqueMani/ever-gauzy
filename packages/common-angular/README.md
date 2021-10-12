@@ -1,10 +1,10 @@
-# `@gauzy/common-angular`
+# `@leano/common-angular`
 
 Common code used in Gauzy Angular projects
 
 ## Usage
 
 ```
-const common = require('@gauzy/common-angular');
+const common = require('@leano/common-angular');
 
 ```

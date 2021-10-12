@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { ViewCell } from 'ng2-smart-table';
-import { ComponentLayoutStyleEnum } from '@gauzy/contracts';
+import { ComponentLayoutStyleEnum } from '@leano/contracts';
 
 @Component({
 	selector: 'ga-notes-with-tags',

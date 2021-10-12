@@ -15,7 +15,7 @@ import {
 	IScreenshot,
 	IEmployee,
 	ITimeLog
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNumber, IsDateString } from 'class-validator';
 import {

@@ -18,7 +18,7 @@ import {
 	ICandidateInterviewCreateInput,
 	IPagination,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { CandidateInterview } from './candidate-interview.entity';
 import { CandidateInterviewService } from './candidate-interview.service';

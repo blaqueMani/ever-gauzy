@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { ICandidate } from '@gauzy/contracts';
+import { ICandidate } from '@leano/contracts';
 
 @Component({
 	selector: 'ga-candidate-multi-select',

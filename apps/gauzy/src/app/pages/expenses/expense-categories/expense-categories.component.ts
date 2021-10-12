@@ -8,14 +8,14 @@ import {
 	IOrganizationExpenseCategory,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Subject } from 'rxjs/internal/Subject';
 import { API_PREFIX, ComponentEnum } from '../../../@core/constants';
 import { NotesWithTagsComponent } from '../../../@shared/table-components';
 import { DeleteConfirmationComponent } from '../../../@shared/user/forms/delete-confirmation/delete-confirmation.component';
 import { ErrorHandlingService, OrganizationExpenseCategoriesService, Store, ToastrService } from '../../../@core/services';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import { ServerDataSource } from '../../../@core/utils/smart-table/server.data-source';
 import { HttpClient } from '@angular/common/http';
 import { combineLatest } from 'rxjs';

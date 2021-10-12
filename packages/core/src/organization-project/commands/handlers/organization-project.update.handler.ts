@@ -4,7 +4,7 @@ import { OrganizationProjectService } from '../../organization-project.service';
 import {
 	IOrganizationProject,
 	IOrganizationProjectsUpdateInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @CommandHandler(OrganizationProjectUpdateCommand)
 export class OrganizationProjectUpdateHandler

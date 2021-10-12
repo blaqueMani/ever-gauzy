@@ -4,7 +4,7 @@ import {
 	Component,
 	OnInit
 } from '@angular/core';
-import { IGetExpenseInput, ReportGroupFilterEnum, ReportGroupByFilter } from '@gauzy/contracts';
+import { IGetExpenseInput, ReportGroupFilterEnum, ReportGroupByFilter } from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { debounceTime, tap } from 'rxjs/operators';

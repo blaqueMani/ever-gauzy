@@ -4,7 +4,7 @@ import {
 	IBaseEntityWithMembers,
 	IEditEntityByMemberInput,
 	IEmployee
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @Component({
 	selector: 'ga-edit-employee-membership',

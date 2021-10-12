@@ -7,7 +7,7 @@ import {
 	IUserRegistrationInput,
 	PermissionsEnum,
 	IAuthResponse
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Observable } from 'rxjs';
 import { API_PREFIX } from '../constants/app.constants';
 

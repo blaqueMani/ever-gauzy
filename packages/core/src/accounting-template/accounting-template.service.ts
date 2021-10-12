@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Brackets, IsNull, Repository, SelectQueryBuilder, WhereExpressionBuilder } from 'typeorm';
-import { AccountingTemplateTypeEnum, IAccountingTemplate, IListQueryInput, IPagination, LanguagesEnum } from '@gauzy/contracts';
+import { AccountingTemplateTypeEnum, IAccountingTemplate, IListQueryInput, IPagination, LanguagesEnum } from '@leano/contracts';
 import * as mjml2html from 'mjml';
 import * as Handlebars from 'handlebars';
 import { CrudService } from './../core/crud';

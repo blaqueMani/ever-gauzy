@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { API_PREFIX } from '../constants/app.constants';
 import {
 	IMerchant,
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { first } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 

@@ -1,9 +1,9 @@
 {
-	"name": "@gauzy/integration-wakatime",
+	"name": "@leano/integration-wakatime",
 	"version": "0.1.0",
 	"description": "Ever Gauzy Platform plugin for integration with Wakatime APIs",
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},
@@ -28,7 +28,7 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@gauzy/contracts": "^0.1.0",
+		"@leano/contracts": "^0.1.0",
         "@nestjs/typeorm": "^7.1.5",
         "typeorm": "^0.2.37",
         "@nestjs/common": "^7.6.5"

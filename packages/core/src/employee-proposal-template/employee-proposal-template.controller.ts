@@ -1,4 +1,4 @@
-import { IEmployeeProposalTemplate, IPagination,  } from '@gauzy/contracts';
+import { IEmployeeProposalTemplate, IPagination,  } from '@leano/contracts';
 import {
 	Controller,
 	Get,

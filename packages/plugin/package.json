@@ -1,9 +1,9 @@
 {
-	"name": "@gauzy/plugin",
+	"name": "@leano/plugin",
 	"version": "0.1.0",
 	"description": "Ever Gauzy Platform Plugin module",
 	"author": {
-		"name": "Ever Co. LTD",
+		"name": "Leano Industry Solutions Pty Ltd",
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},
@@ -29,8 +29,8 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@gauzy/common": "^0.1.0",
-		"@gauzy/config": "^0.1.0"
+		"@leano/common": "^0.1.0",
+		"@leano/config": "^0.1.0"
 	},
 	"devDependencies": {
 		"@types/node": "^14.14.22",

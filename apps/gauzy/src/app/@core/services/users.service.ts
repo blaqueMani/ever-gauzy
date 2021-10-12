@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IUser, IUserFindInput, IUserUpdateInput } from '@gauzy/contracts';
+import { IUser, IUserFindInput, IUserUpdateInput } from '@leano/contracts';
 import { first } from 'rxjs/operators';
 import { API_PREFIX } from '../constants/app.constants';
 

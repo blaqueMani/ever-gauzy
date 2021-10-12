@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ILanguage } from '@gauzy/contracts';
+import { ILanguage } from '@leano/contracts';
 import { first } from 'rxjs/operators';
 import { API_PREFIX } from '../constants/app.constants';
-import { toParams } from '@gauzy/common-angular';
+import { toParams } from '@leano/common-angular';
 
 @Injectable()
 export class LanguagesService {

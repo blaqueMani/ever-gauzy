@@ -1,4 +1,4 @@
-import { IEmailTemplate } from '@gauzy/contracts';
+import { IEmailTemplate } from '@leano/contracts';
 import { IQuery } from '@nestjs/cqrs';
 import { PaginationParams } from './../../core/crud/pagination-params';
 

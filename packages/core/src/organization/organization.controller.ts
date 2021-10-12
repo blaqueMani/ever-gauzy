@@ -1,4 +1,4 @@
-import { IOrganization, IOrganizationCreateInput, IPagination, PermissionsEnum } from '@gauzy/contracts';
+import { IOrganization, IOrganizationCreateInput, IPagination, PermissionsEnum } from '@leano/contracts';
 import {
 	Body,
 	Controller,
@@ -12,7 +12,7 @@ import {
 	Query
 } from '@nestjs/common';
 import { CommandBus } from '@nestjs/cqrs';
-import { isNotEmpty } from '@gauzy/common';
+import { isNotEmpty } from '@leano/common';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { CrudController } from './../core/crud';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';

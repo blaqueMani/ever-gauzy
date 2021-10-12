@@ -1,6 +1,6 @@
 import { Connection } from 'typeorm';
 import { Country } from './country.entity';
-import { ICountry } from '@gauzy/contracts';
+import { ICountry } from '@leano/contracts';
 import { DEFAULT_COUNTRIES } from './default-countries';
 
 export const createCountries = async (

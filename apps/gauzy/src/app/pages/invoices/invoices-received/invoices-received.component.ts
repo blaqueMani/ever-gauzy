@@ -9,14 +9,14 @@ import {
 	IInvoice,
 	ComponentLayoutStyleEnum,
 	IOrganization
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Router } from '@angular/router';
 import { InvoicePaidComponent } from '../table-components/invoice-paid.component';
 import { ComponentEnum } from '../../../@core/constants/layout.constants';
 import { ErrorHandlingService } from '../../../@core/services/error-handling.service';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { ToastrService } from '../../../@core/services/toastr.service';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+import { distinctUntilChange, isNotEmpty } from '@leano/common-angular';
 import { Subject } from 'rxjs/internal/Subject';
 import { ServerDataSource } from '../../../@core/utils/smart-table/server.data-source';
 import { API_PREFIX } from '../../../@core/constants';

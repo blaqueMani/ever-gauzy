@@ -15,8 +15,8 @@ import {
 	AccountingTemplateTypeEnum,
 	IOrganization,
 	LanguagesEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { distinctUntilChange } from '@leano/common-angular';
 import { AccountingTemplateService, Store } from '../../@core/services';
 
 @UntilDestroy({ checkProperties: true })

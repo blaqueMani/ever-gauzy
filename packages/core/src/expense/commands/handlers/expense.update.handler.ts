@@ -3,7 +3,7 @@ import { ExpenseService } from '../../expense.service';
 import { EmployeeService } from '../../../employee/employee.service';
 import { EmployeeStatisticsService } from '../../../employee-statistics';
 import { ExpenseUpdateCommand } from '../expense.update.command';
-import { IExpense } from '@gauzy/contracts';
+import { IExpense } from '@leano/contracts';
 
 @CommandHandler(ExpenseUpdateCommand)
 export class ExpenseUpdateHandler

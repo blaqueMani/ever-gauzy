@@ -21,7 +21,7 @@ import {
 	IWarehouseProductCreateInput,
 	IWarehouseProductVariant,
 	IWarehouse
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { WarehouseService } from './warehouse.service';
 import { Warehouse } from './warehouse.entity';
 import { WarehouseProductService } from './warehouse-product-service';

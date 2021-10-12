@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
 import * as faker from 'faker';
 import * as moment from 'moment';
-import { AvailabilitySlotType, IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { AvailabilitySlotType, IEmployee, IOrganization, ITenant } from '@leano/contracts';
 import { AvailabilitySlot } from './availability-slots.entity';
 
 export const createDefaultAvailabilitySlots = async (

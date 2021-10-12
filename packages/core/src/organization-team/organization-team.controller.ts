@@ -17,7 +17,7 @@ import {
 	IOrganizationTeamCreateInput,
 	IOrganizationTeam,
 	IPagination
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { OrganizationTeam } from './organization-team.entity';
 import { TenantPermissionGuard } from './../shared/guards';
 import { ParseJsonPipe, UUIDValidationPipe } from './../shared/pipes';

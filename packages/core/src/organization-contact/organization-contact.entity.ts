@@ -30,7 +30,7 @@ import {
 	OrganizationContactBudgetTypeEnum,
 	IExpense,
 	ITimeLog
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Contact,
 	Employee,

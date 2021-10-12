@@ -9,8 +9,8 @@ import {
 	ISubmitTimesheetInput,
 	PermissionsEnum,
 	ITimesheet
-} from '@gauzy/contracts';
-import { isNotEmpty } from '@gauzy/common';
+} from '@leano/contracts';
+import { isNotEmpty } from '@leano/common';
 import { RequestContext } from './../../core/context';
 import { TenantAwareCrudService } from './../../core/crud';
 import { getDateRangeFormat } from './../../core/utils';

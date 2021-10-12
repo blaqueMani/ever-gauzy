@@ -1,7 +1,7 @@
 import { Entity, Column, OneToMany } from 'typeorm';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsOptional } from 'class-validator';
-import { IProductCategoryTranslatable } from '@gauzy/contracts';
+import { IProductCategoryTranslatable } from '@leano/contracts';
 import {
 	Product,
 	ProductCategoryTranslation,

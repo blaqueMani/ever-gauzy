@@ -18,7 +18,7 @@ import {
 	IncomeTypeEnum,
 	IOrganization,
 	IUpworkDateRange
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Store } from 'apps/gauzy/src/app/@core/services/store.service';
 
 @Component({

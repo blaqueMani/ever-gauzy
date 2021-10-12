@@ -5,7 +5,7 @@ import {
 	UpdateEmployeeJobsStatistics,
 	IPagination,
 	IEmployee
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Body,
 	Controller,

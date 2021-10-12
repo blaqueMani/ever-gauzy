@@ -1,4 +1,4 @@
-import { IAvailabilitySlot, IAvailabilitySlotsCreateInput, IPagination } from '@gauzy/contracts';
+import { IAvailabilitySlot, IAvailabilitySlotsCreateInput, IPagination } from '@leano/contracts';
 import {
 	Body,
 	Controller,

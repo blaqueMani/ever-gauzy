@@ -5,9 +5,9 @@ import {
 	IOrganization,
 	ITenant,
 	RecurringExpenseDefaultCategoriesEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import * as moment from 'moment';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 
 export const createDefaultOrganizationRecurringExpense = async (
 	connection: Connection,

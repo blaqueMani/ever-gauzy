@@ -1,6 +1,6 @@
 import { createParamDecorator, ExecutionContext } from '@nestjs/common';
 import { FileStorage } from './file-storage';
-import { FileStorageProviderEnum, UploadedFile } from '@gauzy/contracts';
+import { FileStorageProviderEnum, UploadedFile } from '@leano/contracts';
 
 export const UploadedFileStorage = createParamDecorator(
 	(data: FileStorageProviderEnum, ctx: ExecutionContext): UploadedFile => {

@@ -1,5 +1,5 @@
 import { StorageEngine } from 'multer';
-import { FileStorageOption, FileSystem, UploadedFile } from '@gauzy/contracts';
+import { FileStorageOption, FileSystem, UploadedFile } from '@leano/contracts';
 
 export abstract class Provider<T> {
 	static instance: any;

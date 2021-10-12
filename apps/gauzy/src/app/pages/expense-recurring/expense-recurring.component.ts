@@ -7,7 +7,7 @@ import {
 	PermissionsEnum,
 	RecurringExpenseDefaultCategoriesEnum,
 	RecurringExpenseDeletionEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Subject } from 'rxjs';
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';

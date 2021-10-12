@@ -14,7 +14,7 @@ import {
 	IRolePermission,
 	IFeatureOrganization,
 	IImportRecord
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @Entity('tenant')
 export class Tenant extends BaseEntity implements ITenant {

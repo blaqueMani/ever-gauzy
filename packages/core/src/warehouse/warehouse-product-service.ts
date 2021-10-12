@@ -13,7 +13,7 @@ import {
 	IWarehouseProduct,
 	IWarehouseProductCreateInput,
 	IWarehouseProductVariant
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @Injectable()
 export class WarehouseProductService extends TenantAwareCrudService<WarehouseProduct> {

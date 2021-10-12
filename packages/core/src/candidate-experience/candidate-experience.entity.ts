@@ -1,7 +1,7 @@
 import { Column, Entity, ManyToOne, RelationId } from 'typeorm';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsNotEmpty } from 'class-validator';
-import { ICandidateExperience, ICandidate } from '@gauzy/contracts';
+import { ICandidateExperience, ICandidate } from '@leano/contracts';
 import {
 	Candidate,
 	TenantOrganizationBaseEntity

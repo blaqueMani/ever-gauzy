@@ -14,7 +14,7 @@ import {
 	ValidationPipe
 } from '@nestjs/common';
 import { ApiResponse, ApiOperation } from '@nestjs/swagger';
-import { IMerchant, IPagination } from '@gauzy/contracts';
+import { IMerchant, IPagination } from '@leano/contracts';
 import { CrudController, PaginationParams } from './../core/crud';
 import { RequestContext } from './../core/context';
 import { Merchant } from './merchant.entity';

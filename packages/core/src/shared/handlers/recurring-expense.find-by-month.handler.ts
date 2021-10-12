@@ -2,7 +2,7 @@ import {
 	IPagination,
 	IRecurringExpenseByMonthFindInput,
 	IRecurringExpenseModel
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { Between, IsNull, LessThanOrEqual, MoreThanOrEqual } from 'typeorm';
 import { CrudService } from './../../core/crud';
 import { getDateRange, getLastDayOfMonth } from './../../core/utils';

@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { TranslationBaseComponent } from '../../../../../@shared/language-base/translation-base.component';
-import { IProductTranslated, IOrganization, LanguagesEnum } from '@gauzy/contracts';
+import { IProductTranslated, IOrganization, LanguagesEnum } from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Store, ProductService, API_PREFIX } from 'apps/gauzy/src/app/@core';
 import { TranslateService } from '@ngx-translate/core';

@@ -1,7 +1,7 @@
 import { AfterViewInit, Component } from "@angular/core";
 import { UntilDestroy } from "@ngneat/until-destroy";
 import { TranslateService } from "@ngx-translate/core";
-import { isNotEmpty } from "@gauzy/common-angular";
+import { isNotEmpty } from "@leano/common-angular";
 import { Subject } from "rxjs/internal/Subject";
 import { TranslationBaseComponent } from "../language-base/translation-base.component";
 

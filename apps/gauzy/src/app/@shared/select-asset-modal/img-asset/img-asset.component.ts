@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { IImageAsset } from '@gauzy/contracts';
+import { IImageAsset } from '@leano/contracts';
 import { NbDialogService, NbToastrService } from '@nebular/theme';
 import { first } from 'rxjs/operators';
 import { ImageAssetService } from '../../../@core/services/image-asset.service';

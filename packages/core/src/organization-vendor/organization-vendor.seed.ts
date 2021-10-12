@@ -1,4 +1,4 @@
-import { OrganizationVendorEnum, IOrganization, IOrganizationVendor, ITenant } from '@gauzy/contracts';
+import { OrganizationVendorEnum, IOrganization, IOrganizationVendor, ITenant } from '@leano/contracts';
 import { Connection } from 'typeorm';
 import { OrganizationVendor } from './../core/entities/internal';
 

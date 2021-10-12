@@ -1,4 +1,4 @@
-import { ITag, IWarehouse, IImageAsset, IOrganization } from '@gauzy/contracts';
+import { ITag, IWarehouse, IImageAsset, IOrganization } from '@leano/contracts';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute, Router } from '@angular/router';

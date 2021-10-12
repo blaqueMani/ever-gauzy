@@ -3,7 +3,7 @@ import {
 	IRolePermission,
 	IRolePermissionCreateInput,
 	PermissionsEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Body,
 	Controller,

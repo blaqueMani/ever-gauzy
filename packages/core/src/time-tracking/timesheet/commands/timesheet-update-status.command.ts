@@ -1,5 +1,5 @@
 import { ICommand } from '@nestjs/cqrs';
-import { IUpdateTimesheetStatusInput } from '@gauzy/contracts';
+import { IUpdateTimesheetStatusInput } from '@leano/contracts';
 
 export class TimesheetUpdateStatusCommand implements ICommand {
 	static readonly type = '[Timesheet] update-status';

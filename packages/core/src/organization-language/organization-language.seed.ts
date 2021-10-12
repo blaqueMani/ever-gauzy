@@ -1,7 +1,7 @@
 import { Connection, In } from 'typeorm';
 import { OrganizationLanguage } from './organization-language.entity';
 import * as faker from 'faker';
-import { IOrganization, IOrganizationLanguage, ITenant } from '@gauzy/contracts';
+import { IOrganization, IOrganizationLanguage, ITenant } from '@leano/contracts';
 import { Language } from '../language/language.entity';
 import { DEFAULT_LANGUAGE_LEVEL, DEFAULT_ORGANIZATION_LANGUAGES } from './default-organization-languages';
 

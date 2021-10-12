@@ -14,7 +14,7 @@ import {
 	PermissionsEnum,
 	ReportGroupByFilter,
 	ReportGroupFilterEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';
 import { NgxPermissionsService } from 'ngx-permissions';

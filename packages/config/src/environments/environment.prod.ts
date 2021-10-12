@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-import { FileStorageProviderEnum } from '@gauzy/contracts';
+import { FileStorageProviderEnum } from '@leano/contracts';
 import { IEnvironment, IGauzyFeatures } from './ienvironment';
 
 if (process.env.IS_ELECTRON && process.env.GAUZY_USER_PATH) {

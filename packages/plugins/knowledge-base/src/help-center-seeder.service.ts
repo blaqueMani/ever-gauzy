@@ -1,20 +1,20 @@
 import { Injectable } from '@nestjs/common';
 import { Connection, getConnection, Not } from 'typeorm';
-import { IEmployee, IOrganization, ITenant } from '@gauzy/contracts';
+import { IEmployee, IOrganization, ITenant } from '@leano/contracts';
 import {
 	getDefaultOrganizations,
 	getDefaultEmployees,
 	SeedDataService,
 	Tenant,
 	Employee
-} from '@gauzy/core';
+} from '@leano/core';
 import { createHelpCenter } from './help-center';
 import { createHelpCenterArticle } from './help-center-article/help-center-article.seed';
 import {
 	createDefaultHelpCenterAuthor,
 	createRandomHelpCenterAuthor
 } from './help-center-author';
-import { SEEDER_DB_CONNECTION } from '@gauzy/common';
+import { SEEDER_DB_CONNECTION } from '@leano/common';
 
 /**
  * Service dealing with help center based operations.

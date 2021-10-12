@@ -18,8 +18,8 @@ import {
 	ICurrency,
 	ISelectedEmployee,
 	IOrganization
-} from '@gauzy/contracts';
-import { isEmpty } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { isEmpty } from '@leano/common-angular';
 import {
 	EmployeeSelectorComponent,
 	ALL_EMPLOYEES_SELECTED

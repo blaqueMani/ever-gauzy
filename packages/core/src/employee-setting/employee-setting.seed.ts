@@ -1,7 +1,7 @@
 import { Connection } from 'typeorm';
-import { IEmployee, ITenant } from '@gauzy/contracts';
+import { IEmployee, ITenant } from '@leano/contracts';
 import * as faker from 'faker';
-import { environment as env } from '@gauzy/config';
+import { environment as env } from '@leano/config';
 import { Organization } from '../organization/organization.entity';
 import { EmployeeSetting } from './employee-setting.entity';
 

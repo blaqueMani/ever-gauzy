@@ -8,7 +8,7 @@ import {
 	KeyResultDeadlineEnum,
 	IOrganization,
 	ITenant
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import * as moment from 'moment';
 import { GoalTimeFrame } from '../goal-time-frame/goal-time-frame.entity';
 

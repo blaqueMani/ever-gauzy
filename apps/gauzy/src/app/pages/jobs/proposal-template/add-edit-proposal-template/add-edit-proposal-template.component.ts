@@ -4,7 +4,7 @@ import {
 	IEmployeeProposalTemplate,
 	IOrganization,
 	ISelectedEmployee
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogRef } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { TranslateService } from '@ngx-translate/core';

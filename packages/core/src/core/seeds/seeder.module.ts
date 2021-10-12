@@ -1,5 +1,5 @@
 import { DynamicModule, Module } from '@nestjs/common';
-import { getDynamicPluginsModules } from '@gauzy/plugin';
+import { getDynamicPluginsModules } from '@leano/plugin';
 import { SeedDataService } from './seed-data.service';
 import { DatabaseProviderModule } from './../../core/database-provider.module';
 

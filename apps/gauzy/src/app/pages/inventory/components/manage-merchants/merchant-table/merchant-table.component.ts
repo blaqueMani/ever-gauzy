@@ -8,14 +8,14 @@ import { debounceTime, filter, first, tap } from 'rxjs/operators';
 import { Subject } from 'rxjs/internal/Subject';
 import { Ng2SmartTableComponent } from 'ng2-smart-table';
 import { NbDialogService } from '@nebular/theme';
-import { distinctUntilChange } from '@gauzy/common-angular';
+import { distinctUntilChange } from '@leano/common-angular';
 import {
 	IMerchant,
 	IOrganization,
 	ComponentLayoutStyleEnum,
 	IContact,
 	IWarehouse
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { API_PREFIX, ComponentEnum } from './../../../../../@core/constants';
 import { MerchantService, Store, ToastrService } from '../../../../../@core/services';
 import { EnabledStatusComponent, ItemImgTagsComponent } from '../../table-components';

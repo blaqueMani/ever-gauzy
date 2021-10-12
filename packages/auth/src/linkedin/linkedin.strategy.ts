@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt } from 'passport-jwt';
-import { ConfigService, IEnvironment } from '@gauzy/config';
+import { ConfigService, IEnvironment } from '@leano/config';
 import { Strategy } from 'passport-linkedin-oauth2';
-import { IApiServerOptions } from '@gauzy/common';
+import { IApiServerOptions } from '@leano/common';
 
 @Injectable()
 export class LinkedinStrategy extends PassportStrategy(Strategy, 'linkedin') {

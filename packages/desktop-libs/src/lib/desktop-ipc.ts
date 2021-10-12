@@ -13,7 +13,7 @@ import {
 import * as _ from 'underscore';
 import {
 	timeTrackerPage
-} from '@gauzy/desktop-window';
+} from '@leano/desktop-window';
 
 // Import logging for electron and override default console logging
 import log from 'electron-log';

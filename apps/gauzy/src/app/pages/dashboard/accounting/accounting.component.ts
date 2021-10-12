@@ -7,7 +7,7 @@ import {
 	IAggregatedEmployeeStatistic,
 	IOrganization,
 	ISelectedEmployee
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { ALL_EMPLOYEES_SELECTED } from '../../../@theme/components/header/selectors/employee';
 import { Router } from '@angular/router';
 @UntilDestroy({ checkProperties: true })

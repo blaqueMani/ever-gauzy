@@ -11,7 +11,7 @@ import {
 	IOrganization,
 	EmployeeViewModel,
 	CrudActionEnum
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { TranslateService } from '@ngx-translate/core';
 import { LocalDataSource, Ng2SmartTableComponent } from 'ng2-smart-table';

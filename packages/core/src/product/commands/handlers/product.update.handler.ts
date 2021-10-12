@@ -15,7 +15,7 @@ import {
 	IProductOptionTranslatable,
 	IProductOptionTranslation,
 	IProductOptionGroupTranslation
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 
 @CommandHandler(ProductUpdateCommand)
 export class ProductUpdateHandler

@@ -36,8 +36,8 @@ import {
 	IInvoiceItemCreateInput,
 	InvoiceTabsEnum,
 	DiscountTaxTypeEnum
-} from '@gauzy/contracts';
-import { distinctUntilChange, isNotEmpty } from '@gauzy/common-angular';
+} from '@leano/contracts';
+import { distinctUntilChange, isNotEmpty } from '@leano/common-angular';
 import { Router } from '@angular/router';
 import { first, map, filter, tap, debounceTime } from 'rxjs/operators';
 import { Subject } from 'rxjs/internal/Subject';

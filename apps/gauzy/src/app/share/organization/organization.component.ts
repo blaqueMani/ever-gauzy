@@ -7,7 +7,7 @@ import {
 	IOrganizationLanguage,
 	PermissionsEnum,
 	IOrganizationContact
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import { NbDialogService } from '@nebular/theme';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { first, tap } from 'rxjs/operators';

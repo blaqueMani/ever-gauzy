@@ -14,7 +14,7 @@ import {
 	IRequestApprovalTeam,
 	ITag,
 	ITask
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	OrganizationTeamEmployee,
 	RequestApprovalTeam,

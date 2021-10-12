@@ -6,7 +6,7 @@ import {
 	IApprovalPolicy,
 	IListQueryInput,
 	IRequestApprovalFindInput
-} from '@gauzy/contracts';
+} from '@leano/contracts';
 import {
 	Query,
 	HttpStatus,
