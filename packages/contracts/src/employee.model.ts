@@ -50,7 +50,7 @@ export interface IEmployee extends IBasePerTenantAndOrganizationEntityModel {
 	timesheets?: ITimesheet[];
 	tasks?: ITask[];
 	timeSlots?: ITimeSlot[];
-	contact: IContact;
+	contact?: IContact;
 	averageIncome?: number;
 	totalWorkHours?: number;
 	averageExpenses?: number;
@@ -149,6 +149,8 @@ export interface ISelectedEmployee {
 	lastName: string;
 	fullName?: string;
 	imageUrl: string;
+	shortDescription?: string;
+	employeeLevel?: string;
 	defaultType?: DEFAULT_TYPE;
 	tags?: ITag[];
 	skills?: ISkill[];

@@ -28,11 +28,13 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@leano/plugin": "^0.1.0"
+		"@leano/plugin": "^0.1.0",
+		"apollo-server-core": "^3.3.0",
+		"typeorm": "^0.2.38"
 	},
 	"devDependencies": {
 		"@types/node": "^14.14.22",
 		"rimraf": "^3.0.2",
-		"typescript": "~4.1.6"
+		"typescript": "~4.2.4"
 	}
 }

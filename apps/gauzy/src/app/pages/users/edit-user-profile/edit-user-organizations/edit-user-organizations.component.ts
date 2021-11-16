@@ -4,8 +4,8 @@ import {
 	IUserOrganizationCreateInput,
 	RolesEnum
 } from '@leano/contracts';
-import { first, filter, tap, debounceTime } from 'rxjs/operators';
-import { Subject } from 'rxjs/internal/Subject';
+import { filter, tap, debounceTime } from 'rxjs/operators';
+import { Subject, firstValueFrom } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
@@ -28,7 +28,7 @@ import { DeleteConfirmationComponent } from '../../../../@shared/user/forms';
 export class EditUserOrganizationsComponent
 	extends TranslationBaseComponent
 	implements OnInit, OnDestroy {
-	
+
 	showAddCard: boolean;
 	selectedUserId: string;
 	selectedUserName: string;
@@ -68,7 +68,7 @@ export class EditUserOrganizationsComponent
 			.pipe(
 				filter((params) => !!params),
 				tap((params) => this.paramId = params.id),
-				tap(() => this.subject$.next()),
+				tap(() => this.subject$.next(true)),
 				untilDestroyed(this)
 			)
 			.subscribe();
@@ -76,10 +76,9 @@ export class EditUserOrganizationsComponent
 
 	async addOrg(user: IUserOrganizationCreateInput) {
 		if (user.isActive) {
-			await this.userOrganizationsService
+			await firstValueFrom(this.userOrganizationsService
 				.create(user)
-				.pipe(first())
-				.toPromise();
+			);
 
 			this.toastrService.success(
 				this.getTranslation(
@@ -92,7 +91,7 @@ export class EditUserOrganizationsComponent
 					}
 				)
 			);
-			this.subject$.next();
+			this.subject$.next(true);
 		}
 	}
 
@@ -229,5 +228,5 @@ export class EditUserOrganizationsComponent
 		this.showAddCard = !this.showAddCard;
 	}
 
-	ngOnDestroy() {}
+	ngOnDestroy() { }
 }

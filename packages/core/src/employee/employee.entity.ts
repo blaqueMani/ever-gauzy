@@ -22,7 +22,8 @@ import {
 	IExpense,
 	ITimesheet,
 	ITask,
-	ITimeSlot
+	ITimeSlot,
+	IGoal
 } from '@leano/contracts';
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import {
@@ -49,6 +50,7 @@ import {
 	Contact,
 	EmployeeSetting,
 	Expense,
+	Goal,
 	InvoiceItem,
 	JobPreset,
 	OrganizationContact,
@@ -300,8 +302,7 @@ export class Employee
     |--------------------------------------------------------------------------
     */
 	@ApiProperty({ type: () => User })
-	@OneToOne(() => User, {
-		nullable: false,
+	@OneToOne(() => User, (user) => user.employee, {
 		cascade: true,
 		onDelete: 'CASCADE'
 	})
@@ -315,27 +316,30 @@ export class Employee
 	@Column()
 	readonly userId: string;
 
+	/**
+	 * Contact
+	 */
+	@ApiProperty({ type: () => Contact })
+	@OneToOne(() => Contact, (contact) => contact.employee, {
+		cascade: true,
+		onDelete: 'SET NULL'
+	})
+	@JoinColumn()
+	contact?: IContact;
+
+	@ApiProperty({ type: () => String, readOnly: true })
+	@RelationId((it: Employee) => it.contact)
+	@IsOptional()
+	@IsString()
+	@Index()
+	@Column({ nullable: true })
+	readonly contactId?: string;
+
 	/*
     |--------------------------------------------------------------------------
     | @ManyToOne 
     |--------------------------------------------------------------------------
     */
-
-	// Employee Contact
-	@ApiProperty({ type: () => Contact })
-	@ManyToOne(() => Contact, (contact) => contact.employees, {
-		nullable: true,
-		onDelete: 'SET NULL'
-	})
-	@JoinColumn()
-	contact: IContact;
-
-	@ApiProperty({ type: () => String, readOnly: true })
-	@RelationId((it: Employee) => it.contact)
-	@IsString()
-	@Index()
-	@Column({ nullable: true })
-	readonly contactId?: string;
 
 	// Employee Organization Position
 	@ApiProperty({ type: () => OrganizationPosition })
@@ -408,6 +412,24 @@ export class Employee
 	})
 	timesheets?: ITimesheet[];
 
+	/**
+	 * Goal
+	 */
+	@ApiPropertyOptional({ type: () => Goal, isArray: true })
+	@OneToMany(() => Goal, (it) => it.ownerEmployee, {
+		onDelete: 'SET NULL'
+	})
+	goals?: IGoal[];
+	
+	/**
+	 * Lead
+	 */
+	@ApiPropertyOptional({ type: () => Goal, isArray: true })
+	@OneToMany(() => Goal, (it) => it.lead, {
+		onDelete: 'SET NULL'
+	})
+	leads?: IGoal[];
+	
 	/*
     |--------------------------------------------------------------------------
     | @ManyToMany 
@@ -425,7 +447,8 @@ export class Employee
     projects?: IOrganizationProject[];
 
 	// Employee Tags
-	@ManyToMany(() => Tag, (tag) => tag.employee, {
+	@ManyToMany(() => Tag, (tag) => tag.employees, {
+		onUpdate: 'CASCADE',
 		onDelete: 'CASCADE'
 	})
 	@JoinTable({

@@ -1,5 +1,6 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
+import { DOCUMENT } from '@angular/common';
+import { Component, Inject, OnDestroy, OnInit } from '@angular/core';
+import { UntilDestroy } from '@ngneat/until-destroy';
 import { LegalService } from '../legal.service';
 
 export const PRIVACY_POLICY_ENDPOINT = 'https://www.iubenda.com/api/privacy-policy/18120170';
@@ -11,19 +12,21 @@ export const COOKIE_PRIVACY_POLICY_ENDPOINT = 'https://www.iubenda.com/api/priva
 	styleUrls: ['./privacy-policy.component.scss'],
 })
 
-export class PrivacyPolicyComponent 
+export class PrivacyPolicyComponent
 	implements OnInit, OnDestroy {
 
 	privacy_policy: string;
 	cookie_policy: string;
-	
+
 	constructor(
-		private legalService : LegalService
-	){}
+		private legalService: LegalService,
+		@Inject(DOCUMENT) private _document: Document,
+	) { }
 
 	ngOnInit(): void {
 		this.getPrivacyPolicyJsonFromUrl(PRIVACY_POLICY_ENDPOINT);
 		this.getCookiePolicyJsonFromUrl(COOKIE_PRIVACY_POLICY_ENDPOINT);
+		this._document.body.classList.add('privacy-container');
 	}
 
 	/**
@@ -32,13 +35,13 @@ export class PrivacyPolicyComponent
 	 * @param url https://www.iubenda.com/api/privacy-policy/18120170
 	 */
 	getPrivacyPolicyJsonFromUrl(url: string) {
-		this.legalService.getJsonFromUrl(url).pipe(
-			untilDestroyed(this)
-		).subscribe(resp => {
-			if(!!resp.content){
-				this.privacy_policy = resp.content;
-			}
-		});
+		this.legalService
+			.getContentFromFromUrl(PRIVACY_POLICY_ENDPOINT)
+			.then((data: any) => {
+				if (!!data.content) {
+					this.privacy_policy = data.content;
+				}
+			});
 	}
 
 	/**
@@ -47,14 +50,16 @@ export class PrivacyPolicyComponent
 	 * @param url https://www.iubenda.com/api/privacy-policy/18120170/cookie-policy
 	 */
 	getCookiePolicyJsonFromUrl(url: string) {
-		this.legalService.getJsonFromUrl(url).pipe(
-			untilDestroyed(this)
-		).subscribe(resp => {
-			if(!!resp.content){
-				this.cookie_policy = resp.content;
-			}
-		});
+		this.legalService
+			.getContentFromFromUrl(COOKIE_PRIVACY_POLICY_ENDPOINT)
+			.then((data: any) => {
+				if (!!data.content) {
+					this.cookie_policy = data.content;
+				}
+			});
 	}
 
-	ngOnDestroy(): void { }
+	ngOnDestroy() {
+		this._document.body.classList.remove('privacy-container');
+	}
 }

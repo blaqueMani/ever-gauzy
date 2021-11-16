@@ -6,7 +6,8 @@ import {
 	StatusTypesEnum,
 	ITimeOff,
 	ComponentLayoutStyleEnum,
-	IOrganization
+	IOrganization,
+	IEmployeeJobsStatisticsResponse
 } from '@leano/contracts';
 import { debounceTime, filter, first, tap, finalize } from 'rxjs/operators';
 import { combineLatest, Subject } from 'rxjs';
@@ -16,11 +17,11 @@ import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { distinctUntilChange } from '@leano/common-angular';
 import { ComponentEnum } from '../../@core/constants';
 import { Store, TimeOffService, ToastrService } from '../../@core/services';
-import { TimeOffRequestMutationComponent } from '../../@shared/time-off';
-import { PictureNameTagsComponent } from '../../@shared/table-components';
+import { TimeOffHolidayMutationComponent, TimeOffRequestMutationComponent } from '../../@shared/time-off';
 import { DeleteConfirmationComponent } from '../../@shared/user/forms';
 import { TranslationBaseComponent } from '../../@shared/language-base';
 import { StatusBadgeComponent } from '../../@shared/status-badge';
+import { AvatarComponent } from '../../@shared/components/avatar/avatar.component';
 
 @UntilDestroy({ checkProperties: true })
 @Component({
@@ -43,7 +44,7 @@ export class TimeOffComponent
 	dataLayoutStyle = ComponentLayoutStyleEnum.TABLE;
 	componentLayoutStyleEnum = ComponentLayoutStyleEnum;
 	rows: Array<any> = [];
-	selectedStatus = 'ALL';
+	selectedStatus = StatusTypesEnum.ALL;
 	timeOffStatuses = Object.keys(StatusTypesEnum);
 	loading: boolean;
 	isRecordSelected: boolean = false;
@@ -102,7 +103,7 @@ export class TimeOffComponent
 					this.selectedDate = date;
 					this.selectedEmployeeId = employee ? employee.id : null;
 				}),
-				tap(() => this.timeoff$.next()),
+				tap(() => this.timeoff$.next(true)),
 				untilDestroyed(this)
 			)
 			.subscribe();
@@ -198,7 +199,7 @@ export class TimeOffComponent
 						this.toastrService.success(
 							'TIME_OFF_PAGE.NOTIFICATIONS.STATUS_SET_APPROVED'
 						);
-						this.timeoff$.next();
+						this.timeoff$.next(true);
 					},
 					() =>
 						this.toastrService.danger(
@@ -210,7 +211,7 @@ export class TimeOffComponent
 				'TIME_OFF_PAGE.NOTIFICATIONS.APPROVED_NO_CHANGES',
 				'TIME_OFF_PAGE.NOTIFICATIONS.NO_CHANGES'
 			);
-			this.timeoff$.next();
+			this.timeoff$.next(true);
 		}
 	}
 
@@ -232,7 +233,7 @@ export class TimeOffComponent
 						this.toastrService.success(
 							'TIME_OFF_PAGE.NOTIFICATIONS.REQUEST_DENIED'
 						);
-						this.timeoff$.next();
+						this.timeoff$.next(true);
 					},
 					() =>
 						this.toastrService.danger(
@@ -244,7 +245,7 @@ export class TimeOffComponent
 				'TIME_OFF_PAGE.NOTIFICATIONS.DENIED_NO_CHANGES',
 				'TIME_OFF_PAGE.NOTIFICATIONS.NO_CHANGES'
 			);
-			this.timeoff$.next();
+			this.timeoff$.next(true);
 		}
 	}
 
@@ -274,7 +275,7 @@ export class TimeOffComponent
 								this.toastrService.success(
 									'TIME_OFF_PAGE.NOTIFICATIONS.REQUEST_DELETED'
 								);
-								this.timeoff$.next();
+								this.timeoff$.next(true);
 							},
 							() =>
 								this.toastrService.danger(
@@ -299,9 +300,7 @@ export class TimeOffComponent
 
 	addHolidays() {
 		this.dialogService
-			.open(TimeOffRequestMutationComponent, {
-				context: { type: 'holiday' }
-			})
+			.open(TimeOffHolidayMutationComponent)
 			.onClose.pipe(untilDestroyed(this), first())
 			.subscribe((res) => {
 				if (res) {
@@ -316,7 +315,7 @@ export class TimeOffComponent
 
 		this.dialogService
 			.open(TimeOffRequestMutationComponent, {
-				context: { type: this.selectedTimeOffRecord }
+				context: { timeOff: this.selectedTimeOffRecord }
 			})
 			.onClose.pipe(untilDestroyed(this), first())
 			.subscribe((res) => {
@@ -337,7 +336,7 @@ export class TimeOffComponent
 
 	changeIncludeArchived($event) {
 		this.includeArchived = $event;
-		this.timeoff$.next();
+		this.timeoff$.next(true);
 	}
 
 	showHideFilter() {
@@ -352,7 +351,19 @@ export class TimeOffComponent
 				fullName: {
 					title: this.getTranslation('SM_TABLE.EMPLOYEE'),
 					type: 'custom',
-					renderComponent: PictureNameTagsComponent,
+					renderComponent: AvatarComponent,
+					valuePrepareFunction: (
+						cell,
+						row: IEmployeeJobsStatisticsResponse
+					) => {
+						return {
+							name: row.fullName ? row.fullName : null,
+							src: row.imageUrl ? row.imageUrl : null,
+							id: (row.employees && row.employees.length === 1) ?
+								row.employees[0].id :
+								null
+						};
+					},
 					class: 'align-row'
 				},
 				description: {
@@ -403,8 +414,8 @@ export class TimeOffComponent
 							)
 								? 'success'
 								: ['requested'].includes(cell.toLowerCase())
-								? 'warning'
-								: 'danger';
+									? 'warning'
+									: 'danger';
 						}
 						return {
 							text: cell,
@@ -445,13 +456,12 @@ export class TimeOffComponent
 						let employeeName: string;
 						let employeeImage: string;
 						let extendedDescription = '';
-						console.log(timeOff);
 
 						if (timeOff.employees.length !== 1) {
 							employeeName = this.getTranslation('TIME_OFF_PAGE.MULTIPLE_EMPLOYEES');
 							employeeImage = 'assets/images/avatars/people-outline.svg';
 						} else {
-							employeeName = `${timeOff.employees[0].user.firstName} ${timeOff.employees[0].user.lastName}`;
+							employeeName = `${timeOff.employees[0].fullName}`;
 							employeeImage = timeOff.employees[0].user.imageUrl;
 						}
 
@@ -495,7 +505,7 @@ export class TimeOffComponent
 						this.toastrService.success(
 							'TIME_OFF_PAGE.NOTIFICATIONS.RECORD_CREATED'
 						);
-						this.timeoff$.next();
+						this.timeoff$.next(true);
 					},
 					() =>
 						this.toastrService.danger(
@@ -514,7 +524,7 @@ export class TimeOffComponent
 					this.toastrService.success(
 						'TIME_OFF_PAGE.NOTIFICATIONS.REQUEST_UPDATED'
 					);
-					this.timeoff$.next();
+					this.timeoff$.next(true);
 				},
 				() =>
 					this.toastrService.danger(
@@ -524,11 +534,13 @@ export class TimeOffComponent
 	}
 
 	private _removeDocUrl() {
-		const index = this.selectedTimeOffRecord.description.lastIndexOf('>');
-		const nativeDescription = this.selectedTimeOffRecord.description;
-		this.selectedTimeOffRecord.description = nativeDescription.substr(
-			index + 1
-		);
+		if (this.selectedTimeOffRecord.description) {
+			const index = this.selectedTimeOffRecord.description.lastIndexOf('>');
+			const nativeDescription = this.selectedTimeOffRecord.description;
+			this.selectedTimeOffRecord.description = nativeDescription.substr(
+				index + 1
+			);
+		}
 	}
 
 	/*
@@ -564,5 +576,19 @@ export class TimeOffComponent
 		}
 	}
 
-	ngOnDestroy(): void {}
+	/**
+	 * Navigate to employee edit section
+	 * 
+	 * @param row 
+	 */
+	navigateToEmployee(row: ITimeOff) {
+		if (row?.employees.length > 0) {
+			this.router.navigate([
+				`/pages/employees/edit`,
+				row.employees[0].id
+			]);
+		}
+	}
+
+	ngOnDestroy(): void { }
 }

@@ -21,6 +21,8 @@ import { filter, tap } from 'rxjs/operators';
 import { OrganizationContactService } from '../../../@core/services/organization-contact.service';
 import { ErrorHandlingService } from '../../../@core/services/error-handling.service';
 import { ToastrService } from '../../../@core/services/toastr.service';
+import { ckEditorConfig } from "../../../@shared/ckeditor.config";
+
 @UntilDestroy({ checkProperties: true })
 @Component({
 	selector: 'ngx-proposal-edit',
@@ -51,19 +53,7 @@ export class ProposalEditComponent
 	form: FormGroup;
 	organizationContact: IOrganizationContact;
 	organizationContacts: Object[] = [];
-	public ckConfig: any = {
-		width: '100%',
-		height: '320',
-    toolbar: [
-      { name: 'document', items: [ 'Source', '-', 'Save', 'NewPage', 'ExportPdf', 'Preview', 'Print', '-', 'Templates' ] },
-      { name: 'clipboard', items: [ 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo' ] },
-      { name: 'editing', items: [ 'Find', 'Replace', '-', 'SelectAll', '-', 'Scayt' ] },
-      { name: 'forms', items: [ 'Form', 'Checkbox', 'Radio', 'TextField', 'Textarea', 'Select', 'Button', 'ImageButton', 'HiddenField' ] },
-      '/',
-      { name: 'basicstyles', items: [ 'Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'CopyFormatting', 'RemoveFormat' ] }
-    ],
-    toolbarCanCollapse: true
-	};
+	ckConfig: any = ckEditorConfig;
 
 	ngOnInit() {
 		this.route.params
@@ -92,13 +82,7 @@ export class ProposalEditComponent
 			['employee', 'employee.user', 'tags', 'organizationContact']
 		);
 		this.proposal = Object.assign({}, proposal, {
-			jobPostLink:
-				'<a href="' +
-				proposal.jobPostUrl +
-				`" target="_blank">${proposal.jobPostUrl.substr(
-					8,
-					14
-				)}</nb-icon></a>`,
+			jobPostLink: proposal.jobPostUrl ? proposal.jobPostUrl : '',
 			jobTitle: proposal.jobPostContent
 				.toString()
 				.replace(/<[^>]*(>|$)|&nbsp;/g, '')

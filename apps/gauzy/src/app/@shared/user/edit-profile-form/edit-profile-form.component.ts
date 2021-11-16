@@ -19,8 +19,8 @@ import {
 	IUserUpdateInput
 } from '@leano/contracts';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { Subject } from 'rxjs/internal/Subject';
-import { debounceTime, filter, first, tap } from 'rxjs/operators';
+import { Subject, firstValueFrom } from 'rxjs';
+import { debounceTime, filter, tap } from 'rxjs/operators';
 import {
 	ErrorHandlingService,
 	RoleService,
@@ -29,6 +29,7 @@ import {
 	UsersService
 } from '../../../@core/services';
 import { MatchValidator } from '../../../@core/validators';
+import { FormHelpers } from '../../forms/helpers';
 
 @UntilDestroy({ checkProperties: true })
 @Component({
@@ -38,6 +39,8 @@ import { MatchValidator } from '../../../@core/validators';
 })
 export class EditProfileFormComponent 
 	implements OnInit, OnDestroy {
+
+	FormHelpers: typeof FormHelpers = FormHelpers;
 
 	hoverState: boolean;
 	loading: boolean;
@@ -120,7 +123,7 @@ export class EditProfileFormComponent
 			.pipe(
 				filter((user: IUser) => !!user),
 				tap((user: IUser) => (this.user = user)),
-				tap(() => this.user$.next()),
+				tap(() => this.user$.next(true)),
 				untilDestroyed(this)
 			)
 			.subscribe();
@@ -163,13 +166,12 @@ export class EditProfileFormComponent
 
 		if (this.allowRoleChange) {
 			const { tenantId } = this.store.user;
-			const role = await this.roleService
+			const role = await firstValueFrom(this.roleService
 				.getRoleByName({
 					name: this.form.value['roleName'],
 					tenantId
 				})
-				.pipe(first())
-				.toPromise();
+			);
 
 			request = {
 				...request,
@@ -215,13 +217,6 @@ export class EditProfileFormComponent
 	selectedTagsHandler(tags: ITag[]) {
 		this.form.get('tags').setValue(tags);
 		this.form.updateValueAndValidity();
-	}
-
-	isInvalidControl(control: string) {
-		if (!this.form.contains(control)) {
-			return true;
-		}
-		return this.form.get(control).touched && this.form.get(control).invalid;
 	}
 
 	ngOnDestroy(): void { }

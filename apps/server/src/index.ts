@@ -5,13 +5,19 @@ import log from 'electron-log';
 console.log = log.log;
 Object.assign(console, log.functions);
 
+import * as path from 'path';
 import { app, BrowserWindow, ipcMain, Tray, nativeImage, Menu, shell, MenuItemConstructorOptions, screen } from 'electron';
 import { environment } from './environments/environment';
+
 // setup logger to catch all unhandled errors and submit as bug reports to our repo
 
-import * as path from 'path';
 require('module').globalPaths.push(path.join(__dirname, 'node_modules'));
 require('sqlite3');
+
+app.setName('gauzy-server');
+
+console.log('Node Modules Path', path.join(__dirname, 'node_modules'));
+
 import {
 	LocalStore,
 	apiServer,
@@ -25,18 +31,19 @@ import {
 // import { initSentry } from './sentry';
 import os from 'os';
 import { readFileSync, writeFileSync, accessSync, constants } from 'fs';
+import * as remoteMain from '@electron/remote/main';
+remoteMain.initialize();
+
+// the folder where all app data will be stored (e.g. sqlite DB, settings, cache, etc)
+// C:\Users\USERNAME\AppData\Roaming\gauzy-server
 
 process.env.GAUZY_USER_PATH = app.getPath('userData');
 log.info(`GAUZY_USER_PATH: ${process.env.GAUZY_USER_PATH}`);
 
 const sqlite3filename = `${process.env.GAUZY_USER_PATH}/gauzy.sqlite3`;
+log.info(`Sqlite DB path: ${sqlite3filename}`);
 
 // initSentry();
-
-// the folder where all app data will be stored (e.g. sqlite DB, settings, cache, etc)
-// C:\Users\USERNAME\AppData\Roaming\gauzy-desktop
-
-const docPath = app.getPath('userData');
 
 let setupWindow:BrowserWindow;
 let serverWindow:BrowserWindow;
@@ -63,7 +70,6 @@ const runSetup = () => {
 	setupWindow = createSetupWindow(setupWindow, false, pathWindow.ui);
 	setupWindow.show();
 }
-
 
 const appState = () => {
 	const config = LocalStore.getStore('configs');
@@ -115,10 +121,17 @@ const getApiBaseUrl = (config) => {
 
 const updateConfigUi = (config) => {
 	const apiBaseUrl = getApiBaseUrl(config);
-	let filestr = readFileSync(pathWindow.gauzyUi, 'utf8');
-	const configStr = `<script> window._env = { api: '${apiBaseUrl}' } </script>`;
-	const elementToReplace = '<script src="https://cdn.ckeditor.com/4.6.1/full-all/ckeditor.js"></script>'
-	filestr = filestr.replace(elementToReplace, `
+	let fileStr = readFileSync(pathWindow.gauzyUi, 'utf8');
+	
+	const configStr = `
+		<script> window._env = { api: '${apiBaseUrl}' }; 
+		if (typeof global === "undefined") {
+			var global = window;
+		}; </script>`;
+
+	const elementToReplace = '<script src="https://cdn.ckeditor.com/4.6.1/full-all/ckeditor.js"></script>';
+
+	fileStr = fileStr.replace(elementToReplace, `
 		${configStr}
 		${elementToReplace}
 	`);
@@ -132,12 +145,10 @@ const updateConfigUi = (config) => {
 	}
 
 	try {
-		writeFileSync(pathWindow.gauzyUi, filestr);
+		writeFileSync(pathWindow.gauzyUi, fileStr);
 	} catch (error) {
 		console.log('Cannot change html file', error);
 	}
-
-	
 }
 
 const runServer = (isRestart) => {
@@ -162,7 +173,7 @@ const getEnvApi = () => {
         DB_NAME: config.dbName,
         DB_USER: config.dbUsername,
         DB_PASS: config.dbPassword,
-        PORT: config.port ? config.port.toString() : '',
+        API_PORT: config.port ? config.port.toString() : '',
 		...addsConfig
 	}
 }
@@ -239,7 +250,7 @@ const contextMenu = () => {
 			id: 'server_help',
 			label: 'Help',
 			click() {
-				shell.openExternal('https://gauzy.co/');
+				shell.openExternal('https://gauzy.co');
 			}
 		},
 		{
@@ -264,7 +275,7 @@ ipcMain.on('start_server', (event, arg) => {
 })
 
 ipcMain.on('run_gauzy_server', (event, arg) => {
-	console.log('run gauzy server');
+	console.log('run Gauzy Server');
 	runServer(false)
 })
 
@@ -304,6 +315,7 @@ const stopServer = (isRestart) => {
 ipcMain.on('stop_gauzy_server', (event, arg) => {
 	stopServer(false);
 })
+
 app.on('ready', () => {
 	LocalStore.setDefaultApplicationSetting();
 	appState();
@@ -316,7 +328,7 @@ app.on('ready', () => {
 })
 
 ipcMain.on('restart_app', (event, arg) => {
-	console.log('restart app', arg);
+	console.log('Restarting Server', arg);
 	if (arg.apiPid) delete arg.apiPid;
 	if (arg.uiPid) delete arg.uiPid;
 	LocalStore.updateConfigSetting(arg);
@@ -424,8 +436,3 @@ app.on('before-quit', (e) => {
 });
 
 app.on('window-all-closed', quit);
-
-
-
-
-
